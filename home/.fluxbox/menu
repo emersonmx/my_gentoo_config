@@ -1,7 +1,7 @@
 [begin] (Fluxbox)
     [exec] (Chromium) {chromium-browser} </usr/share/icons/hicolor/24x24/apps/chromium-browser.png>
     [exec] (Terminal) {terminal} </usr/share/icons/gnome/24x24/apps/terminal.png>
-    [exec] (Thunderbird) {thunderbird-bin} </usr/share/pixmaps/thunderbird-bin-icon.png>
+    [exec] (Thunderbird) {thunderbird-bin} </usr/share/icons/nimbus/24x24/apps/thunderbird.png>
     [separator] (--------)
     [exec] (Executar) {fbrun } </usr/share/icons/gnome/22x22/actions/system-run.png>
     [separator] (--------)
@@ -17,7 +17,8 @@
         [exec] (Doxywizard) {doxywizard} </usr/share/pixmaps/doxywizard.png>
         [exec] (Eclipse) {/media/BKP/Programas/eclipse/eclipse -clean} </media/BKP/Programas/eclipse/icon.xpm>
         [exec] (Glade) {glade} </usr/share/icons/hicolor/32x32/apps/glade.png>
-        [exec] (pgAdmin) {pgadmin3} </usr/share/pixmaps/pgadmin3.png>
+        [exec] (Netbeans) {/media/BKP/Programas/netbeans-7.1.2/bin/netbeans} </media/BKP/Programas/netbeans-7.1.2/nb/netbeans.png>
+        [exec] (pgAdmin3) {pgadmin3} </usr/share/pixmaps/pgadmin3.png>
     [end]
     [submenu] (Escritório) </usr/share/icons/gnome/24x24/categories/applications-office.png>
         [exec] (LibreOffice) {libreoffice} </usr/share/icons/hicolor/16x16/apps/libreoffice-startcenter.png>
@@ -36,16 +37,17 @@
         [exec] (DOSBox) {dosbox} </usr/share/icons/gentoo/l33t/l33t_EMU_dosbox.png>
         [exec] (Mupen64Plus) {mupen64plus} </usr/share/pixmaps/mupen64plus.png>
         [exec] (Plants vs Zombies) {wine start /Unix "/media/BKP/Jogos/PC/Plants vs Zombies/PlantsVsZombies.exe"} </media/BKP/Jogos/PC/Plants vs Zombies/pvz.png>
+        [exec] (pSX) {/media/BKP/Jogos/pSX/pSX} </media/BKP/Jogos/pSX/icon.png>
         [exec] (Snes9x) {snes9x-gtk} </usr/share/icons/hicolor/24x24/apps/snes9x.png>
         [exec] (The Binding of Isaac) {wine start /Unix "/media/BKP/Jogos/PC/The Binding of Isaac/Isaac.exe"} </media/BKP/Jogos/PC/The Binding of Isaac/icon.png>
-        [exec] (VBA-M) {gvbam} </usr/share/icons/hicolor/32x32/apps/vbam.png>
+        [exec] (VBA-M) {gvbam} </usr/share/pixmaps/vbam.png>
         [exec] (World of Goo) {/media/BKP/Jogos/PC/WorldOfGoo/WorldOfGoo} </media/BKP/Jogos/PC/WorldOfGoo/icons/64x64.png>
         [exec] (World of Warcraft) {wine start /Unix "/media/BKP/WOW/Wow.exe"} </media/BKP/WOW/wow-icon.png>
         [exec] (ZSNES) {zsnes} </usr/share/pixmaps/zsnes.png>
     [end]
     [submenu] (Internet) </usr/share/icons/gnome/22x22/categories/applications-internet.png>
         [exec] (Chromium) {chromium-browser} </usr/share/icons/hicolor/24x24/apps/chromium-browser.png>
-        [exec] (Firefox) {firefox-bin} </usr/share/pixmaps/firefox-bin-icon.png>
+        [exec] (FIrefox) {firefox-bin} </usr/share/icons/nimbus/32x32/apps/internet-firefox.png>
         [exec] (JDownloaded) {/media/BKP/Programas/jdownloader/JDLauncher} </media/BKP/Programas/jdownloader/.install4j/i4j_extf_7_btfqxz_1pcd4ys.png>
         [exec] (Pidgin) {pidgin} </usr/share/icons/hicolor/24x24/apps/pidgin.png>
         [exec] (Thunderbird) {thunderbird-bin} </usr/share/pixmaps/thunderbird-bin-icon.png>
@@ -56,6 +58,7 @@
         [exec] (alsamixer) {terminal -e alsamixer} </usr/share/icons/gnome/22x22/apps/gnome-mixer.png>
         [exec] (Audacity) {audacity} </usr/share/icons/hicolor/22x22/apps/audacity.png>
         [exec] (Blender) {/media/BKP/Programas/blender/blender} </media/BKP/Programas/blender/icons/32x32/apps/blender.png>
+        [exec] (Cinelerra) {cinelerra} </usr/share/pixmaps/cinelerra.xpm>
         [exec] (Evince) {evince} </usr/share/icons/hicolor/24x24/apps/evince.png>
         [exec] (GIMP) {gimp} </usr/share/icons/hicolor/32x32/apps/gimp.png>
         [exec] (Inkscape) {inkscape} </usr/share/icons/hicolor/32x32/apps/inkscape.png>
@@ -64,9 +67,8 @@
         [exec] (JackCtl) {qjackctl} </usr/share/icons/hicolor/32x32/apps/qjackctl.png>
         [exec] (k3b) {k3b} </usr/share/icons/oxygen/22x22/apps/k3b.png>
         [exec] (MuseScore) {mscore} </usr/share/pixmaps/mscore.xpm>
-        #[exec] (QSynth) {qsynth} </usr/share/pixmaps/qsynth.png>
         [exec] (Qtractor) {qtractor} </usr/share/icons/hicolor/32x32/apps/qtractor.png>
-        #[exec] (Rosegarden) {rosegarden} </usr/share/icons/hicolor/32x32/apps/rosegarden.png>
+        [exec] (Rosegarden) {rosegarden} </usr/share/icons/hicolor/32x32/apps/rosegarden.png>
         [exec] (SMPlayer) {smplayer2} </usr/share/icons/hicolor/32x32/apps/application-x-smplayer2.png>
     [end]
     [submenu] (Outros) </usr/share/icons/gnome/24x24/categories/applications-other.png>
@@ -76,11 +78,10 @@
     [end]
     [submenu] (Sistema) </usr/share/icons/gnome/24x24/categories/applications-system.png>
         [exec] (FluxMenu) {/media/BKP/Programas/fluxmenu/fluxMenu.py} </usr/share/icons/nimbus/24x24/apps/preferences-desktop-menus-and-toolbars.png>
-        #[exec] (GParted) {gksu gparted} </usr/share/icons/hicolor/32x32/apps/gparted.png>
+        [exec] (GParted) {gksu gparted} </usr/share/icons/hicolor/32x32/apps/gparted.png>
         [exec] (lxappearance) {lxappearance} </usr/share/icons/gnome/24x24/apps/preferences-desktop-theme.png>
-        #[exec] (lxrandr) {lxrandr} </usr/share/icons/gnome/24x24/devices/video-display.png>
-        #[exec] (RP-PPPOE) {gksu tkpppoe} </usr/share/icons/gentoo/32x32/kppp.png>
-        #[exec] (UNetbootin) {unetbootin} </usr/share/icons/hicolor/24x24/apps/unetbootin.png>
+        [exec] (RP-PPPOE) {gksu tkpppoe} </usr/share/icons/gentoo/32x32/kppp.png>
+        [exec] (UNetbootin) {unetbootin} </usr/share/icons/hicolor/24x24/apps/unetbootin.png>
     [end]
     [separator] (--------)
     [submenu] (Fluxbox menu) </usr/share/icons/gentoo/l33t/l33t_LOG_fluxbox.png>
@@ -101,9 +102,11 @@
         [exec] (Sobre) {(fluxbox -v; fluxbox -info | sed 1d) | xmessage -file - -center}
     [end]
     [separator] (--------)
+    [exec] (Encerrar Sessão) {/media/BKP/Programas/shutdown/logout} </usr/share/icons/gnome/24x24/actions/gnome-logout.png>
+    [exit] (Trocar Usuário) </usr/share/icons/oxygen/32x32/actions/system-switch-user.png>
+    [separator] (--------)
     [exec] (Desligar) {/media/BKP/Programas/shutdown/halt} </usr/share/icons/oxygen/32x32/actions/system-shutdown.png>
     [exec] (Reiniciar) {/media/BKP/Programas/shutdown/reboot} </usr/share/icons/oxygen/32x32/actions/system-reboot.png>
     [exec] (Suspender) </usr/share/icons/oxygen/32x32/actions/system-suspend.png>
     [exec] (Hibernar) </usr/share/icons/oxygen/32x32/actions/system-suspend-hibernate.png>
-    [exec] (Encerrar Sessão) {/media/BKP/Programas/shutdown/logout} </usr/share/icons/gnome/24x24/actions/gnome-logout.png>
 [end]
