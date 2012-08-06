@@ -7,7 +7,7 @@
 # Change your keymap:
 xmodmap "/home/emersonmx/.Xmodmap"
 
-fbsetbg -f /media/BKP/Imagens/nebulosa-19.jpg
+fbsetbg -r /media/BKP/Imagens/wallpapers
 # Applications you want to run with fluxbox.
 # MAKE SURE THAT APPS THAT KEEP RUNNING HAVE AN ''&'' AT THE END.
 #
@@ -15,9 +15,11 @@ fbsetbg -f /media/BKP/Imagens/nebulosa-19.jpg
 # wmnd &
 # wmsmixer -w &
 # idesk &
-wicd-gtk -t &
+xscreensaver -no-splash &
+wicd-gtk --tray &
 orage &
 conky &
+thunar --daemon &
 # And last but not least we start fluxbox.
 # Because it is the last app you have to run it with ''exec'' before it.
 

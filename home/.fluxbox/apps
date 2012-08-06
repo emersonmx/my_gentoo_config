@@ -3,15 +3,14 @@
   [Layer]	{2}
 [end]
 [app] (name=terminal) (class=Terminal)
-  [Dimensions]	{577 381}
-  [Position]	(UPPERLEFT)	{347 233}
-  [Deco]	{NORMAL}
+  [Dimensions]	{657 422}
+  [Position]	(UPPERLEFT)	{158 184}
   [Maximized]	{yes}
   [Close]	{yes}
 [end]
 [app] (name=gvim) (class=Gvim)
-  [Dimensions]	{748 614}
-  [Position]	(UPPERLEFT)	{360 84}
+  [Dimensions]	{724 579}
+  [Position]	(UPPERLEFT)	{288 129}
   [Deco]	{NORMAL}
   [Maximized]	{yes}
   [Close]	{yes}
@@ -22,7 +21,7 @@
 [end]
 [app] (name=Mail) (class=Thunderbird)
   [Workspace]	{1}
-  [Dimensions]	{1024 767}
+  [Dimensions]	{1024 765}
   [Position]	(UPPERLEFT)	{0 0}
   [Deco]	{NORMAL}
   [Maximized]	{yes}
@@ -37,21 +36,21 @@
 [end]
 [app] (name=chromium-browser) (class=Chromium-browser)
   [Workspace]	{0}
-  [Dimensions]	{1249 716}
-  [Position]	(UPPERLEFT)	{35 0}
+  [Dimensions]	{849 685}
+  [Position]	(UPPERLEFT)	{0 0}
   [Maximized]	{yes}
   [Close]	{yes}
 [end]
 [app] (name=gvbam) (class=Gvbam)
-  [Dimensions]	{480 365}
+  [Dimensions]	{480 369}
   [Position]	(UPPERLEFT)	{386 254}
   [Deco]	{NORMAL}
   [Maximized]	{no}
   [Close]	{yes}
 [end]
 [app] (name=zsnes) (class=zsnes)
-  [Dimensions]	{800 617}
-  [Position]	(UPPERLEFT)	{218 65}
+  [Dimensions]	{1024 786}
+  [Position]	(UPPERLEFT)	{208 79}
   [Deco]	{0x5ff}
   [Maximized]	{no}
   [Close]	{yes}
@@ -78,14 +77,14 @@
   [Close]	{yes}
 [end]
 [app] (name=flashplayer) (class=Flashplayer)
-  [Dimensions]	{749 622}
-  [Position]	(UPPERLEFT)	{335 73}
+  [Dimensions]	{590 904}
+  [Position]	(UPPERLEFT)	{236 0}
   [Deco]	{NORMAL}
   [Maximized]	{yes}
   [Close]	{yes}
 [end]
 [app] (name=evince) (class=Evince)
-  [Dimensions]	{600 619}
+  [Dimensions]	{600 620}
   [Position]	(UPPERLEFT)	{0 0}
   [Deco]	{NORMAL}
   [Maximized]	{yes}
@@ -109,7 +108,7 @@
   [Close]	{yes}
 [end]
 [app] (name=k3b) (class=K3b) (role=MainWindow#1)
-  [Dimensions]	{1024 788}
+  [Dimensions]	{1280 822}
   [Position]	(UPPERLEFT)	{0 0}
   [Deco]	{NORMAL}
   [Maximized]	{yes}
@@ -117,7 +116,7 @@
 [end]
 [app] (name=inkscape) (class=Inkscape)
   [Dimensions]	{590 472}
-  [Position]	(UPPERLEFT)	{0 0}
+  [Position]	(UPPERLEFT)	{235 138}
   [Deco]	{NORMAL}
   [Maximized]	{yes}
   [Close]	{yes}
@@ -138,8 +137,8 @@
 [end]
 [group]  (workspace=[current])
  [app] (name=xterm) (class=XTerm)
-  [Dimensions]	{754 429}
-  [Position]	(UPPERLEFT)	{190 189}
+  [Dimensions]	{749 426}
+  [Position]	(UPPERLEFT)	{130 149}
   [Deco]	{NORMAL}
   [Maximized]	{no}
   [Close]	{yes}
@@ -151,11 +150,22 @@
   [Maximized]	{no}
   [Close]	{yes}
 [end]
-[app] (name=Wow.exe) (class=Wine)
+[app] (name=wicd-client.py) (class=Wicd-client.py)
+  [Position]	(UPPERLEFT)	{-1 10}
+  [Deco]	{NORMAL}
   [Maximized]	{yes}
   [Close]	{yes}
 [end]
-[app] (name=Eclipse) (class=Eclipse)
+[app] (name=Wow.exe) (class=Wine)
+  [Sticky]	{no}
+  [Maximized]	{yes}
+  [Close]	{yes}
+[end]
+[app] (name=gitview) (class=Gitview)
+  [Dimensions]	{960 622}
+  [Position]	(UPPERLEFT)	{0 0}
+  [Maximized]	{yes}
+  [Close]	{yes}
 [end]
 [app] (name=sun-awt-X11-XFramePeer) (class=jd-Main)
   [Dimensions]	{1122 615}
