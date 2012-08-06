@@ -43,10 +43,16 @@ media-sound/fluid-soundfont ~x86
 games-emulation/vbam ~x86
 
 ##################################################
+# Network
+##################################################
+#www-client/google-chrome ~x86
+
+##################################################
 # System
 ##################################################
 # Network
 net-misc/logmein-hamachi ~x86
+net-wireless/ndiswrapper ~x86
 # Disks, File systems, etc.
 app-cdr/acetoneiso ~x86
 
@@ -69,12 +75,14 @@ media-libs/x264 ~x86
 media-libs/glfw ~x86
 dev-python/django ~x86
 ### Geo
-#dev-db/postgis ~x86
+dev-db/postgis ~x86
+#sci-libs/geos ~x86
 sci-geosciences/mapnik ~x86
 sci-geosciences/osm2pgsql ~x86
 ### Boost
 dev-libs/boost ~x86
 dev-util/boost-build ~x86
+app-admin/eselect-boost ~x86
 ### OGRE
 dev-util/cmake ~x86
 dev-games/ogre ~x86

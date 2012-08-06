@@ -23,4 +23,7 @@ games-emulation/snes9x netplay
 dev-java/sun-jdk jce
 x11-libs/qt-gui gtkstyle
 media-sound/amsynth jack
+app-emulation/qemu kqemu
 sys-libs/zlib minizip
+dev-python/PyQt4 webkit
+media-libs/sdl-mixer smpeg mod
