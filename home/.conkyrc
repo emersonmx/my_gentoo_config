@@ -23,15 +23,15 @@ alignment top_right
 gap_x 2
 gap_y 10
 no_buffers yes
-cpu_avg_samples 4
+cpu_avg_samples 2
 override_utf8_locale no
 uppercase no # set to yes if you want all text to be in uppercase
 use_spacer no
 override_utf8_locale yes
 
 TEXT
-${font Zekton:style=Bold:pixelsize=20}${alignc}${time %H:%M:%S}${font Zekton:size=10}
-${font Zekton:style=Bold:pixelsize=10}${alignc}${time %A - %D}${font Zekton:size=10}
+${font Zekton:style=Bold:pixelsize=20}${alignc}${time %H:%M:%S}${font Zekton:size=8}
+${font Zekton:style=Bold:pixelsize=10}${alignc}${time %A - %D}${font Zekton:size=8}
 SYSTEM ${hr 1 }
 
 Hostname: $alignr$nodename
@@ -43,10 +43,6 @@ CPU 1 ${alignc} ${freq}MHz / ${acpitemp}C ${alignr}(${cpu cpu1}%)
 ${cpubar cpu1 4}
 CPU 2 ${alignc} ${freq}MHz / ${acpitemp}C ${alignr}(${cpu cpu2}%)
 ${cpubar cpu2 4}
-CPU 3 ${alignc} ${freq}MHz / ${acpitemp}C ${alignr}(${cpu cpu3}%)
-${cpubar cpu3 4}
-CPU 4 ${alignc} ${freq}MHz / ${acpitemp}C ${alignr}(${cpu cpu4}%)
-${cpubar cpu4 4}
 ${cpugraph}
 RAM ${alignr}$mem / $memmax ($memperc%)
 ${membar 4}
@@ -65,14 +61,21 @@ ${top_mem name 3}$alignr${top_mem cpu 3}${top_mem mem 3}
 
 FILESYSTEM ${hr 1}${color}
 
-ROOT: $alignr ${fs_used /} / ${fs_size /} ($alignr${fs_free_perc /}%)
+/: $alignr ${fs_used /} / ${fs_size /} ($alignr${fs_free_perc /}%)
 ${fs_bar 4 /}
-BKP: $alignr ${fs_used /media/BKP} / ${fs_size /media/BKP} ($alignr${fs_free_perc /media/BKP}%)
+/media/BKP: $alignr ${fs_used /media/BKP} / ${fs_size /media/BKP} ($alignr${fs_free_perc /media/BKP}%)
 ${fs_bar 4 /media/BKP}
 HD I/O ${diskiograph}
 
 NETWORK ${hr 1}${color}
 
+CABLE (eth0)
+Down ${downspeed eth0} k/s ${alignr}Up ${upspeed eth0} k/s
+${downspeedgraph eth0 25,107} ${alignr}${upspeedgraph eth0 25,107}
+Total ${totaldown eth0} ${alignr}Total ${totalup eth0}
+
+WIRELESS (wlan0)
 Down ${downspeed wlan0} k/s ${alignr}Up ${upspeed wlan0} k/s
 ${downspeedgraph wlan0 25,107} ${alignr}${upspeedgraph wlan0 25,107}
 Total ${totaldown wlan0} ${alignr}Total ${totalup wlan0}
+
