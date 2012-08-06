@@ -1,0 +1,78 @@
+background yes
+font Zekton:size=7
+xftfont Zekton:size=7
+use_xft yes
+xftalpha 0.1
+update_interval 1.0
+total_run_times 0
+own_window yes
+own_window_type override
+own_window_transparent yes
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+double_buffer yes
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+minimum_size 220 5
+maximum_width 220
+default_color d7d7d7
+default_shade_color black
+default_outline_color black
+alignment top_right
+gap_x 2
+gap_y 10
+no_buffers yes
+cpu_avg_samples 4
+override_utf8_locale no
+uppercase no # set to yes if you want all text to be in uppercase
+use_spacer no
+override_utf8_locale yes
+
+TEXT
+${font Zekton:style=Bold:pixelsize=20}${alignc}${time %H:%M:%S}${font Zekton:size=10}
+${font Zekton:style=Bold:pixelsize=10}${alignc}${time %A - %D}${font Zekton:size=10}
+SYSTEM ${hr 1 }
+
+Hostname: $alignr$nodename
+Kernel: $alignr$kernel
+Uptime: $alignr$uptime
+Processes: ${alignr}$processes ($running_processes running)
+Load: ${alignr}$loadavg
+CPU 1 ${alignc} ${freq}MHz / ${acpitemp}C ${alignr}(${cpu cpu1}%)
+${cpubar cpu1 4}
+CPU 2 ${alignc} ${freq}MHz / ${acpitemp}C ${alignr}(${cpu cpu2}%)
+${cpubar cpu2 4}
+CPU 3 ${alignc} ${freq}MHz / ${acpitemp}C ${alignr}(${cpu cpu3}%)
+${cpubar cpu3 4}
+CPU 4 ${alignc} ${freq}MHz / ${acpitemp}C ${alignr}(${cpu cpu4}%)
+${cpubar cpu4 4}
+${cpugraph}
+RAM ${alignr}$mem / $memmax ($memperc%)
+${membar 4}
+SWAP ${alignr}$swap / $swapmax ($swapperc%)
+${swapbar 4}
+
+Highest CPU $alignr CPU% MEM%
+${top name 1}$alignr${top cpu 1}${top mem 1}
+${top name 2}$alignr${top cpu 2}${top mem 2}
+${top name 3}$alignr${top cpu 3}${top mem 3}
+
+Highest MEM $alignr CPU% MEM%
+${top_mem name 1}$alignr${top_mem cpu 1}${top_mem mem 1}
+${top_mem name 2}$alignr${top_mem cpu 2}${top_mem mem 2}
+${top_mem name 3}$alignr${top_mem cpu 3}${top_mem mem 3}
+
+FILESYSTEM ${hr 1}${color}
+
+ROOT: $alignr ${fs_used /} / ${fs_size /} ($alignr${fs_free_perc /}%)
+${fs_bar 4 /}
+BKP: $alignr ${fs_used /media/BKP} / ${fs_size /media/BKP} ($alignr${fs_free_perc /media/BKP}%)
+${fs_bar 4 /media/BKP}
+HD I/O ${diskiograph}
+
+NETWORK ${hr 1}${color}
+
+Down ${downspeed wlan0} k/s ${alignr}Up ${upspeed wlan0} k/s
+${downspeedgraph wlan0 25,107} ${alignr}${upspeedgraph wlan0 25,107}
+Total ${totaldown wlan0} ${alignr}Total ${totalup wlan0}

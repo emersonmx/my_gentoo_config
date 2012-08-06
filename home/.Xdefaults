@@ -1,0 +1,17 @@
+XTerm*saveLines: 1500
+XTerm*rightScrollBar: true
+XTerm*scrollBar: true
+XTerm*scrollKey: true
+XTerm*scrollTtyOutput: false
+XTerm*loginShell: true
+XTerm*multiClickTime: 250
+
+XTerm*foreground: white
+XTerm*background: black
+XTerm*cursorColor: green
+XTerm*pointerColorBackground: black
+XTerm*scrollColor: white
+
+XTerm*faceName: monospace
+XTerm*faceSize: 10pt;
+XTerm*boldFont: monospace
