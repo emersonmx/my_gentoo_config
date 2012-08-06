@@ -1,1 +1,1 @@
-sys-apps/hal 
+sys-apps/hal
