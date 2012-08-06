@@ -32,7 +32,7 @@ set expandtab
 set showmatch
 set showmode
 set nowrap
-set textwidth=80
+"set textwidth=0
 set viminfo='20,\"500   " Keep a .viminfo file.
 set cc=80
 set guioptions+=b
@@ -181,7 +181,7 @@ augroup gentoo
   " that we don't override the user's setting.
   autocmd BufNewFile,BufRead *.txt
         \ if &tw == 0 && ! exists("g:leave_my_textwidth_alone") |
-        \     setlocal textwidth=78 |
+        \     setlocal textwidth=80 |
         \ endif
 
   " When editing a file, always jump to the last cursor position
