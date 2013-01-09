@@ -3,20 +3,20 @@
   [Layer]	{2}
 [end]
 [app] (name=terminal) (class=Terminal)
-  [Dimensions]	{657 422}
+  [Dimensions]	{655 418}
   [Position]	(UPPERLEFT)	{158 184}
   [Maximized]	{yes}
   [Close]	{yes}
 [end]
 [app] (name=gvim) (class=Gvim)
-  [Dimensions]	{724 579}
-  [Position]	(UPPERLEFT)	{288 129}
+  [Dimensions]	{1084 649}
+  [Position]	(UPPERLEFT)	{26 50}
   [Deco]	{NORMAL}
   [Maximized]	{yes}
   [Close]	{yes}
 [end]
 [app] (name=orage) (class=Orage)
-  [Position]	(UPPERLEFT)	{400 262}
+  [Position]	(UPPERLEFT)	{771 372}
   [Close]	{yes}
 [end]
 [app] (name=Mail) (class=Thunderbird)
@@ -42,15 +42,15 @@
   [Close]	{yes}
 [end]
 [app] (name=gvbam) (class=Gvbam)
-  [Dimensions]	{480 369}
-  [Position]	(UPPERLEFT)	{386 254}
+  [Dimensions]	{640 619}
+  [Position]	(UPPERLEFT)	{265 87}
   [Deco]	{NORMAL}
-  [Maximized]	{no}
+  [Maximized]	{yes}
   [Close]	{yes}
 [end]
 [app] (name=zsnes) (class=zsnes)
-  [Dimensions]	{1024 786}
-  [Position]	(UPPERLEFT)	{208 79}
+  [Dimensions]	{640 498}
+  [Position]	(UPPERLEFT)	{491 187}
   [Deco]	{0x5ff}
   [Maximized]	{no}
   [Close]	{yes}
@@ -70,7 +70,7 @@
 [end]
 [app] (name=Blender) (class=Blender)
   [Dimensions]	{1024 790}
-  [Position]	(UPPERLEFT)	{-2 0}
+  [Position]	(UPPERLEFT)	{0 0}
   [Deco]	{NORMAL}
   [Maximized]	{yes}
   [Fullscreen]	{no}
@@ -101,21 +101,21 @@
   [Close]	{yes}
 [end]
 [app] (name=fluxMenu.py) (class=FluxMenu.py)
-  [Dimensions]	{757 507}
-  [Position]	(UPPERLEFT)	{143 137}
+  [Dimensions]	{986 507}
+  [Position]	(UPPERLEFT)	{247 52}
   [Deco]	{NORMAL}
   [Maximized]	{yes}
   [Close]	{yes}
 [end]
 [app] (name=k3b) (class=K3b) (role=MainWindow#1)
-  [Dimensions]	{1280 822}
+  [Dimensions]	{1280 820}
   [Position]	(UPPERLEFT)	{0 0}
   [Deco]	{NORMAL}
   [Maximized]	{yes}
   [Close]	{yes}
 [end]
 [app] (name=inkscape) (class=Inkscape)
-  [Dimensions]	{590 472}
+  [Dimensions]	{339 140}
   [Position]	(UPPERLEFT)	{235 138}
   [Deco]	{NORMAL}
   [Maximized]	{yes}
@@ -151,14 +151,13 @@
   [Close]	{yes}
 [end]
 [app] (name=wicd-client.py) (class=Wicd-client.py)
-  [Position]	(UPPERLEFT)	{-1 10}
+  [Position]	(UPPERLEFT)	{318 97}
   [Deco]	{NORMAL}
-  [Maximized]	{yes}
   [Close]	{yes}
 [end]
 [app] (name=Wow.exe) (class=Wine)
   [Sticky]	{no}
-  [Maximized]	{yes}
+  [Maximized]	{no}
   [Close]	{yes}
 [end]
 [app] (name=gitview) (class=Gitview)
@@ -168,12 +167,41 @@
   [Close]	{yes}
 [end]
 [app] (name=sun-awt-X11-XFramePeer) (class=jd-Main)
-  [Dimensions]	{1122 615}
-  [Position]	(UPPERLEFT)	{107 59}
+  [Dimensions]	{800 593}
+  [Position]	(UPPERLEFT)	{108 84}
   [Deco]	{NORMAL}
   [Maximized]	{no}
   [Layer]	{8}
   [Close]	{yes}
 [end]
 [app] (name=) (class=)
+[end]
+[app] (name=lxappearance) (class=Lxappearance)
+  [Dimensions]	{641 463}
+  [Position]	(UPPERLEFT)	{315 258}
+  [Deco]	{NORMAL}
+  [Close]	{yes}
+[end]
+[app] (name=nethack) (class=NetHack)
+  [Dimensions]	{1280 636}
+  [Position]	(UPPERLEFT)	{0 0}
+  [Maximized]	{yes}
+  [Close]	{yes}
+[end]
+[app] (name=explorer.exe) (class=Wine)
+  [Dimensions]	{1280 800}
+  [Position]	(UPPERLEFT)	{0 0}
+  [Close]	{yes}
+[end]
+[app] (name=DeusEx.exe) (class=Wine)
+[end]
+[app] (name=file-roller) (class=File-roller)
+  [Dimensions]	{512 295}
+  [Position]	(UPPERLEFT)	{491 199}
+  [Close]	{yes}
+[end]
+[app] (name=gimp) (class=Gimp) (role=gimp-toolbox)
+  [Dimensions]	{256 776}
+  [Position]	(UPPERLEFT)	{0 0}
+  [Close]	{yes}
 [end]

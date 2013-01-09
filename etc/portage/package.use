@@ -1,5 +1,5 @@
 x11-base/xorg-server udev
-sys-fs/udev hwdb
+=virtual/udev-171 hwdb
 gnome-base/librsvg -introspection
 app-emulation/wine oss
 www-servers/apache userdir
@@ -27,3 +27,7 @@ app-emulation/qemu kqemu
 sys-libs/zlib minizip
 dev-python/PyQt4 webkit
 media-libs/sdl-mixer smpeg mod
+sci-geosciences/mapnik geos gdal
+sci-libs/gdal geos
+dev-games/mygui tools plugins
+app-laptop/laptop-mode-tools scsi
