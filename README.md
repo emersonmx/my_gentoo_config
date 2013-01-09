@@ -1,1 +1,1 @@
-Minha configuração do Gentoo. (Notebook)
+Minha configuração do Gentoo.
