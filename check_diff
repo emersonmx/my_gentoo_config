@@ -1,0 +1,6 @@
+#! /bin/bash
+
+if ! diff -q $1 $2 > /dev/null
+then
+    vimdiff $1 $2
+fi

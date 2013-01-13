@@ -3,16 +3,16 @@
   [Layer]	{2}
 [end]
 [app] (name=terminal) (class=Terminal)
-  [Dimensions]	{655 418}
+  [Dimensions]	{655 521}
   [Position]	(UPPERLEFT)	{158 184}
   [Maximized]	{yes}
   [Close]	{yes}
 [end]
 [app] (name=gvim) (class=Gvim)
-  [Dimensions]	{1084 649}
-  [Position]	(UPPERLEFT)	{26 50}
+  [Dimensions]	{1084 640}
+  [Position]	(UPPERLEFT)	{87 95}
   [Deco]	{NORMAL}
-  [Maximized]	{yes}
+  [Maximized]	{no}
   [Close]	{yes}
 [end]
 [app] (name=orage) (class=Orage)
@@ -137,10 +137,10 @@
 [end]
 [group]  (workspace=[current])
  [app] (name=xterm) (class=XTerm)
-  [Dimensions]	{749 426}
-  [Position]	(UPPERLEFT)	{130 149}
+  [Dimensions]	{747 414}
+  [Position]	(UPPERLEFT)	{264 157}
   [Deco]	{NORMAL}
-  [Maximized]	{no}
+  [Maximized]	{yes}
   [Close]	{yes}
 [end]
 [app] (name=mupen64plus) (class=Mupen64plus)
@@ -151,7 +151,7 @@
   [Close]	{yes}
 [end]
 [app] (name=wicd-client.py) (class=Wicd-client.py)
-  [Position]	(UPPERLEFT)	{318 97}
+  [Position]	(UPPERLEFT)	{318 115}
   [Deco]	{NORMAL}
   [Close]	{yes}
 [end]
