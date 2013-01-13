@@ -11,7 +11,6 @@ media-gfx/blender blender-game
 net-p2p/transmission -kde -qt4
 dev-lang/php apache2
 sci-libs/libsvm tools
-www-client/chromium bindist
 media-libs/freetype fontforge
 dev-tex/abntex doc
 dev-java/swing-layout source
