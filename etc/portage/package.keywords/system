@@ -1,0 +1,8 @@
+# Network
+net-misc/logmein-hamachi ~x86
+net-wireless/ndiswrapper ~x86
+# Disks, File systems, etc.
+app-cdr/acetoneiso ~x86
+lxde-base/lxappearance ~x86
+# DBMS
+# dev-db/pgadmin3 ~x86

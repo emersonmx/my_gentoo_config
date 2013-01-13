@@ -16,7 +16,7 @@ dev-tex/abntex ~x86
 # Graphics
 media-gfx/inkscape ~x86
 media-gfx/blender ~x86
-#www-plugins/adobe-flash ~x86
+www-plugins/adobe-flash ~x86
 ### Theme
 x11-themes/hicolor-icon-theme ~x86
 x11-themes/tango-icon-theme ~x86
@@ -56,7 +56,8 @@ net-wireless/ndiswrapper ~x86
 # Disks, File systems, etc.
 app-cdr/acetoneiso ~x86
 lxde-base/lxappearance ~x86
-
+# DBMS
+# dev-db/pgadmin3 ~x86
 ##################################################
 # Development
 ##################################################
@@ -111,6 +112,7 @@ dev-java/smack ~x86
 dev-java/saxon ~x86
 dev-java/maven-bin ~x86
 dev-java/jna ~x86
-#dev-java/sun-jdk ~x86
+dev-java/sun-jdk ~x86
 ### Eclipse
 dev-util/eclipse-sdk ~x86
+# Database

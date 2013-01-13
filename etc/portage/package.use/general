@@ -13,7 +13,7 @@ dev-lang/php apache2
 sci-libs/libsvm tools
 www-client/chromium bindist
 media-libs/freetype fontforge
-dev-tex/abntex lyx doc
+dev-tex/abntex doc
 dev-java/swing-layout source
 dev-games/ogre tools
 dev-games/cegui ogre lua zip
