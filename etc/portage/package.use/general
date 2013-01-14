@@ -19,7 +19,7 @@ dev-games/cegui ogre lua zip
 app-portage/layman git cvs mercurial
 xfce-base/thunar libnotify
 games-emulation/snes9x netplay
-dev-java/sun-jdk jce
+dev-java/sun-jdk jce doc
 x11-libs/qt-gui gtkstyle
 media-sound/amsynth jack
 app-emulation/qemu kqemu
