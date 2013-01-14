@@ -1,6 +1,6 @@
 [begin] (Fluxbox)
     [exec] (Chromium) {chromium-browser} </usr/share/icons/hicolor/24x24/apps/chromium-browser.png>
-    [exec] (Terminal) {terminal} </usr/share/icons/gnome/24x24/apps/terminal.png>
+    [exec] (Terminal) {xfce4-terminal} </usr/share/icons/gnome/24x24/apps/terminal.png>
     [exec] (Thunderbird) {thunderbird-bin} </usr/share/icons/nimbus/24x24/apps/thunderbird.png>
     [separator] (--------)
     [exec] (Executar) {fbrun } </usr/share/icons/gnome/22x22/actions/system-run.png>
@@ -8,7 +8,7 @@
     [submenu] (Acessórios) </usr/share/icons/gnome/24x24/categories/applications-accessories.png>
         [exec] (File-roller) {file-roller} </usr/share/icons/hicolor/24x24/apps/file-roller.png>
         [exec] (gvim) {gvim} </usr/share/pixmaps/gvim.xpm>
-        [exec] (Terminal) {terminal} </usr/share/icons/gnome/24x24/apps/terminal.png>
+        [exec] (Terminal) {xfce4-terminal} </usr/share/icons/gnome/24x24/apps/terminal.png>
         [exec] (Thunar) {thunar} </usr/share/icons/hicolor/24x24/apps/Thunar.png>
         [exec] (xterm) {xterm} </usr/share/pixmaps/xterm-color_48x48.xpm>
     [end]

@@ -55,7 +55,7 @@ Mod4 d :ShowDesktop
 Control Mod1 l :Exec xscreensaver-command -lock
 Mod4 e :Exec thunar
 Mod4 p :Exec lxrandr
-Control Mod1 t :Exec terminal
+Control Mod1 t :Exec xfce4-terminal
 Control Mod1 v :Exec gvim
 Print :Exec import ~/screenshot`date +%s%N`.png
 

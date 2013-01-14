@@ -6,3 +6,7 @@ app-cdr/acetoneiso ~x86
 lxde-base/lxappearance ~x86
 # DBMS
 # dev-db/pgadmin3 ~x86
+# MISC
+x11-terms/xfce4-terminal ~x86
+xfce-base/exo ~x86
+xfce-base/thunar ~x86

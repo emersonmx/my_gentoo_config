@@ -30,3 +30,4 @@ sci-geosciences/mapnik geos gdal
 sci-libs/gdal geos
 dev-games/mygui tools plugins
 app-laptop/laptop-mode-tools scsi
+sys-apps/portage python3

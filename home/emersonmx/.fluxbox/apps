@@ -189,8 +189,8 @@
   [Close]	{yes}
 [end]
 [app] (name=explorer.exe) (class=Wine)
-  [Dimensions]	{1280 800}
-  [Position]	(UPPERLEFT)	{0 0}
+  [Dimensions]	{800 618}
+  [Position]	(UPPERLEFT)	{97 47}
   [Close]	{yes}
 [end]
 [app] (name=DeusEx.exe) (class=Wine)
@@ -203,5 +203,12 @@
 [app] (name=gimp) (class=Gimp) (role=gimp-toolbox)
   [Dimensions]	{256 776}
   [Position]	(UPPERLEFT)	{0 0}
+  [Close]	{yes}
+[end]
+[app] (name=xfce4-terminal) (class=Xfce4-terminal)
+  [Dimensions]	{655 403}
+  [Position]	(UPPERLEFT)	{623 372}
+  [Maximized]	{yes}
+  [Fullscreen]	{no}
   [Close]	{yes}
 [end]
