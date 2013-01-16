@@ -1,6 +1,5 @@
 # Graphics
 media-gfx/inkscape ~x86
-media-gfx/blender ~x86
 www-plugins/adobe-flash ~x86
 ### Theme
 x11-themes/hicolor-icon-theme ~x86

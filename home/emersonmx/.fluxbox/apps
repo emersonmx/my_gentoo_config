@@ -12,7 +12,7 @@
   [Dimensions]	{1084 640}
   [Position]	(UPPERLEFT)	{87 95}
   [Deco]	{NORMAL}
-  [Maximized]	{no}
+  [Maximized]	{yes}
   [Close]	{yes}
 [end]
 [app] (name=orage) (class=Orage)
@@ -196,7 +196,7 @@
 [app] (name=DeusEx.exe) (class=Wine)
 [end]
 [app] (name=file-roller) (class=File-roller)
-  [Dimensions]	{512 295}
+  [Dimensions]	{729 463}
   [Position]	(UPPERLEFT)	{491 199}
   [Close]	{yes}
 [end]

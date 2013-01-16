@@ -60,7 +60,7 @@
         [exec] (Vuze) {vuze} </usr/share/pixmaps/vuze.png>
     [end]
     [submenu] (Multimedia) </usr/share/icons/gnome/16x16/categories/applications-multimedia.png>
-        [exec] (alsamixer) {terminal -e alsamixer} </usr/share/icons/gnome/22x22/apps/gnome-mixer.png>
+        [exec] (alsamixer) {xfce4-terminal -e alsamixer} </usr/share/icons/gnome/22x22/apps/gnome-mixer.png>
         [exec] (Audacity) {audacity} </usr/share/icons/hicolor/22x22/apps/audacity.png>
         [exec] (Blender) {/media/BKP/Programas/blender/blender} </media/BKP/Programas/blender/icons/32x32/apps/blender.png>
         [exec] (Cinelerra) {cinelerra} </usr/share/pixmaps/cinelerra.xpm>

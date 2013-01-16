@@ -1,33 +1,45 @@
+# Accessory
+xfce-base/thunar libnotify
+
+# Document
+dev-tex/abntex doc
+
+# Games
+games-emulation/snes9x netplay
+games-emulation/epsxe gtk
+
+# Multimedia
+media-sound/amsynth jack
+
+# System
+app-laptop/laptop-mode-tools scsi
+sys-apps/portage python3
+app-emulation/qemu kqemu
+app-portage/layman git cvs mercurial
 x11-base/xorg-server udev
 =virtual/udev-171 hwdb
-gnome-base/librsvg -introspection
 app-emulation/wine oss
 www-servers/apache userdir
-games-emulation/epsxe gtk
 gnome-base/gvfs gdu
 sys-block/parted device-mapper
+
+
+# Development
 www-apps/redmine passenger imagemagick
-media-gfx/blender blender-game
-net-p2p/transmission -kde -qt4
+dev-libs/boost doc
+dev-games/ois doc
+dev-games/mygui doc
+dev-java/swing-layout source
+gnome-base/librsvg -introspection
 dev-lang/php apache2
 sci-libs/libsvm tools
 media-libs/freetype fontforge
-dev-tex/abntex doc
-dev-java/swing-layout source
-dev-games/ogre tools
+dev-games/ogre tools doc
 dev-games/cegui ogre lua zip
-app-portage/layman git cvs mercurial
-xfce-base/thunar libnotify
-games-emulation/snes9x netplay
 dev-java/sun-jdk jce doc
-x11-libs/qt-gui gtkstyle
-media-sound/amsynth jack
-app-emulation/qemu kqemu
 sys-libs/zlib minizip
 dev-python/PyQt4 webkit
 media-libs/sdl-mixer smpeg mod
 sci-geosciences/mapnik geos gdal
 sci-libs/gdal geos
 dev-games/mygui tools plugins
-app-laptop/laptop-mode-tools scsi
-sys-apps/portage python3
