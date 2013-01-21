@@ -10,6 +10,7 @@ games-emulation/epsxe gtk
 
 # Multimedia
 media-sound/amsynth jack
+x11-themes/gentoo-artwork kde
 
 # System
 app-laptop/laptop-mode-tools scsi
@@ -22,7 +23,6 @@ app-emulation/wine oss
 www-servers/apache userdir
 gnome-base/gvfs gdu
 sys-block/parted device-mapper
-
 
 # Development
 www-apps/redmine passenger imagemagick
@@ -43,3 +43,4 @@ media-libs/sdl-mixer smpeg mod
 sci-geosciences/mapnik geos gdal
 sci-libs/gdal geos
 dev-games/mygui tools plugins
+x11-libs/qt-gui gtkstyle
