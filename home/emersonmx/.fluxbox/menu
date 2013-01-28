@@ -69,7 +69,7 @@
         [exec] (GIMP) {gimp} </usr/share/icons/hicolor/32x32/apps/gimp.png>
         [exec] (gqview) {gqview} </usr/share/pixmaps/gqview.png>
         [exec] (Inkscape) {inkscape} </usr/share/icons/hicolor/24x24/apps/inkscape.png>
-        [exec] (JackCtl) {qjackctl} </usr/share/icons/hicolor/32x32/apps/qjackctl.png>
+        #[exec] (JackCtl) {qjackctl} </usr/share/icons/hicolor/32x32/apps/qjackctl.png>
         [exec] (k3b) {k3b} </usr/share/icons/oxygen/22x22/apps/k3b.png>
         [exec] (MuseScore) {mscore} </usr/share/pixmaps/mscore.xpm>
         [exec] (Qtractor) {qtractor} </usr/share/icons/hicolor/32x32/apps/qtractor.png>
