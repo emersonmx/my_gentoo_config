@@ -32,22 +32,19 @@ set expandtab
 set showmatch
 set showmode
 set nowrap
-"set textwidth=0
+set textwidth=80
 set viminfo='20,\"500   " Keep a .viminfo file.
 set cc=80
-set guioptions+=b
+set guioptions+=b " Horizontal scroll bar
 set wildmode=list:longest,full
-
-" colorscheme desert
-
-:highlight LineNr term=bold cterm=bold ctermfg=White ctermbg=DarkGrey gui=bold guifg=White guibg=DarkGrey
-au WinLeave * set nocursorline
 set cursorline
-let g:HL_HiCurLine= "HL_HiCurLine"
+
 " Don't use Ex mode, use Q for formatting
 map Q gq
 
+" Remove trailing spaces on save
 autocmd BufWritePre * :%s/\s\+$//e
+" Use spelllang for .tex files
 autocmd BufNewFile,Bufread *.tex set spell spelllang=pt textwidth=80
 
 " When doing tab completion, give the following files lower priority. You may
@@ -182,7 +179,7 @@ augroup gentoo
   " that we don't override the user's setting.
   autocmd BufNewFile,BufRead *.txt
         \ if &tw == 0 && ! exists("g:leave_my_textwidth_alone") |
-        \     setlocal textwidth=80 |
+        \     setlocal textwidth=78 |
         \ endif
 
   " When editing a file, always jump to the last cursor position
