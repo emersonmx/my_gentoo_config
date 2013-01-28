@@ -48,6 +48,7 @@ let g:HL_HiCurLine= "HL_HiCurLine"
 map Q gq
 
 autocmd BufWritePre * :%s/\s\+$//e
+autocmd BufNewFile,Bufread *.tex set spell spelllang=pt textwidth=80
 
 " When doing tab completion, give the following files lower priority. You may
 " wish to set 'wildignore' to completely ignore files, and 'wildmenu' to enable
