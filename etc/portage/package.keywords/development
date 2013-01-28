@@ -13,6 +13,8 @@ media-video/ffmpeg ~x86
 media-libs/x264 ~x86
 media-libs/glfw ~x86
 dev-python/django ~x86
+dev-python/psycopg ~x86
+dev-python/imaging ~x86
 dev-games/mygui ~x86
 ### Geo
 #dev-db/postgis ~x86

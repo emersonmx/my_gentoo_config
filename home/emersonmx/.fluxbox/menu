@@ -1,7 +1,7 @@
 [begin] (Fluxbox)
     [exec] (Chromium) {chromium-browser} </usr/share/icons/hicolor/24x24/apps/chromium-browser.png>
     [exec] (Terminal) {xfce4-terminal} </usr/share/icons/gnome/24x24/apps/terminal.png>
-    [exec] (Thunderbird) {thunderbird-bin} </usr/share/icons/nimbus/24x24/apps/thunderbird.png>
+    [exec] (Thunderbird) {thunderbird-bin} </usr/share/pixmaps/thunderbird-bin-icon.png>
     [separator] (--------)
     [exec] (Executar) {fbrun } </usr/share/icons/gnome/22x22/actions/system-run.png>
     [separator] (--------)
@@ -14,7 +14,7 @@
     [end]
     [submenu] (Desenvolvimento) </usr/share/icons/gnome/24x24/categories/applications-development.png>
         [exec] (Dia) {dia} </usr/share/icons/hicolor/24x24/apps/dia.png>
-        [exec] (Doxywizard) {doxywizard} </usr/share/pixmaps/doxywizard.png>
+        [exec] (Doxywizard) {doxywizard} </usr/share/icons/oxygen/32x32/actions/tools-wizard.png>
         [exec] (Eclipse) {/media/BKP/Programas/eclipse/eclipse -clean} </media/BKP/Programas/eclipse/icon.xpm>
         [exec] (Glade-GTK2) {glade-3} </usr/share/icons/hicolor/32x32/apps/glade-3.png>
         [exec] (Glade-GTK3) {glade} </usr/share/icons/hicolor/32x32/apps/glade.png>
@@ -33,7 +33,7 @@
     [end]
     [submenu] (Jogos) </usr/share/icons/gnome/22x22/categories/applications-games.png>
         [exec] (Counter-Strike) {wine start /Unix "/media/BKP/Counter-Strike 1.6/hl.exe -nomaster -game cstrike"} </media/BKP/Counter-Strike 1.6/cstrike/cstrike.png>
-        [exec] (Crawl) {/media/BKP/Jogos/PC/crawl/bin/crawl} </media/BKP/Jogos/PC/crawl/icon.png>
+        #[exec] (Crawl) {/media/BKP/Jogos/PC/crawl/bin/crawl} </media/BKP/Jogos/PC/crawl/icon.png>
         [exec] (Desura) {/media/BKP/Programas/desura/desura} </media/BKP/Programas/desura/data/desura.png>
         [exec] (Deus Ex) {/home/emersonmx/.wine/drive_c/DeusEx/System/DeusEx.exe} </home/emersonmx/.wine/drive_c/DeusEx/icon.png>
         [exec] (Diablo II) {wine start /Unix "/media/BKP/Diablo II/Diablo II.exe"} </media/BKP/Diablo II/D2X.png>
@@ -44,7 +44,7 @@
         [exec] (pSX) {/media/BKP/Jogos/pSX/pSX} </media/BKP/Jogos/pSX/icon.png>
         [exec] (Snes9x) {snes9x-gtk} </usr/share/icons/hicolor/24x24/apps/snes9x.png>
         [exec] (The Binding of Isaac) {wine start /Unix "/media/BKP/Jogos/PC/The Binding of Isaac/Isaac.exe"} </media/BKP/Jogos/PC/The Binding of Isaac/icon.png>
-        [exec] (VBA-M) {gvbam} </usr/share/pixmaps/vbam.png>
+        [exec] (VBA-M) {gvbam} </usr/share/icons/hicolor/32x32/apps/vbam.png>
         [exec] (World of Goo) {/media/BKP/Jogos/PC/WorldOfGoo/WorldOfGoo} </media/BKP/Jogos/PC/WorldOfGoo/icons/64x64.png>
         [exec] (World of Warcraft) {wine start /Unix "/media/BKP/WOW/Wow.exe"} </media/BKP/WOW/wow.png>
         [exec] (Worms Armageddon) {wine /media/BKP/Jogos/PC/WA/WA.exe} </media/BKP/Jogos/PC/WA/icon.png>
@@ -58,24 +58,24 @@
         [exec] (Pidgin) {pidgin} </usr/share/icons/hicolor/24x24/apps/pidgin.png>
         [exec] (Thunderbird) {thunderbird-bin} </usr/share/pixmaps/thunderbird-bin-icon.png>
         [exec] (Vuze) {vuze} </usr/share/pixmaps/vuze.png>
-        [exec] (XChat) {xchat} </usr/share/icons/gnome-colors-common/32x32/apps/xchat.png>
+        [exec] (XChat) {xchat} </usr/share/icons/gnome-colors-common/22x22/apps/xchat.png>
     [end]
     [submenu] (Multimedia) </usr/share/icons/gnome/16x16/categories/applications-multimedia.png>
         [exec] (alsamixer) {xfce4-terminal -e alsamixer} </usr/share/icons/gnome/22x22/apps/gnome-mixer.png>
         [exec] (Audacity) {audacity} </usr/share/icons/hicolor/22x22/apps/audacity.png>
         [exec] (Blender) {/media/BKP/Programas/blender/blender} </media/BKP/Programas/blender/icons/32x32/apps/blender.png>
-        [exec] (Cinelerra) {cinelerra} </usr/share/pixmaps/cinelerra.xpm>
+        #[exec] (Cinelerra) {cinelerra} </usr/share/pixmaps/cinelerra.xpm>
         [exec] (Evince) {evince} </usr/share/icons/hicolor/24x24/apps/evince.png>
         [exec] (GIMP) {gimp} </usr/share/icons/hicolor/32x32/apps/gimp.png>
         [exec] (gqview) {gqview} </usr/share/pixmaps/gqview.png>
         [exec] (Inkscape) {inkscape} </usr/share/icons/hicolor/24x24/apps/inkscape.png>
         #[exec] (JackCtl) {qjackctl} </usr/share/icons/hicolor/32x32/apps/qjackctl.png>
         [exec] (k3b) {k3b} </usr/share/icons/oxygen/22x22/apps/k3b.png>
-        [exec] (MuseScore) {mscore} </usr/share/pixmaps/mscore.xpm>
-        [exec] (Qtractor) {qtractor} </usr/share/icons/hicolor/32x32/apps/qtractor.png>
-        [exec] (Rosegarden) {rosegarden} </usr/share/icons/hicolor/32x32/apps/rosegarden.png>
-        [exec] (Shader Design) {/media/BKP/Programas/shader_designer/shaderdesigner}
-        [exec] (SMPlayer) {smplayer2} </usr/share/icons/hicolor/32x32/apps/application-x-smplayer2.png>
+        #[exec] (MuseScore) {mscore} </usr/share/pixmaps/mscore.xpm>
+        #[exec] (Qtractor) {qtractor} </usr/share/icons/hicolor/32x32/apps/qtractor.png>
+        #[exec] (Rosegarden) {rosegarden} </usr/share/icons/hicolor/32x32/apps/rosegarden.png>
+        [exec] (Shader Design) {/media/BKP/Programas/shader_designer/shaderdesigner} </usr/share/icons/oxygen/32x32/mimetypes/application-x-designer.png>
+        [exec] (SMPlayer) {smplayer} </usr/share/icons/gnome-colors-common/32x32/apps/smplayer.png>
     [end]
     [submenu] (Outros) </usr/share/icons/gnome/24x24/categories/applications-other.png>
         [exec] (Acetoneiso) {acetoneiso} </usr/share/icons/Tango/32x32/devices/media-cdrom.png>
@@ -83,10 +83,10 @@
         [exec] (Wireshark) {wireshark} </usr/share/icons/hicolor/32x32/apps/wireshark.png>
     [end]
     [submenu] (Sistema) </usr/share/icons/gnome/24x24/categories/applications-system.png>
-        [exec] (FluxMenu) {/media/BKP/Programas/fluxmenu/fluxMenu.py} </usr/share/icons/nimbus/24x24/apps/preferences-desktop-menus-and-toolbars.png>
+        [exec] (FluxMenu) {/media/BKP/Programas/fluxmenu/fluxMenu.py} </usr/share/icons/gnome-brave/32x32/apps/menu-editor.png>
         [exec] (GParted) {gksu gparted} </usr/share/icons/hicolor/32x32/apps/gparted.png>
         [exec] (lxappearance) {lxappearance} </usr/share/icons/gnome/24x24/apps/preferences-desktop-theme.png>
-        [exec] (RP-PPPOE) {gksu tkpppoe} </usr/share/icons/gentoo/32x32/kppp.png>
+        #[exec] (RP-PPPOE) {gksu tkpppoe} </usr/share/icons/gentoo/32x32/kppp.png>
         [exec] (UNetbootin) {unetbootin} </usr/share/icons/hicolor/24x24/apps/unetbootin.png>
     [end]
     [separator] (--------)
@@ -109,10 +109,10 @@
     [end]
     [separator] (--------)
     [exec] (Encerrar Sessão) {/media/BKP/Programas/shutdown/logout} </usr/share/icons/gnome/24x24/actions/gnome-logout.png>
-    [exit] (Trocar Usuário) </usr/share/icons/oxygen/32x32/actions/system-switch-user.png>
+    [exit] (Trocar Usuário) </usr/share/icons/gnome-colors-common/32x32/apps/system-switch-user.png>
     [separator] (--------)
-    [exec] (Desligar) {/media/BKP/Programas/shutdown/halt} </usr/share/icons/oxygen/32x32/actions/system-shutdown.png>
-    [exec] (Reiniciar) {/media/BKP/Programas/shutdown/reboot} </usr/share/icons/oxygen/32x32/actions/system-reboot.png>
-    [exec] (Suspender) </usr/share/icons/oxygen/32x32/actions/system-suspend.png>
-    [exec] (Hibernar) </usr/share/icons/oxygen/32x32/actions/system-suspend-hibernate.png>
+    [exec] (Desligar) {/media/BKP/Programas/shutdown/halt} </usr/share/icons/gnome-colors-common/22x22/apps/gnome-session-halt.png>
+    [exec] (Reiniciar) {/media/BKP/Programas/shutdown/reboot} </usr/share/icons/gnome-colors-common/24x24/apps/gnome-session-reboot.png>
+    [exec] (Suspender) </usr/share/icons/gnome-colors-common/32x32/apps/gnome-session-suspend.png>
+    [exec] (Hibernar) </usr/share/icons/gnome-colors-common/32x32/apps/system-suspend-hibernate.png>
 [end]
