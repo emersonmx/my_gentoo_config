@@ -40,7 +40,7 @@ Uptime: $alignr$uptime
 Processes: ${alignr}$processes ($running_processes running)
 Load: ${alignr}$loadavg
 CPU ${alignc} ${freq}MHz / ${acpitemp}C ${alignr}(${cpu cpu0}%)
-${cpubar cpu1 4}
+${cpubar cpu0 4}
 ${cpugraph}
 RAM ${alignr}$mem / $memmax ($memperc%)
 ${membar 4}

@@ -8,6 +8,7 @@ x11-themes/tango-icon-theme-extras ~x86
 x11-themes/gnome-icon-theme ~x86
 x11-themes/gnome-icon-theme-extras ~x86
 x11-themes/gnome-icon-theme-symbolic ~x86
+x11-themes/yasis-icon-theme ~x86
 # mplayer
 media-video/mplayer2 ~x86
 media-video/smplayer2 ~x86
