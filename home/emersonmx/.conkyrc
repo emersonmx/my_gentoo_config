@@ -30,8 +30,8 @@ use_spacer no
 override_utf8_locale yes
 
 TEXT
-${font Zekton:style=Bold:pixelsize=20}${alignc}${time %H:%M:%S}${font Zekton:size=8}
-${font Zekton:style=Bold:pixelsize=10}${alignc}${time %A - %d/%m/%y}${font Zekton:size=8}
+${font Zekton:style=Bold:pixelsize=20}${alignc}${time %H:%M:%S}${font Zekton:size=9}
+${font Zekton:style=Bold:pixelsize=10}${alignc}${time %A - %d/%m/%y}${font Zekton:size=9}
 SYSTEM ${hr 1 }
 
 Hostname: $alignr$nodename
@@ -40,7 +40,7 @@ Uptime: $alignr$uptime
 Processes: ${alignr}$processes ($running_processes running)
 Load: ${alignr}$loadavg
 CPU ${alignc} ${freq}MHz / ${acpitemp}C ${alignr}(${cpu cpu0}%)
-${cpubar cpu1 4}
+${cpubar cpu0 4}
 ${cpugraph}
 RAM ${alignr}$mem / $memmax ($memperc%)
 ${membar 4}
