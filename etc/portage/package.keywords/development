@@ -16,6 +16,9 @@ dev-python/django ~x86
 dev-python/psycopg ~x86
 dev-python/imaging ~x86
 dev-games/mygui ~x86
+dev-libs/glib ~x86
+dev-libs/gobject-introspection ~x86
+dev-libs/gobject-introspection-common ~x86
 ### Geo
 #dev-db/postgis ~x86
 #sci-libs/geos ~x86
