@@ -108,11 +108,11 @@
         [exec] (Sobre) {(fluxbox -v; fluxbox -info | sed 1d) | xmessage -file - -center}
     [end]
     [separator] (--------)
-    [exec] (Encerrar Sessão) {/media/BKP/Programas/shutdown/logout} </usr/share/icons/gnome/24x24/actions/gnome-logout.png>
-    [exit] (Trocar Usuário) </usr/share/icons/gnome-colors-common/32x32/apps/system-switch-user.png>
+    [exec] (Encerrar Sessão) {/media/BKP/Programas/shutdown/logout.sh} </usr/share/icons/gnome/24x24/actions/gnome-logout.png>
+    [exit] (Trocar Usuário) {/media/BKP/Programas/shutdown/logout.sh} </usr/share/icons/gnome-colors-common/32x32/apps/system-switch-user.png>
     [separator] (--------)
-    [exec] (Desligar) {/media/BKP/Programas/shutdown/halt} </usr/share/icons/gnome-colors-common/22x22/apps/gnome-session-halt.png>
-    [exec] (Reiniciar) {/media/BKP/Programas/shutdown/reboot} </usr/share/icons/gnome-colors-common/24x24/apps/gnome-session-reboot.png>
-    [exec] (Suspender) </usr/share/icons/gnome-colors-common/32x32/apps/gnome-session-suspend.png>
-    [exec] (Hibernar) </usr/share/icons/gnome-colors-common/32x32/apps/system-suspend-hibernate.png>
+    [exec] (Desligar) {/media/BKP/Programas/shutdown/halt.sh} </usr/share/icons/gnome-colors-common/22x22/apps/gnome-session-halt.png>
+    [exec] (Reiniciar) {/media/BKP/Programas/shutdown/reboot.sh} </usr/share/icons/gnome-colors-common/24x24/apps/gnome-session-reboot.png>
+    [exec] (Suspender) {/media/BKP/Programas/shutdown/suspend.sh} </usr/share/icons/gnome-colors-common/32x32/apps/gnome-session-suspend.png>
+    [exec] (Hibernar) {/media/BKP/Programas/shutdown/hibernate.sh} </usr/share/icons/gnome-colors-common/32x32/apps/system-suspend-hibernate.png>
 [end]
