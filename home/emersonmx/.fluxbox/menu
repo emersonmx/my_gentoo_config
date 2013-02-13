@@ -44,7 +44,7 @@
         [exec] (pSX) {/media/BKP/Jogos/pSX/pSX} </media/BKP/Jogos/pSX/icon.png>
         [exec] (Snes9x) {snes9x-gtk} </usr/share/icons/hicolor/24x24/apps/snes9x.png>
         [exec] (The Binding of Isaac) {wine start /Unix "/media/BKP/Jogos/PC/The Binding of Isaac/Isaac.exe"} </media/BKP/Jogos/PC/The Binding of Isaac/icon.png>
-        [exec] (VBA-M) {gvbam} </usr/share/icons/hicolor/32x32/apps/vbam.png>
+        [exec] (VBA-M) {wxvbam} </usr/share/icons/hicolor/32x32/apps/vbam.png>
         [exec] (World of Goo) {/media/BKP/Jogos/PC/WorldOfGoo/WorldOfGoo} </media/BKP/Jogos/PC/WorldOfGoo/icons/64x64.png>
         [exec] (World of Warcraft) {wine start /Unix "/media/BKP/WOW/Wow.exe"} </media/BKP/WOW/wow.png>
         [exec] (Worms Armageddon) {wine /media/BKP/Jogos/PC/WA/WA.exe} </media/BKP/Jogos/PC/WA/icon.png>
@@ -58,7 +58,6 @@
         [exec] (Pidgin) {pidgin} </usr/share/icons/hicolor/24x24/apps/pidgin.png>
         [exec] (Thunderbird) {thunderbird-bin} </usr/share/pixmaps/thunderbird-bin-icon.png>
         [exec] (Vuze) {vuze} </usr/share/pixmaps/vuze.png>
-        [exec] (XChat) {xchat} </usr/share/icons/gnome-colors-common/22x22/apps/xchat.png>
     [end]
     [submenu] (Multimedia) </usr/share/icons/gnome/16x16/categories/applications-multimedia.png>
         [exec] (alsamixer) {xfce4-terminal -e alsamixer} </usr/share/icons/gnome/22x22/apps/gnome-mixer.png>

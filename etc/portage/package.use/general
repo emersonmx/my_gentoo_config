@@ -1,12 +1,13 @@
 # Accessory
 xfce-base/thunar libnotify
 
-# Document
-dev-tex/abntex doc
+# Documentation
+app-text/texlive doc
 
 # Games
 games-emulation/snes9x netplay
 games-emulation/epsxe gtk
+games-emulation/vbam link
 
 # Multimedia
 media-sound/amsynth jack
@@ -31,7 +32,7 @@ dev-games/ois doc
 dev-games/mygui doc
 dev-java/swing-layout source
 gnome-base/librsvg -introspection
-dev-lang/php apache2
+dev-lang/php apache2 calendar cgi doc fpm gmp imap intl mhash pdo snmp sockets zip
 sci-libs/libsvm tools
 media-libs/freetype fontforge
 dev-games/ogre tools doc
