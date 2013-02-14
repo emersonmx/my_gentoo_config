@@ -23,7 +23,6 @@ x11-base/xorg-server udev
 app-emulation/wine oss
 www-servers/apache userdir
 gnome-base/gvfs gdu
-sys-block/parted device-mapper
 
 # Development
 www-apps/redmine passenger imagemagick
