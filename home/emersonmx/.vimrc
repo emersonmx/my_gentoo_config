@@ -40,6 +40,7 @@ map Q gq
 
 " Remove trailing spaces on save
 autocmd BufWritePre * :%s/\s\+$//e
+autocmd BufNewFile,BufRead *.frag,*.vert,*.fp,*.vp,*.glsl setf glsl
 
 " When doing tab completion, give the following files lower priority. You may
 " wish to set 'wildignore' to completely ignore files, and 'wildmenu' to enable
