@@ -41,7 +41,7 @@ Kernel: $alignr$kernel
 Uptime: $alignr$uptime
 Processes: ${alignr}$processes ($running_processes running)
 Load: ${alignr}$loadavg
-CPU ${alignc} ${freq}MHz / ${hwmon temp 1}C ${alignr}(${cpu cpu0}%)
+CPU ${alignc} ${freq}MHz / ${hwmon temp 2}C ${alignr}(${cpu cpu0}%)
 ${cpubar cpu0 4}
 ${cpugraph}
 RAM ${alignr}$mem / $memmax ($memperc%)
