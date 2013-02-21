@@ -35,6 +35,8 @@ set guioptions+=b " Horizontal scroll bar
 set wildmode=list:longest,full
 set cursorline
 
+colorscheme koehler
+
 " Don't use Ex mode, use Q for formatting
 map Q gq
 
