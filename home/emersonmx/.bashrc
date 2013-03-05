@@ -22,3 +22,5 @@ export PYTHON_POG_DIR=$POG_DIR/Python
 export C_CPP_POG_DIR=$POG_DIR/C_CPP
 export DOCUMENTOS_DIR=$BKP_DIR/Documentos
 export DOWNLOADS_DIR=$BKP_DIR/Downloads
+
+export PATH=$PATH:$BKP_DIR/scripts

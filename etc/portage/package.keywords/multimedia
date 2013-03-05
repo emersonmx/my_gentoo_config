@@ -2,6 +2,8 @@
 media-gfx/inkscape ~x86
 www-plugins/adobe-flash ~x86
 media-gfx/gimp ~x86
+media-plugins/gst-plugins-ffmpeg ~x86
+media-video/transcode ~x86
 ### Theme
 x11-themes/hicolor-icon-theme ~x86
 x11-themes/tango-icon-theme ~x86
