@@ -4,4 +4,4 @@ set nowrap
 set textwidth=80
 set smartindent
 
-set foldmethod=indent
+set fdm=indent
