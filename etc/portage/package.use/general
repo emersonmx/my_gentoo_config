@@ -43,4 +43,4 @@ media-libs/sdl-mixer smpeg mod
 sci-geosciences/mapnik geos gdal
 sci-libs/gdal geos
 dev-games/mygui tools plugins
-x11-libs/qt-gui gtkstyle
+dev-qt/qtgui gtkstyle

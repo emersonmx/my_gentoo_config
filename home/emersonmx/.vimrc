@@ -34,6 +34,7 @@ set cc=80
 set guioptions+=b " Horizontal scroll bar
 set wildmode=list:longest,full
 set cursorline
+set mouse=a
 
 colorscheme koehler
 
