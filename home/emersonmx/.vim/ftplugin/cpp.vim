@@ -6,4 +6,3 @@ set smartindent
 
 set include=^\\s*#\\s*include\ \\(<boost/\\)\\@!
 
-set fdm=syntax

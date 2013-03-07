@@ -4,4 +4,3 @@ set nowrap
 set textwidth=80
 set smartindent
 
-set fdm=syntax
