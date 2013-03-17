@@ -21,29 +21,31 @@ set nocompatible        " Use Vim defaults (much better!)
 set bs=2                " Allow backspacing over everything in insert mode
 set history=50          " keep 50 lines of command history
 set ruler               " Show the cursor position all the time
+
+" Basic configuration
 set number
-set shiftwidth=4
-set smarttab
-set tabstop=4
 set expandtab
-set showmatch
-set showmode
-set textwidth=0
-set viminfo='20,\"500   " Keep a .viminfo file.
-set cc=80
-set guioptions+=b " Horizontal scroll bar
-set wildmode=list:longest,full
+set shiftwidth=4
+set softtabstop=4
 set cursorline
+set cc=80
+set showmatch
+
+" Another configurations
+set showmode
+set nowrap
+set viminfo='20,\"500   " Keep a .viminfo file.
+set wildmode=list:longest,full
 set mouse=a
-
+set guioptions+=b " Horizontal scroll bar
 colorscheme koehler
-
-" Don't use Ex mode, use Q for formatting
-map Q gq
 
 " Remove trailing spaces on save
 autocmd BufWritePre * :%s/\s\+$//e
 autocmd BufNewFile,BufRead *.frag,*.vert,*.fp,*.vp,*.glsl setf glsl
+
+" Don't use Ex mode, use Q for formatting
+map Q gq
 
 " When doing tab completion, give the following files lower priority. You may
 " wish to set 'wildignore' to completely ignore files, and 'wildmenu' to enable
