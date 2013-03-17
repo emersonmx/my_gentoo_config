@@ -24,9 +24,10 @@ set ruler               " Show the cursor position all the time
 
 " Basic configuration
 set number
-set expandtab
+set tabstop=4
 set shiftwidth=4
 set softtabstop=4
+set expandtab
 set cursorline
 set cc=80
 set showmatch
@@ -45,9 +46,13 @@ autocmd BufWritePre * :%s/\s\+$//e
 autocmd BufNewFile,BufRead *.frag,*.vert,*.fp,*.vp,*.glsl setf glsl
 
 " Shortcuts
-map <silent> <C-S><C-F> :NERDTree<Return><Return>
-map <C-S><C-B> \be
-map <silent> <C-S><C-T> :TlistToggle<Return>
+map <silent> <Leader>f :NERDTree<Return><Return>
+map <Leader>t :TlistToggle<Return>
+map <Leader>gc :Gcommit -sa<Return>
+map <Leader>gs :Gstatus<Return>
+map <Leader>gl :Glog<Return>
+map <Leader>gb :Gblame<Return>
+map <Leader>gu :Git push<Return>
 
 " Don't use Ex mode, use Q for formatting
 map Q gq
