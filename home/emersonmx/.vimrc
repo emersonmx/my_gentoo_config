@@ -44,6 +44,11 @@ colorscheme koehler
 autocmd BufWritePre * :%s/\s\+$//e
 autocmd BufNewFile,BufRead *.frag,*.vert,*.fp,*.vp,*.glsl setf glsl
 
+" Shortcuts
+map <silent> <C-S><C-F> :NERDTree<Return><Return>
+map <C-S><C-B> \be
+map <silent> <C-S><C-T> :TlistToggle<Return>
+
 " Don't use Ex mode, use Q for formatting
 map Q gq
 
@@ -139,7 +144,7 @@ if isdirectory(expand("$VIMRUNTIME/ftplugin"))
   " Uncomment the next line (or copy to your ~/.vimrc) for plugin-provided
   " indent settings. Some people don't like these, so we won't turn them on by
   " default.
-  " filetype indent on
+  filetype indent on
 endif
 " }}}
 

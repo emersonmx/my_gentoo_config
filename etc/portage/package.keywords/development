@@ -40,6 +40,12 @@ sci-mathematics/fann ~x86
 media-libs/opencv ~x86
 sci-libs/libsvm ~x86
 # IDEs
+# Vim :D
+app-vim/nerdtree ~x86
+app-vim/bufexplorer ~x86
+app-vim/fugitive ~x86
+
+# Code::Blocks
 dev-util/codeblocks ~x86
 ### Netbeans
 dev-util/netbeans ~x86
