@@ -5,3 +5,4 @@ sys-apps/hal
 >sci-libs/proj-4.7.0
 >dev-db/postgis-1.5.3-r1
 >sci-libs/gdal-1.8.1
+>=sys-devel/gettext-0.18.2
