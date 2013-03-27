@@ -14,3 +14,6 @@ xfce-base/thunar ~x86
 gnome-base/gvfs ~x86
 # Fonts
 media-fonts/takao-fonts ~x86
+# Java
+dev-java/java-config ~x86
+dev-java/java-config-wrapper ~x86
