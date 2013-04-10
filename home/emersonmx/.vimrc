@@ -1,58 +1,60 @@
 scriptencoding utf-8
 " ^^ Please leave the above line at the start of the file.
 
-" Default configuration file for Vim
-" $Header: /var/cvsroot/gentoo-x86/app-editors/vim-core/files/vimrc-r4,v 1.3 2010/04/15 19:30:32 darkside Exp $
+" General settings
+set nocompatible
+set backspace=2
+set history=50
 
-" Written by Aron Griffis <agriffis@gentoo.org>
-" Modified by Ryan Phillips <rphillips@gentoo.org>
-" Modified some more by Ciaran McCreesh <ciaranm@gentoo.org>
-" Added Redhat's vimrc info by Seemant Kulleen <seemant@gentoo.org>
-
-" You can override any of these settings on a global basis via the
-" "/etc/vim/vimrc.local" file, and on a per-user basis via "~/.vimrc". You may
-" need to create these.
-
-" {{{ General settings
-" The following are some sensible defaults for Vim for most users.
-" We attempt to change as little as possible from Vim's defaults,
-" deviating only where it makes sense
-set nocompatible        " Use Vim defaults (much better!)
-set bs=2                " Allow backspacing over everything in insert mode
-set history=50          " keep 50 lines of command history
-set ruler               " Show the cursor position all the time
-
-" Basic configuration
+" Editor settings
 set number
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set expandtab
+set ruler
 set cursorline
-set cc=80
+set colorcolumn=80
 set showmatch
-
-" Another configurations
 set showmode
 set nowrap
-set viminfo='20,\"500   " Keep a .viminfo file.
-set wildmode=list:longest,full
-set mouse=a
-set guioptions+=b " Horizontal scroll bar
 colorscheme koehler
 
-" Remove trailing spaces on save
+" Miscellaneous settings
+set wildmode=list:longest,full
+set mouse=a
+set guioptions+=b
+set viminfo='20,\"500
+
+" SHORTCUTS
+"   Plugins
+map <silent> <Leader>f :NERDTree<CR><CR>
+map <Leader>t :TlistToggle<CR>
+map <Leader>gc :Gcommit -sa<CR>
+map <Leader>gs :Gstatus<CR>
+map <Leader>gl :Glog<CR>
+map <Leader>gb :Gblame<CR>
+map <Leader>gu :Git push<CR>
+
+"   Utils
+map <F4> :mksession! .vimsession<CR>
+imap <F4> :mksession! .vimsession<CR>
+map <F2> :e<Space>
+imap <F2> <C-O>:e<Space>
+map <S-F2> :w<Space>
+imap <S-F2> <C-O>:w<Space>
+map <F3> :w<CR>
+imap <F3> <C-O>:w<CR>
+map <S-F3> :wa<CR>
+imap <S-F3> <C-O>:wa<CR>
+
+" Auto commands
 autocmd BufWritePre * :%s/\s\+$//e
 autocmd BufNewFile,BufRead *.frag,*.vert,*.fp,*.vp,*.glsl setf glsl
 
-" Shortcuts
-map <silent> <Leader>f :NERDTree<Return><Return>
-map <Leader>t :TlistToggle<Return>
-map <Leader>gc :Gcommit -sa<Return>
-map <Leader>gs :Gstatus<Return>
-map <Leader>gl :Glog<Return>
-map <Leader>gb :Gblame<Return>
-map <Leader>gu :Git push<Return>
+"===============================================================================
+"|| END USER SETUP
+"===============================================================================
 
 " Don't use Ex mode, use Q for formatting
 map Q gq

@@ -12,7 +12,6 @@ virtual/ffmpeg ~x86
 media-video/ffmpeg ~x86
 media-libs/x264 ~x86
 media-libs/glfw ~x86
-dev-python/django ~x86
 dev-python/psycopg ~x86
 dev-python/imaging ~x86
 dev-games/mygui ~x86
@@ -63,7 +62,8 @@ dev-java/smack ~x86
 dev-java/saxon ~x86
 dev-java/maven-bin ~x86
 dev-java/jna ~x86
-dev-java/sun-jdk ~x86
+dev-java/oracle-jdk-bin ~x86
+dev-java/java-sdk-docs ~x86
 ### Eclipse
 dev-util/eclipse-sdk ~x86
 # Miscellaneous
