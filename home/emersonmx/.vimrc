@@ -13,7 +13,7 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 set ruler
-set cursorline
+set nocursorline
 set colorcolumn=80
 set showmatch
 set showmode
@@ -38,7 +38,7 @@ map <Leader>gu :Git push<CR>
 
 "   Utils
 map <F4> :mksession! .vimsession<CR>
-imap <F4> :mksession! .vimsession<CR>
+imap <F4> <C-O>:mksession! .vimsession<CR>
 map <F2> :e<Space>
 imap <F2> <C-O>:e<Space>
 map <S-F2> :w<Space>
