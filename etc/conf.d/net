@@ -2,4 +2,8 @@
 # scripts in /etc/init.d.  To create a more complete configuration,
 # please review /usr/share/doc/openrc*/net.example* and save your configuration
 # in /etc/conf.d/net (this file :]!).
+
 dns_domain_lo="anormalius"
+
+modules="wpa_supplicant"
+
