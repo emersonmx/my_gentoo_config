@@ -25,6 +25,7 @@ www-servers/apache userdir
 gnome-base/gvfs gdu
 
 # Development
+dev-java/antlr java
 www-apps/redmine passenger imagemagick
 dev-libs/boost doc
 dev-games/ois doc
