@@ -52,6 +52,9 @@ imap <S-F3> <C-O>:wa<CR>
 autocmd BufWritePre * :%s/\s\+$//e
 autocmd BufNewFile,BufRead *.frag,*.vert,*.fp,*.vp,*.glsl setf glsl
 
+" Variable declaration
+let g:snips_author="Emerson Max de Medeiros Silva"
+
 "===============================================================================
 "|| END USER SETUP
 "===============================================================================
