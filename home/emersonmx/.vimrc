@@ -51,6 +51,7 @@ imap <S-F3> <C-O>:wa<CR>
 " Auto commands
 autocmd BufWritePre * :%s/\s\+$//e
 autocmd BufNewFile,BufRead *.frag,*.vert,*.fp,*.vp,*.glsl setf glsl
+autocmd VimResized * wincmd =
 
 " Variable declaration
 let g:snips_author="Emerson Max de Medeiros Silva"

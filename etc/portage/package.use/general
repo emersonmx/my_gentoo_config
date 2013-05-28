@@ -23,6 +23,7 @@ x11-base/xorg-server udev
 app-emulation/wine oss
 www-servers/apache userdir
 gnome-base/gvfs gdu
+x11-misc/xscreensaver gdm new-login
 
 # Development
 media-video/ffmpeg opus

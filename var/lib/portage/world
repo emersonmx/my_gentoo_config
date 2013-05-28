@@ -52,6 +52,7 @@ dev-python/pip
 dev-python/pygame
 dev-python/pyopengl
 dev-python/sphinx
+dev-python/sqlalchemy
 dev-ruby/libxml
 dev-tex/abntex
 dev-tex/luatex
@@ -73,6 +74,14 @@ gnome-base/gdm
 gnome-extra/libgda
 gnome-extra/zenity
 lxde-base/lxappearance
+media-fonts/arphicfonts
+media-fonts/bitstream-cyberbit
+media-fonts/droid
+media-fonts/ipamonafont
+media-fonts/ja-ipafonts
+media-fonts/takao-fonts
+media-fonts/wqy-microhei
+media-fonts/wqy-zenhei
 media-gfx/gimp
 media-gfx/gqview
 media-gfx/inkscape
