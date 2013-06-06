@@ -28,29 +28,32 @@ set viminfo='20,\"500
 
 " SHORTCUTS
 "   Plugins
-map <silent> <Leader>f :NERDTree<CR><CR>
-map <Leader>t :TlistToggle<CR>
-map <Leader>gc :Gcommit -sa<CR>
-map <Leader>gs :Gstatus<CR>
-map <Leader>gl :Glog<CR>
-map <Leader>gb :Gblame<CR>
-map <Leader>gu :Git push<CR>
+noremap <silent> <Leader>f :NERDTree<CR><CR>
+noremap <Leader>t :TlistToggle<CR>
+noremap <Leader>gc :Gcommit -sa<CR>
+noremap <Leader>gs :Gstatus<CR>
+noremap <Leader>gl :Glog<CR>
+noremap <Leader>gb :Gblame<CR>
+noremap <Leader>gu :Git push<CR>
 
 "   Utils
-map <F4> :mksession! .vimsession<CR>
-imap <F4> <C-O>:mksession! .vimsession<CR>
-map <F2> :e<Space>
-imap <F2> <C-O>:e<Space>
-map <S-F2> :w<Space>
-imap <S-F2> <C-O>:w<Space>
-map <F3> :w<CR>
-imap <F3> <C-O>:w<CR>
-map <S-F3> :wa<CR>
-imap <S-F3> <C-O>:wa<CR>
+noremap <F4> :mksession! .vimsession<CR>
+inoremap <F4> <C-O>:mksession! .vimsession<CR>
+noremap <F2> :e<Space>
+inoremap <F2> <C-O>:e<Space>
+noremap <S-F2> :w<Space>
+inoremap <S-F2> <C-O>:w<Space>
+noremap <F3> :w<CR>
+inoremap <F3> <C-O>:w<CR>
+noremap <S-F3> :wa<CR>
+inoremap <S-F3> <C-O>:wa<CR>
+inoremap <C-Space> <C-N>
+inoremap <C-S-Space> <C-P>
 
 " Auto commands
 autocmd BufWritePre * :%s/\s\+$//e
 autocmd BufNewFile,BufRead *.frag,*.vert,*.fp,*.vp,*.glsl setf glsl
+autocmd BufUnload * let @/=""
 autocmd VimResized * wincmd =
 
 " Variable declaration
