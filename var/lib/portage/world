@@ -105,6 +105,7 @@ net-dialup/ppp
 net-dialup/rp-pppoe
 net-im/pidgin
 net-irc/irssi
+net-libs/nodejs
 net-misc/dhcpcd
 net-misc/dropbox
 net-misc/htpdate

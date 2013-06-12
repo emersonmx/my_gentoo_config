@@ -21,6 +21,7 @@ dev-libs/gobject-introspection-common ~x86
 media-libs/gegl ~x86
 media-libs/babl ~x86
 gnome-extra/libgda ~x86
+net-libs/nodejs ~x86
 ### Geo
 #dev-db/postgis ~x86
 #sci-libs/geos ~x86
