@@ -35,10 +35,14 @@ noremap <Leader>gs :Gstatus<CR>
 noremap <Leader>gl :Glog<CR>
 noremap <Leader>gb :Gblame<CR>
 noremap <Leader>gu :Git push<CR>
+let g:SuperTabMappingForward = "<C-Space>"
+let g:SuperTabMappingBackward = "<C-S-Space>"
 
 "   Utils
-noremap <F4> :mksession! .vimsession<CR>
-inoremap <F4> <C-O>:mksession! .vimsession<CR>
+map <F1> :!exo-open --launch TerminalEmulator &<CR><CR>
+imap <F1> <C-O>:!exo-open --launch TerminalEmulator &<CR><CR>
+map <S-F1> :!
+imap <S-F1> <C-O>:!
 noremap <F2> :e<Space>
 inoremap <F2> <C-O>:e<Space>
 noremap <S-F2> :w<Space>
@@ -47,8 +51,8 @@ noremap <F3> :w<CR>
 inoremap <F3> <C-O>:w<CR>
 noremap <S-F3> :wa<CR>
 inoremap <S-F3> <C-O>:wa<CR>
-inoremap <C-Space> <C-N>
-inoremap <C-S-Space> <C-P>
+noremap <F4> :mksession! .vimsession<CR>
+inoremap <F4> <C-O>:mksession! .vimsession<CR>
 
 " Auto commands
 autocmd BufWritePre * :%s/\s\+$//e

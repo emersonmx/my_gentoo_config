@@ -21,6 +21,7 @@ app-text/texlive
 app-vim/bufexplorer
 app-vim/fugitive
 app-vim/nerdtree
+app-vim/supertab
 app-vim/surround
 app-vim/taglist
 cross-i686-pc-mingw32/binutils
