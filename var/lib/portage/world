@@ -24,10 +24,6 @@ app-vim/nerdtree
 app-vim/supertab
 app-vim/surround
 app-vim/taglist
-cross-i686-pc-mingw32/binutils
-cross-i686-pc-mingw32/gcc
-cross-i686-pc-mingw32/mingw-runtime
-cross-i686-pc-mingw32/w32api
 dev-cpp/gtkmm
 dev-db/pgadmin3
 dev-db/postgis
@@ -114,7 +110,6 @@ net-misc/netkit-telnetd
 net-nds/portmap
 net-p2p/transmission
 net-print/cups
-net-print/xerox-drivers
 net-wireless/aircrack-ng
 net-wireless/wireless-tools
 net-wireless/wpa_supplicant
@@ -136,7 +131,6 @@ sys-block/gparted
 sys-boot/grub
 sys-boot/unetbootin
 sys-cluster/openmpi
-sys-devel/crossdev
 sys-devel/gcc
 sys-devel/gdb
 sys-fs/dosfstools
@@ -164,12 +158,6 @@ x11-apps/xkill
 x11-apps/xrandr
 x11-base/xorg-drivers
 x11-base/xorg-server
-x11-drivers/xf86-input-evdev
-x11-drivers/xf86-input-joystick
-x11-drivers/xf86-input-keyboard
-x11-drivers/xf86-input-mouse
-x11-drivers/xf86-input-synaptics
-x11-drivers/xf86-video-intel
 x11-libs/gksu
 x11-misc/xclip
 x11-misc/xlockmore

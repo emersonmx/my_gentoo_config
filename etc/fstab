@@ -16,7 +16,7 @@
 # NOTE: If your BOOT partition is ReiserFS, add the notail option to opts.
 /dev/sda5               /                       ext4            noatime                 0 1
 /dev/sda1               /boot                   ext2            defaults,noatime        0 2
-/dev/sda4               none                    swap            sw                      0 0
+/dev/sda2               none                    swap            sw                      0 0
 /dev/sda6               /media/BKP              ext4            noatime                 0 2
 
 /dev/cdrom              /mnt/cdrom              auto            noauto,ro,user          0 0
