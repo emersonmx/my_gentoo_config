@@ -12,8 +12,16 @@ virtual/ffmpeg ~x86
 media-video/ffmpeg ~x86
 media-libs/x264 ~x86
 media-libs/glfw ~x86
-dev-python/django ~x86
+dev-python/psycopg ~x86
+dev-python/imaging ~x86
 dev-games/mygui ~x86
+dev-libs/glib ~x86
+dev-libs/gobject-introspection ~x86
+dev-libs/gobject-introspection-common ~x86
+media-libs/gegl ~x86
+media-libs/babl ~x86
+gnome-extra/libgda ~x86
+net-libs/nodejs ~x86
 ### Geo
 #dev-db/postgis ~x86
 #sci-libs/geos ~x86
@@ -33,6 +41,12 @@ sci-mathematics/fann ~x86
 media-libs/opencv ~x86
 sci-libs/libsvm ~x86
 # IDEs
+# Vim :D
+app-vim/nerdtree ~x86
+app-vim/bufexplorer ~x86
+app-vim/fugitive ~x86
+
+# Code::Blocks
 dev-util/codeblocks ~x86
 ### Netbeans
 dev-util/netbeans ~x86
@@ -49,6 +63,10 @@ dev-java/smack ~x86
 dev-java/saxon ~x86
 dev-java/maven-bin ~x86
 dev-java/jna ~x86
-dev-java/sun-jdk ~x86
+dev-java/oracle-jdk-bin ~x86
+dev-java/java-sdk-docs ~x86
 ### Eclipse
 dev-util/eclipse-sdk ~x86
+# Miscellaneous
+app-text/gtranslator ~x86
+dev-libs/libpeas ~x86

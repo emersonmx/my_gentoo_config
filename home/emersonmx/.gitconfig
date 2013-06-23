@@ -1,0 +1,7 @@
+[user]
+	name = Emerson MX
+	email = emersonmx@gmail.com
+[core]
+	editor = vim
+[push]
+	default = simple

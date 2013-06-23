@@ -1,3 +1,0 @@
-#! /bin/bash
-
-diff -q -r . / | grep -v Somente | awk '{print $3, $5}'

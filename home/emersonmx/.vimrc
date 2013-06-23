@@ -1,53 +1,74 @@
 scriptencoding utf-8
 " ^^ Please leave the above line at the start of the file.
 
-" Default configuration file for Vim
-" $Header: /var/cvsroot/gentoo-x86/app-editors/vim-core/files/vimrc-r4,v 1.3 2010/04/15 19:30:32 darkside Exp $
+" General settings
+set nocompatible
+set backspace=2
+set history=50
 
-" Written by Aron Griffis <agriffis@gentoo.org>
-" Modified by Ryan Phillips <rphillips@gentoo.org>
-" Modified some more by Ciaran McCreesh <ciaranm@gentoo.org>
-" Added Redhat's vimrc info by Seemant Kulleen <seemant@gentoo.org>
-
-" You can override any of these settings on a global basis via the
-" "/etc/vim/vimrc.local" file, and on a per-user basis via "~/.vimrc". You may
-" need to create these.
-
-" {{{ General settings
-" The following are some sensible defaults for Vim for most users.
-" We attempt to change as little as possible from Vim's defaults,
-" deviating only where it makes sense
-set nocompatible        " Use Vim defaults (much better!)
-set bs=2                " Allow backspacing over everything in insert mode
-set ai                  " Always set auto-indenting on
-set history=50          " keep 50 lines of command history
-set ruler               " Show the cursor position all the time
+" Editor settings
 set number
-set shiftwidth=4
-set cindent
-set smarttab
-set smartindent
 set tabstop=4
+set shiftwidth=4
+set softtabstop=4
 set expandtab
+set ruler
+set nocursorline
+set colorcolumn=80
 set showmatch
 set showmode
 set nowrap
-"set textwidth=0
-set viminfo='20,\"500   " Keep a .viminfo file.
-set cc=80
-set guioptions+=b
+colorscheme koehler
+
+" Miscellaneous settings
 set wildmode=list:longest,full
+set mouse=a
+set guioptions+=b
+set viminfo='20,\"500
 
-" colorscheme desert
+" SHORTCUTS
+"   Plugins
+noremap <silent> <Leader>f :NERDTree<CR><CR>
+noremap <Leader>t :TlistToggle<CR>
+noremap <Leader>gc :Gcommit -sa<CR>
+noremap <Leader>gs :Gstatus<CR>
+noremap <Leader>gl :Glog<CR>
+noremap <Leader>gb :Gblame<CR>
+noremap <Leader>gu :Git push<CR>
+let g:SuperTabMappingForward = "<C-Space>"
+let g:SuperTabMappingBackward = "<C-S-Space>"
 
-:highlight LineNr term=bold cterm=bold ctermfg=White ctermbg=DarkGrey gui=bold guifg=White guibg=DarkGrey
-au WinLeave * set nocursorline
-set cursorline
-let g:HL_HiCurLine= "HL_HiCurLine"
+"   Utils
+map <F1> :!exo-open --launch TerminalEmulator &<CR><CR>
+imap <F1> <C-O>:!exo-open --launch TerminalEmulator &<CR><CR>
+map <S-F1> :!
+imap <S-F1> <C-O>:!
+noremap <F2> :e<Space>
+inoremap <F2> <C-O>:e<Space>
+noremap <S-F2> :w<Space>
+inoremap <S-F2> <C-O>:w<Space>
+noremap <F3> :w<CR>
+inoremap <F3> <C-O>:w<CR>
+noremap <S-F3> :wa<CR>
+inoremap <S-F3> <C-O>:wa<CR>
+noremap <F4> :mksession! .vimsession<CR>
+inoremap <F4> <C-O>:mksession! .vimsession<CR>
+
+" Auto commands
+autocmd BufWritePre * :%s/\s\+$//e
+autocmd BufNewFile,BufRead *.frag,*.vert,*.fp,*.vp,*.glsl setf glsl
+autocmd BufUnload * let @/=""
+autocmd VimResized * wincmd =
+
+" Variable declaration
+let g:snips_author="Emerson Max de Medeiros Silva"
+
+"===============================================================================
+"|| END USER SETUP
+"===============================================================================
+
 " Don't use Ex mode, use Q for formatting
 map Q gq
-
-autocmd BufWritePre * :%s/\s\+$//e
 
 " When doing tab completion, give the following files lower priority. You may
 " wish to set 'wildignore' to completely ignore files, and 'wildmenu' to enable
@@ -141,7 +162,7 @@ if isdirectory(expand("$VIMRUNTIME/ftplugin"))
   " Uncomment the next line (or copy to your ~/.vimrc) for plugin-provided
   " indent settings. Some people don't like these, so we won't turn them on by
   " default.
-  " filetype indent on
+  filetype indent on
 endif
 " }}}
 
@@ -181,7 +202,7 @@ augroup gentoo
   " that we don't override the user's setting.
   autocmd BufNewFile,BufRead *.txt
         \ if &tw == 0 && ! exists("g:leave_my_textwidth_alone") |
-        \     setlocal textwidth=80 |
+        \     setlocal textwidth=78 |
         \ endif
 
   " When editing a file, always jump to the last cursor position

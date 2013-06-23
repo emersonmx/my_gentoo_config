@@ -14,10 +14,12 @@
 # <fs>                  <mountpoint>            <type>          <opts>                  <dump/pass>
 
 # NOTE: If your BOOT partition is ReiserFS, add the notail option to opts.
-/dev/sda5               /                       ext4            noatime,user_xattr                 0 1
+/dev/sda5               /                       ext4            noatime                 0 1
 /dev/sda1               /boot                   ext2            defaults,noatime        0 2
-/dev/sda2               none                    swap            sw                      0 0
+/dev/sda4               none                    swap            sw                      0 0
 /dev/sda6               /media/BKP              ext4            noatime                 0 2
 
-/dev/cdrom              /mnt/cdrom              auto            noauto,ro               0 0
-tmpfs                   /var/tmp/portage        tmpfs           size=75%                0 0
+/dev/cdrom              /mnt/cdrom              auto            noauto,ro,user          0 0
+
+proc                    /proc                   proc            defaults                0 0
+shm                     /dev/shm                tmpfs           nodev,nosuid,noexec     0 0
