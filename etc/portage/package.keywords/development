@@ -46,7 +46,6 @@ sci-libs/libsvm ~x86
 app-vim/nerdtree ~x86
 app-vim/bufexplorer ~x86
 app-vim/fugitive ~x86
-
 # Code::Blocks
 dev-util/codeblocks ~x86
 ### Netbeans
