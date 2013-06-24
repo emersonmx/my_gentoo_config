@@ -24,6 +24,7 @@ gnome-extra/libgda ~x86
 net-libs/nodejs ~x86
 ### Geo
 dev-db/postgis ~x86
+sci-libs/gdal ~x86
 #sci-libs/geos ~x86
 sci-geosciences/mapnik ~x86
 #sci-geosciences/osm2pgsql ~x86
