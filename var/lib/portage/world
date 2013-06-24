@@ -12,7 +12,6 @@ app-emulation/wine
 app-misc/livecd-tools
 app-office/dia
 app-office/libreoffice-bin
-app-office/orage
 app-portage/eix
 app-portage/gentoolkit
 app-portage/layman
@@ -40,7 +39,6 @@ games-emulation/zsnes
 gnome-base/gdm
 gnome-extra/zenity
 lxde-base/lxappearance
-mail-client/thunderbird-bin
 media-fonts/arphicfonts
 media-fonts/bitstream-cyberbit
 media-fonts/droid
@@ -60,12 +58,12 @@ media-libs/sdl-image
 media-libs/sdl-ttf
 media-plugins/gst-plugins-ffmpeg
 media-video/smplayer
+net-dns/dnsmasq
 net-firewall/iptables
 net-misc/dhcpcd
 net-misc/dropbox
 net-misc/htpdate
 net-misc/netkit-telnetd
-net-misc/wicd
 net-nds/portmap
 net-wireless/wireless-tools
 sci-libs/geos
@@ -75,14 +73,12 @@ sys-apps/lm_sensors
 sys-apps/memtest86+
 sys-apps/mlocate
 sys-apps/pciutils
-sys-apps/smartmontools
 sys-apps/usbutils
 sys-apps/v86d
 sys-boot/grub
 sys-cluster/openmpi
 sys-devel/gcc
 sys-devel/gdb
-sys-firmware/rt61-firmware
 sys-fs/dosfstools
 sys-fs/ntfs3g
 sys-fs/squashfs-tools
@@ -90,7 +86,6 @@ sys-fs/udisks
 sys-fs/udisks:0
 sys-kernel/genkernel
 sys-kernel/gentoo-sources
-sys-kernel/gentoo-sources:3.5.7
 sys-kernel/module-rebuild
 sys-libs/db
 sys-libs/db:4.5
@@ -109,13 +104,9 @@ x11-base/xorg-drivers
 x11-base/xorg-server
 x11-drivers/nvidia-drivers
 x11-libs/gksu
-x11-misc/slim
 x11-misc/xclip
 x11-misc/xscreensaver
 x11-terms/xfce4-terminal
-x11-themes/commonbox-styles
-x11-themes/commonbox-styles-extra
-x11-themes/fluxbox-styles-fluxmod
 x11-themes/gentoo-artwork
 x11-themes/gentoo-xcursors
 x11-themes/gnome-colors-common
@@ -137,8 +128,8 @@ x11-themes/xcursor-neutral
 x11-themes/xcursor-themes
 x11-themes/yasis-icon-theme
 x11-themes/zukitwo
-x11-wm/fluxbox
 xfce-base/thunar
+xfce-base/xfce4-meta
 xfce-extra/thunar-archive-plugin
 xfce-extra/thunar-shares-plugin
 xfce-extra/thunar-volman
