@@ -24,10 +24,6 @@ app-vim/nerdtree
 app-vim/supertab
 app-vim/surround
 app-vim/taglist
-cross-i686-pc-mingw32/binutils
-cross-i686-pc-mingw32/gcc
-cross-i686-pc-mingw32/mingw-runtime
-cross-i686-pc-mingw32/w32api
 dev-cpp/gtkmm
 dev-db/pgadmin3
 dev-db/postgis
@@ -84,6 +80,7 @@ media-fonts/ja-ipafonts
 media-fonts/takao-fonts
 media-fonts/wqy-microhei
 media-fonts/wqy-zenhei
+media-gfx/comix
 media-gfx/gimp
 media-gfx/gqview
 media-gfx/inkscape
@@ -136,7 +133,6 @@ sys-block/gparted
 sys-boot/grub
 sys-boot/unetbootin
 sys-cluster/openmpi
-sys-devel/crossdev
 sys-devel/gcc
 sys-devel/gdb
 sys-fs/dosfstools

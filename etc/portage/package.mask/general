@@ -1,7 +1,1 @@
 sys-apps/hal
-# >www-plugins/adobe-flash-11.2.202.236
->=dev-db/postgresql-server-9.2
->=dev-db/postgresql-base-9.2
->sci-libs/proj-4.7.0
->dev-db/postgis-1.5.3-r1
->sci-libs/gdal-1.8.1

@@ -1,0 +1,54 @@
+Available fontconfig .conf files (* is enabled):
+  [1]   09-texlive.conf *
+  [2]   10-autohint.conf
+  [3]   10-no-sub-pixel.conf
+  [4]   10-sub-pixel-bgr.conf
+  [5]   10-sub-pixel-rgb.conf
+  [6]   10-sub-pixel-vbgr.conf
+  [7]   10-sub-pixel-vrgb.conf
+  [8]   10-unhinted.conf
+  [9]   20-fix-globaladvance.conf *
+  [10]  20-unhint-small-dejavu-sans-mono.conf *
+  [11]  20-unhint-small-dejavu-sans.conf *
+  [12]  20-unhint-small-dejavu-serif.conf *
+  [13]  20-unhint-small-vera.conf *
+  [14]  25-ttf-arphic-ukai-render.conf *
+  [15]  25-ttf-arphic-uming-bitmaps.conf *
+  [16]  25-ttf-arphic-uming-render.conf *
+  [17]  25-unhint-nonlatin.conf *
+  [18]  30-metric-aliases.conf *
+  [19]  30-urw-aliases.conf *
+  [20]  35-ttf-arphic-ukai-aliases.conf *
+  [21]  35-ttf-arphic-uming-aliases.conf *
+  [22]  40-nonlatin.conf *
+  [23]  41-ttf-arphic-ukai.conf *
+  [24]  41-ttf-arphic-uming.conf *
+  [25]  44-wqy-zenhei.conf *
+  [26]  45-latin.conf *
+  [27]  49-sansserif.conf *
+  [28]  50-user.conf *
+  [29]  51-local.conf *
+  [30]  57-dejavu-sans-mono.conf *
+  [31]  57-dejavu-sans.conf *
+  [32]  57-dejavu-serif.conf *
+  [33]  59-google-droid-sans-mono.conf *
+  [34]  59-google-droid-sans.conf *
+  [35]  59-google-droid-serif.conf *
+  [36]  60-latin.conf *
+  [37]  60-liberation.conf
+  [38]  64-ttf-arphic-uming.conf *
+  [39]  65-fonts-persian.conf *
+  [40]  65-khmer.conf *
+  [41]  65-nonlatin.conf *
+  [42]  66-ja-ipafonts.conf *
+  [43]  66-takao-fonts.conf *
+  [44]  66-wqy-zenhei-sharp-no13px.conf *
+  [45]  66-wqy-zenhei-sharp.conf *
+  [46]  69-unifont.conf *
+  [47]  70-no-bitmaps.conf *
+  [48]  70-yes-bitmaps.conf *
+  [49]  75-ttf-arphic-ukai-select.conf *
+  [50]  80-delicious.conf *
+  [51]  90-synthetic.conf *
+  [52]  90-ttf-arphic-ukai-embolden.conf *
+  [53]  90-ttf-arphic-uming-embolden.conf *
