@@ -1,6 +1,4 @@
 # Network
-# move net-wireless/rt61-firmware sys-firmware/rt61-firmware
-sys-firmware/rt61-firmware ~x86
 net-misc/logmein-hamachi ~x86
 net-wireless/ndiswrapper ~x86
 # Disks, File systems, etc.
