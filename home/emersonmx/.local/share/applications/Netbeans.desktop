@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Netbeans
+Comment=
+Icon=/media/BKP/local/share/netbeans-7.1.2/nb/netbeans.png
+Exec=/media/BKP/local/bin/netbeans
+Path=/media/BKP/local/share/netbeans-7.1.2
+Terminal=false
+StartupNotify=false
+Categories=Development

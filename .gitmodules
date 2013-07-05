@@ -1,0 +1,3 @@
+[submodule "media/BKP/scripts"]
+	path = media/BKP/scripts
+	url = https://emersonmx@bitbucket.org/emersonmx/scripts.git

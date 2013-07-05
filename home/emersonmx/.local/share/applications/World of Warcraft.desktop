@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=World of Warcraft
+Comment=
+Icon=/media/BKP/WOW/wow.png
+Exec=wine start /Unix /media/BKP/WOW/Wow.exe
+Path=
+Terminal=false
+StartupNotify=false
+Categories=Game

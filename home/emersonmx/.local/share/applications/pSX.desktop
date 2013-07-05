@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=pSX
+Comment=PSX Emulator
+Icon=/media/BKP/Jogos/pSX/icon.png
+Exec=/media/BKP/Jogos/pSX/pSX
+Path=
+Terminal=false
+StartupNotify=false
+Categories=Game

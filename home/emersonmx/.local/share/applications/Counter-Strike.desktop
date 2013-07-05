@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Counter-Strike
+Comment=Counter-Strike
+Icon=/media/BKP/Counter-Strike 1.6/cstrike/cstrike.png
+Exec=wine start /Unix "/media/BKP/Counter-Strike 1.6/hl.exe -nomaster -game cstrike"
+Path=
+Terminal=false
+StartupNotify=false
+Categories=Game

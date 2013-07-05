@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Diablo II - Windowed
+Comment=Diablo II - Windowed
+Icon=/media/BKP/Diablo II/D2X.png
+Exec=wine start /Unix "/media/BKP/Diablo II/Diablo II.exe" -w
+Path=
+Terminal=false
+StartupNotify=false
+Categories=Game

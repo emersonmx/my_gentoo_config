@@ -19,6 +19,7 @@ app-portage/layman
 app-text/docbook-xml-dtd
 app-text/docbook-xsl-stylesheets
 app-text/evince
+app-text/fbreader
 app-text/gtranslator
 app-text/texlive
 app-vim/bufexplorer
