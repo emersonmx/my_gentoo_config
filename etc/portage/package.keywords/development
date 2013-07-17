@@ -37,6 +37,7 @@ dev-util/cmake ~x86
 dev-games/ogre ~x86
 dev-games/cegui ~x86
 dev-games/ois ~x86
+media-libs/glm ~x86
 ### IA
 sci-mathematics/fann ~x86
 media-libs/opencv ~x86
@@ -70,3 +71,5 @@ dev-util/eclipse-sdk ~x86
 # Miscellaneous
 app-text/gtranslator ~x86
 dev-libs/libpeas ~x86
+sys-apps/baselayout-java ~x86
+app-admin/eselect-java ~x86

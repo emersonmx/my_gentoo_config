@@ -27,6 +27,7 @@ x11-misc/xscreensaver gdm new-login
 net-dns/dnsmasq script
 
 # Development
+app-admin/eselect-php fpm apache2
 media-video/ffmpeg opus
 dev-java/antlr java
 www-apps/redmine passenger imagemagick

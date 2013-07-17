@@ -62,6 +62,7 @@ dev-python/sqlalchemy
 dev-ruby/libxml
 dev-tex/abntex
 dev-tex/luatex
+dev-tex/minted
 dev-util/ddd
 dev-util/devhelp
 dev-util/glade
@@ -154,7 +155,6 @@ sys-fs/udisks-glue
 sys-fs/udisks:0
 sys-kernel/genkernel
 sys-kernel/gentoo-sources
-sys-kernel/gentoo-sources:3.5.7
 sys-kernel/linux-firmware
 sys-kernel/module-rebuild
 sys-libs/db

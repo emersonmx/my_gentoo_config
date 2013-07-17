@@ -30,7 +30,7 @@ set viminfo='20,\"500
 "   Plugins
 noremap <silent> <Leader>f :NERDTree<CR><CR>
 noremap <Leader>t :TlistToggle<CR>
-noremap <Leader>gc :Gcommit -sa<CR>
+noremap <Leader>gc :Gcommit -sav<CR>
 noremap <Leader>gs :Gstatus<CR>
 noremap <Leader>gl :Glog<CR>
 noremap <Leader>gb :Gblame<CR>
