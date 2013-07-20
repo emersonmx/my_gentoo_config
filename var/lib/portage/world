@@ -122,6 +122,7 @@ net-misc/netkit-telnetd
 net-nds/portmap
 net-p2p/transmission
 net-print/cups
+net-print/hplip
 net-wireless/aircrack-ng
 net-wireless/wireless-tools
 net-wireless/wpa_supplicant
