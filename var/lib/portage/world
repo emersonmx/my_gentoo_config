@@ -48,7 +48,6 @@ dev-java/oracle-jdk-bin
 dev-lang/lua
 dev-lang/php
 dev-libs/boost
-dev-libs/gobject-introspection
 dev-libs/icu
 dev-libs/libxml2
 dev-python/PyQt4
@@ -72,6 +71,7 @@ dev-util/valgrind
 dev-vcs/git
 dev-vcs/mercurial
 dev-vcs/subversion
+games-emulation/desmume
 games-emulation/dosbox
 games-emulation/snes9x
 games-emulation/vbam
@@ -80,6 +80,7 @@ games-util/qjoypad
 gnome-base/gdm
 gnome-extra/libgda
 gnome-extra/zenity
+kde-base/kdebase-runtime-meta
 lxde-base/lxappearance
 media-fonts/arphicfonts
 media-fonts/bitstream-cyberbit

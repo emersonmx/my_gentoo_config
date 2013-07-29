@@ -2,6 +2,8 @@
 app-office/openproj-bin ~x86
 www-apps/redmine ~x86
 # Libraries
+#dev-lang/vala ~x86
+#dev-libs/vala-common ~x86
 media-libs/libsfml ~x86
 app-admin/eselect-boost ~x86
 media-libs/lilv ~x86
@@ -15,9 +17,9 @@ media-libs/glfw ~x86
 dev-python/psycopg ~x86
 dev-python/imaging ~x86
 dev-games/mygui ~x86
-dev-libs/glib ~x86
-dev-libs/gobject-introspection ~x86
-dev-libs/gobject-introspection-common ~x86
+#dev-libs/glib ~x86
+#dev-libs/gobject-introspection ~x86
+#dev-libs/gobject-introspection-common ~x86
 media-libs/gegl ~x86
 media-libs/babl ~x86
 gnome-extra/libgda ~x86

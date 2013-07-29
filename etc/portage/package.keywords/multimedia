@@ -15,11 +15,11 @@ x11-themes/yasis-icon-theme ~x86
 # mplayer
 media-video/mplayer2 ~x86
 media-video/smplayer2 ~x86
-media-sound/cdparanoia ~x86
-app-admin/eselect-cdparanoia ~x86
+#media-sound/cdparanoia ~x86
+#app-admin/eselect-cdparanoia ~x86
 app-admin/eselect-lib-bin-symlink ~x86
-dev-libs/libcdio-paranoia ~x86
-dev-libs/libcdio ~x86
+#dev-libs/libcdio-paranoia ~x86
+#dev-libs/libcdio ~x86
 # Sound
 media-libs/suil ~x86
 media-sound/qtractor ~x86
