@@ -25,6 +25,8 @@ set wildmode=list:longest,full
 set mouse=a
 set guioptions+=b
 set viminfo='20,\"500
+set incsearch
+set hlsearch
 
 " SHORTCUTS
 "   Plugins

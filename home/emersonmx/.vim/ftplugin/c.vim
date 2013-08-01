@@ -4,11 +4,11 @@ set textwidth=80
 set smartindent
 
 " Shortcuts
-noremap <F5> :!make<CR>
-noremap <S-F5> :!make %:r<CR>
+noremap <F5> :make<CR>
+noremap <S-F5> :make %:r<CR>
 noremap <F6> :!./%:r<CR>
 noremap <S-F6> :!./%:r<Space>
-inoremap <F5> <C-O>:!make<CR>
-inoremap <S-F5> <C-O>:!make %:r<CR>
-inoremap <F6> :!./%:r<CR>
-inoremap <S-F6> :!./%:r<Space>
+inoremap <F5> <C-O>:make<CR>
+inoremap <S-F5> <C-O>:make %:r<CR>
+inoremap <F6> <C-O>:!./%:r<CR>
+inoremap <S-F6> <C-O>:!./%:r<Space>
