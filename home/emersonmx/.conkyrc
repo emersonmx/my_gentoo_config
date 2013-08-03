@@ -32,8 +32,8 @@ use_spacer no
 override_utf8_locale yes
 
 TEXT
-${font Zekton:style=Bold:pixelsize=20}${alignc}${time %H:%M:%S}${font Zekton:size=8}
-${font Zekton:style=Bold:pixelsize=10}${alignc}${time %A - %d/%m/%y}${font Zekton:size=8}
+${font Zekton:style=Bold:pixelsize=20}${alignc}${time %H:%M:%S}${font Zekton:size=9}
+${font Zekton:style=Bold:pixelsize=10}${alignc}${time %A - %d/%m/%y}${font Zekton:size=9}
 SYSTEM ${hr 1 }
 
 Hostname: $alignr$nodename
@@ -73,6 +73,6 @@ HD I/O ${diskiograph}
 
 NETWORK ${hr 1}${color}
 
-Down ${downspeed eth0} k/s ${alignr}Up ${upspeed eth0} k/s
-${downspeedgraph eth0 25,107} ${alignr}${upspeedgraph eth0 25,107}
-Total ${totaldown eth0} ${alignr}Total ${totalup eth0}
+Down ${downspeed wlan0} k/s ${alignr}Up ${upspeed wlan0} k/s
+${downspeedgraph wlan0 25,107} ${alignr}${upspeedgraph wlan0 25,107}
+Total ${totaldown wlan0} ${alignr}Total ${totalup wlan0}

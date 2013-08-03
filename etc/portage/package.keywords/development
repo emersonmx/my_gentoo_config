@@ -2,7 +2,8 @@
 app-office/openproj-bin ~x86
 www-apps/redmine ~x86
 # Libraries
-media-libs/glm ~x86
+#dev-lang/vala ~x86
+#dev-libs/vala-common ~x86
 media-libs/libsfml ~x86
 app-admin/eselect-boost ~x86
 media-libs/lilv ~x86
@@ -24,7 +25,8 @@ media-libs/babl ~x86
 gnome-extra/libgda ~x86
 net-libs/nodejs ~x86
 ### Geo
-#dev-db/postgis ~x86
+dev-db/postgis ~x86
+sci-libs/gdal ~x86
 #sci-libs/geos ~x86
 sci-geosciences/mapnik ~x86
 #sci-geosciences/osm2pgsql ~x86
@@ -37,6 +39,7 @@ dev-util/cmake ~x86
 dev-games/ogre ~x86
 dev-games/cegui ~x86
 dev-games/ois ~x86
+media-libs/glm ~x86
 ### IA
 sci-mathematics/fann ~x86
 media-libs/opencv ~x86
@@ -58,3 +61,5 @@ dev-java/java-sdk-docs ~x86
 # Miscellaneous
 app-text/gtranslator ~x86
 dev-libs/libpeas ~x86
+sys-apps/baselayout-java ~x86
+app-admin/eselect-java ~x86
