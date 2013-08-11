@@ -33,7 +33,6 @@ dev-cpp/gtkmm:2.4
 dev-db/pgadmin3
 dev-db/postgis
 dev-db/postgresql-base
-dev-db/postgresql-base:9.1
 dev-db/postgresql-server
 dev-db/spatialite
 dev-games/cegui
@@ -90,6 +89,7 @@ media-fonts/ja-ipafonts
 media-fonts/takao-fonts
 media-fonts/wqy-microhei
 media-fonts/wqy-zenhei
+media-gfx/comix
 media-gfx/gimp
 media-gfx/gqview
 media-gfx/inkscape

@@ -4,6 +4,7 @@ www-apps/redmine ~x86
 # Libraries
 #dev-lang/vala ~x86
 #dev-libs/vala-common ~x86
+media-libs/freeimage ~x86
 media-libs/libsfml ~x86
 app-admin/eselect-boost ~x86
 media-libs/lilv ~x86
