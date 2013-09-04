@@ -18,6 +18,7 @@ set colorcolumn=80
 set showmatch
 set showmode
 set nowrap
+set guifont="Monospace 10"
 colorscheme koehler
 
 " Miscellaneous settings
