@@ -23,6 +23,8 @@ colorscheme koehler
 " Miscellaneous settings
 set wildmode=list:longest,full
 set mouse=a
+set guioptions-=m
+set guioptions-=T
 set guioptions+=b
 set viminfo='20,\"500
 set incsearch
