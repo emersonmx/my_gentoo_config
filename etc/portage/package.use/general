@@ -3,6 +3,7 @@ xfce-base/thunar libnotify
 
 # Documentation
 app-text/texlive doc
+app-doc/doxygen dot
 
 # Games
 games-emulation/snes9x netplay
@@ -41,6 +42,7 @@ dev-lang/php apache2 calendar cgi doc fpm gmp imap intl mhash pdo snmp sockets z
 sci-libs/libsvm tools
 media-libs/freetype fontforge
 dev-games/ogre tools doc
+sci-physics/bullet doc
 dev-games/cegui ogre lua zip
 dev-java/oracle-jdk-bin jce doc
 sys-libs/zlib minizip
