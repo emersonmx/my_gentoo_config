@@ -18,11 +18,13 @@ set colorcolumn=80
 set showmatch
 set showmode
 set nowrap
+set guifont="Monospace 10"
 colorscheme koehler
 
 " Miscellaneous settings
 set wildmode=list:longest,full
 set mouse=a
+set guioptions-=T
 set guioptions+=b
 set viminfo='20,\"500
 set incsearch

@@ -42,14 +42,18 @@ snippet gsf
 	inline ${1:int} ${2:variable}() const { return $2_; }
 
 	inline void set_$2($1 $2) { $2_ = $2; }
+
+	${3}
 # Get/Set function for Objects
 snippet Gsf
 	inline ${1:int} ${2:variable}() const { return $2_; }
 
 	inline void set_$2(const $1& $2) { $2_ = $2; }
+
+	${3}
 # Abstract function
 snippet abfun
-	virtual ${1:void} ${2:function}(${3}) = 0;
+	virtual ${1:void} ${2:function}(${3}) = 0;${4}
 # try
 snippet try
 	try {
