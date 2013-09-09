@@ -2,6 +2,7 @@
 app-office/openproj-bin ~x86
 www-apps/redmine ~x86
 # Libraries
+sci-mathematics/cgal ~x86
 media-libs/glm ~x86
 media-libs/libsfml ~x86
 app-admin/eselect-boost ~x86

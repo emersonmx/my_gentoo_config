@@ -99,6 +99,7 @@ media-libs/sdl-mixer
 media-libs/sdl-ttf
 media-plugins/gst-plugins-ffmpeg
 media-sound/audacity
+media-sound/musescore
 media-video/cinelerra
 media-video/gtk-recordmydesktop
 media-video/mplayer2
@@ -126,6 +127,7 @@ sci-geosciences/mapnik
 sci-libs/gdal
 sci-libs/geos
 sci-libs/proj
+sci-mathematics/cgal
 sci-physics/bullet
 sci-visualization/gnuplot
 sys-apps/hwinfo
