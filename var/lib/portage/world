@@ -40,8 +40,6 @@ dev-games/mygui
 dev-games/ogre
 dev-games/ois
 dev-java/ant
-dev-java/java-config
-dev-java/java-config-wrapper
 dev-java/maven-bin
 dev-java/oracle-jdk-bin
 dev-lang/lua
@@ -89,7 +87,6 @@ media-fonts/ja-ipafonts
 media-fonts/takao-fonts
 media-fonts/wqy-microhei
 media-fonts/wqy-zenhei
-media-gfx/comix
 media-gfx/gimp
 media-gfx/gqview
 media-gfx/inkscape
@@ -102,6 +99,7 @@ media-libs/sdl-mixer
 media-libs/sdl-ttf
 media-plugins/gst-plugins-ffmpeg
 media-sound/audacity
+media-sound/musescore
 media-video/cinelerra
 media-video/gtk-recordmydesktop
 media-video/mplayer2
@@ -111,8 +109,6 @@ media-video/transcode
 net-analyzer/nmap
 net-dialup/ppp
 net-dialup/rp-pppoe
-net-dns/dnsmasq
-net-firewall/iptables
 net-im/pidgin
 net-irc/irssi
 net-libs/nodejs
@@ -131,6 +127,7 @@ sci-geosciences/mapnik
 sci-libs/gdal
 sci-libs/geos
 sci-libs/proj
+sci-mathematics/cgal
 sci-physics/bullet
 sci-visualization/gnuplot
 sys-apps/hwinfo
@@ -141,7 +138,6 @@ sys-apps/mlocate
 sys-apps/pciutils
 sys-apps/portage
 sys-apps/usbutils
-sys-apps/v86d
 sys-block/gparted
 sys-boot/grub
 sys-boot/unetbootin
@@ -154,13 +150,10 @@ sys-fs/squashfs-tools
 sys-fs/udiskie
 sys-fs/udisks
 sys-fs/udisks-glue
-sys-fs/udisks:0
 sys-kernel/genkernel
 sys-kernel/gentoo-sources
-sys-kernel/linux-firmware
 sys-kernel/module-rebuild
 sys-libs/db
-sys-libs/db:4.5
 sys-libs/glibc
 sys-libs/gpm
 sys-process/vixie-cron
@@ -177,11 +170,12 @@ x11-apps/xkill
 x11-apps/xrandr
 x11-base/xorg-drivers
 x11-base/xorg-server
-x11-drivers/nvidia-drivers
 x11-drivers/xf86-input-evdev
 x11-drivers/xf86-input-joystick
 x11-drivers/xf86-input-keyboard
 x11-drivers/xf86-input-mouse
+x11-drivers/xf86-input-synaptics
+x11-drivers/xf86-video-intel
 x11-libs/gksu
 x11-misc/xclip
 x11-misc/xlockmore

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=p7zip GUI
+Type=Application
+Comment=Port of 7-Zip archiver for Unix
+Exec=7zG
+TryExec=7zG
+Icon=p7zip
+Categories=GTK;Utility;Archiving;Compression;
+NoDisplay=true

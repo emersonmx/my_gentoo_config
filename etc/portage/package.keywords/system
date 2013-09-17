@@ -17,5 +17,7 @@ net-print/xerox-drivers ~x86
 # Fonts
 media-fonts/takao-fonts ~x86
 # Java
+sys-apps/baselayout-java ~x86
+app-admin/eselect-java ~x86
 dev-java/java-config ~x86
 dev-java/java-config-wrapper ~x86

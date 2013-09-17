@@ -21,6 +21,7 @@ app-admin/eselect-lib-bin-symlink ~x86
 #dev-libs/libcdio-paranoia ~x86
 #dev-libs/libcdio ~x86
 # Sound
+media-sound/lmms ~x86
 media-libs/suil ~x86
 media-sound/qtractor ~x86
 media-sound/musescore ~x86

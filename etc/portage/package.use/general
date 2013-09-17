@@ -13,6 +13,7 @@ games-emulation/vbam link
 # Multimedia
 media-sound/amsynth jack
 x11-themes/gentoo-artwork kde
+media-sound/lmms vst
 
 # System
 app-laptop/laptop-mode-tools scsi
@@ -25,7 +26,6 @@ app-emulation/wine oss
 www-servers/apache userdir
 gnome-base/gvfs gdu
 x11-misc/xscreensaver gdm new-login
-net-dns/dnsmasq script
 net-print/hplip libusb0 scanner -kde
 
 # Development
