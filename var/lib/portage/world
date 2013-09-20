@@ -12,7 +12,7 @@ app-emulation/virtualbox-modules
 app-emulation/wine
 app-misc/livecd-tools
 app-office/dia
-app-office/libreoffice-bin
+app-office/libreoffice
 app-portage/eix
 app-portage/gentoolkit
 app-portage/layman
@@ -67,7 +67,6 @@ dev-util/gob
 dev-util/valgrind
 dev-vcs/git
 dev-vcs/mercurial
-dev-vcs/subversion
 games-emulation/desmume
 games-emulation/dosbox
 games-emulation/snes9x
@@ -88,7 +87,6 @@ media-fonts/ja-ipafonts
 media-fonts/takao-fonts
 media-fonts/wqy-microhei
 media-fonts/wqy-zenhei
-media-gfx/comix
 media-gfx/gimp
 media-gfx/gqview
 media-gfx/inkscape

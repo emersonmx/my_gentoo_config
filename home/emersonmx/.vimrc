@@ -43,8 +43,6 @@ let g:SuperTabMappingForward = "<C-Space>"
 let g:SuperTabMappingBackward = "<C-S-Space>"
 
 "   Utils
-map <F1> :!exo-open --launch TerminalEmulator &<CR><CR>
-imap <F1> <C-O>:!exo-open --launch TerminalEmulator &<CR><CR>
 map <S-F1> :!
 imap <S-F1> <C-O>:!
 noremap <F2> :e<Space>
@@ -57,6 +55,7 @@ noremap <S-F3> :wa<CR>
 inoremap <S-F3> <C-O>:wa<CR>
 noremap <F4> :mksession! .vimsession<CR>
 inoremap <F4> <C-O>:mksession! .vimsession<CR>
+imap <C-BS> <C-W>
 
 " Auto commands
 autocmd BufWritePre * :%s/\s\+$//e

@@ -1,2 +1,3 @@
 sys-apps/hal
 >=sci-geosciences/mapnik-2.1
+>app-office/libreoffice-4.0.4.2

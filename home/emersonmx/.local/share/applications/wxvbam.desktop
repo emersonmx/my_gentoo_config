@@ -7,5 +7,5 @@ GenericName=GameBoy Advance Emulator
 Comment=Nindendo GameBoy Advance Emulator
 Exec=wxvbam
 Icon=vbam
-Categories=Game;Emulator;
+Categories=Game;
 NoDisplay=true
