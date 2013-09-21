@@ -13,7 +13,7 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 set ruler
-set nocursorline
+set cursorline
 set colorcolumn=80
 set showmatch
 set showmode
