@@ -34,11 +34,6 @@ set hlsearch
 "   Plugins
 noremap <silent> <Leader>f :NERDTree<CR><CR>
 noremap <Leader>t :TlistToggle<CR>
-noremap <Leader>gc :Gcommit -sav<CR>
-noremap <Leader>gs :Gstatus<CR>
-noremap <Leader>gl :Glog<CR>
-noremap <Leader>gb :Gblame<CR>
-noremap <Leader>gu :Git push<CR>
 let g:SuperTabMappingForward = "<C-Space>"
 let g:SuperTabMappingBackward = "<C-S-Space>"
 
