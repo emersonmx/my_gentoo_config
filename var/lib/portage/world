@@ -24,6 +24,7 @@ app-text/gtranslator
 app-text/texlive
 app-vim/bufexplorer
 app-vim/nerdtree
+app-vim/pathogen
 app-vim/supertab
 app-vim/surround
 app-vim/taglist

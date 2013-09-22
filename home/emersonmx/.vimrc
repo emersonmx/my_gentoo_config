@@ -32,8 +32,11 @@ set hlsearch
 
 " SHORTCUTS
 "   Plugins
-noremap <silent> <Leader>f :NERDTree<CR><CR>
-noremap <Leader>t :TlistToggle<CR>
+noremap <silent> <Leader>f :NERDTreeToggle<CR><CR>
+let NERDTreeIgnore = ['\.o$', '\.in$', '^tags$']
+noremap <Leader>l :TlistToggle<CR>
+let Tlist_Use_Right_Window = 1
+let Tlist_WinWidth = 40
 let g:SuperTabMappingForward = "<C-Space>"
 let g:SuperTabMappingBackward = "<C-S-Space>"
 
@@ -52,11 +55,16 @@ noremap <F4> :mksession! .vimsession<CR>
 inoremap <F4> <C-O>:mksession! .vimsession<CR>
 imap <C-BS> <C-W>
 
+" Habit break
+noremap <Up> <nop>
+noremap <Down> <nop>
+noremap <Left> <nop>
+noremap <Right> <nop>
+
 " Auto commands
 autocmd BufWritePre * :%s/\s\+$//e
 autocmd BufNewFile,BufRead *.frag,*.vert,*.fp,*.vp,*.glsl setf glsl
 autocmd BufUnload * let @/=""
-autocmd VimResized * wincmd =
 
 " Variable declaration
 let g:snips_author="Emerson Max de Medeiros Silva"
