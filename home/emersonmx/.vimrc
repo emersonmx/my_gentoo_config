@@ -32,6 +32,7 @@ set hlsearch
 
 " SHORTCUTS
 "   Plugins
+execute pathogen#infect()
 noremap <silent> <Leader>f :NERDTreeToggle<CR><CR>
 let NERDTreeIgnore = ['\.o$', '\.in$', '^tags$']
 noremap <Leader>l :TlistToggle<CR>
