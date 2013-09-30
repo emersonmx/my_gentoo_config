@@ -7,6 +7,5 @@
       <property name="Rate" type="int" value="40"/>
     </property>
     <property name="Numlock" type="bool" value="true"/>
-    <property name="RestoreNumlock" type="bool" value="true"/>
   </property>
 </channel>

@@ -12,7 +12,7 @@ app-emulation/virtualbox-modules
 app-emulation/wine
 app-misc/livecd-tools
 app-office/dia
-app-office/libreoffice
+app-office/libreoffice-bin
 app-portage/eix
 app-portage/gentoolkit
 app-portage/layman
@@ -102,8 +102,6 @@ media-video/transcode
 net-analyzer/nmap
 net-dialup/ppp
 net-dialup/rp-pppoe
-net-dns/dnsmasq
-net-firewall/iptables
 net-im/pidgin
 net-irc/irssi
 net-libs/nodejs
@@ -132,7 +130,6 @@ sys-apps/mlocate
 sys-apps/pciutils
 sys-apps/portage
 sys-apps/usbutils
-sys-apps/v86d
 sys-block/gparted
 sys-boot/grub
 sys-boot/unetbootin
@@ -145,13 +142,10 @@ sys-fs/squashfs-tools
 sys-fs/udiskie
 sys-fs/udisks
 sys-fs/udisks-glue
-sys-fs/udisks:0
 sys-kernel/genkernel
 sys-kernel/gentoo-sources
-sys-kernel/linux-firmware
 sys-kernel/module-rebuild
 sys-libs/db
-sys-libs/db:4.5
 sys-libs/glibc
 sys-libs/gpm
 sys-process/vixie-cron
@@ -168,11 +162,12 @@ x11-apps/xkill
 x11-apps/xrandr
 x11-base/xorg-drivers
 x11-base/xorg-server
-x11-drivers/nvidia-drivers
 x11-drivers/xf86-input-evdev
 x11-drivers/xf86-input-joystick
 x11-drivers/xf86-input-keyboard
 x11-drivers/xf86-input-mouse
+x11-drivers/xf86-input-synaptics
+x11-drivers/xf86-video-intel
 x11-libs/gksu
 x11-misc/xclip
 x11-misc/xlockmore
