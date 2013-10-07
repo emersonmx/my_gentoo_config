@@ -17,5 +17,5 @@ for e in `diff -q -r . / | grep -v Somente`
 do
     file_a=`echo $e | awk '{print $3}'`
     file_b=`echo $e | awk '{print $5}'`
-    $use_editor $file_a $file_b
+    $use_editor -f $file_a $file_b
 done

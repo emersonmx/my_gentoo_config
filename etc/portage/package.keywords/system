@@ -13,6 +13,7 @@ xfce-base/exo ~x86
 xfce-base/thunar ~x86
 xfce-base/libxfce4util ~x86
 #gnome-base/gvfs ~x86
+net-print/hplip ~x86
 net-print/xerox-drivers ~x86
 # Fonts
 media-fonts/takao-fonts ~x86

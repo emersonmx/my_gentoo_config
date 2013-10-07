@@ -12,7 +12,6 @@ app-emulation/virtualbox-modules
 app-emulation/wine
 app-misc/livecd-tools
 app-office/dia
-app-office/libreoffice-bin
 app-portage/eix
 app-portage/gentoolkit
 app-portage/layman
@@ -44,6 +43,7 @@ dev-libs/libxml2
 dev-python/PyQt4
 dev-python/django
 dev-python/mechanize
+dev-python/pillow
 dev-python/pip
 dev-python/pygame
 dev-python/pyopengl
