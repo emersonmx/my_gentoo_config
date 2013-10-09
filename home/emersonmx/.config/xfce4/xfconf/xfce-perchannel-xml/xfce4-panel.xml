@@ -70,6 +70,7 @@
         <value type="string" value="gerenciador de tarefas"/>
         <value type="string" value="wicd-client.py"/>
         <value type="string" value="orage"/>
+        <value type="string" value="qjoypad"/>
         <value type="string" value="pidgin"/>
         <value type="string" value="transmission-qt"/>
         <value type="string" value="kwalletmanager"/>
@@ -78,6 +79,7 @@
         <value type="string" value="vuze"/>
         <value type="string" value="javaembeddedframe"/>
         <value type="string" value="transmission"/>
+        <value type="string" value="hp-systray"/>
       </property>
       <property name="show-frame" type="bool" value="false"/>
       <property name="size-max" type="uint" value="22"/>

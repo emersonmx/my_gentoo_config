@@ -26,6 +26,7 @@ www-servers/apache userdir
 gnome-base/gvfs gdu
 x11-misc/xscreensaver gdm new-login
 net-print/hplip libusb0 scanner -kde
+x11-wm/openbox imlib
 
 # Development
 app-admin/eselect-php fpm apache2
