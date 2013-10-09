@@ -64,6 +64,7 @@
       <property name="names-visible" type="array">
         <value type="string" value="desura"/>
         <value type="string" value="thunar"/>
+        <value type="string" value="gtk-recordmydesktop"/>
         <value type="string" value="wpa_gui"/>
         <value type="string" value="bluedevil-monolithic"/>
         <value type="string" value="gerenciador de tarefas"/>

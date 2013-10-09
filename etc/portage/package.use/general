@@ -52,3 +52,5 @@ sci-geosciences/mapnik geos gdal
 sci-libs/gdal geos
 dev-games/mygui tools plugins
 dev-qt/qtgui gtkstyle
+app-editors/vim ruby
+app-editors/gvim ruby

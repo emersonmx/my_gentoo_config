@@ -45,6 +45,8 @@ media-libs/glm ~x86
 sci-mathematics/fann ~x86
 media-libs/opencv ~x86
 sci-libs/libsvm ~x86
+# Tools
+
 # Java
 dev-java/smack ~x86
 dev-java/saxon ~x86

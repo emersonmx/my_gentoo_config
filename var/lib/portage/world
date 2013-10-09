@@ -58,6 +58,7 @@ dev-util/devhelp
 dev-util/glade
 dev-util/glade:3
 dev-util/gob
+dev-util/nemiver
 dev-util/valgrind
 dev-vcs/git
 dev-vcs/mercurial
