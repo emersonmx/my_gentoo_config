@@ -7,10 +7,10 @@ app-cdr/k3b
 app-doc/doxygen
 app-editors/gvim
 app-editors/vim
+app-editors/vim-core
 app-emulation/virtualbox-bin
 app-emulation/virtualbox-modules
 app-emulation/wine
-app-misc/livecd-tools
 app-office/dia
 app-office/libreoffice
 app-portage/eix
