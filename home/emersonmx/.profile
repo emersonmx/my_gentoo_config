@@ -1,1 +1,1 @@
-/home/emersonmx/.bashrc
+/home/emersonmx/.bash_profile
