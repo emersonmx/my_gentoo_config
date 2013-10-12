@@ -5,16 +5,7 @@
 # that can't tolerate any output.  So make sure this doesn't display
 # anything or bad things will happen !
 
-
-# Test for an interactive shell.  There is no need to set anything
-# past this point for scp and rcp, and it's important to refrain from
-# outputting anything in those cases.
-if [[ $- != *i* ]] ; then
-	# Shell is non-interactive.  Be done now!
-	return
-fi
-
-# Put your fun stuff here.
+# Put your fun non sensitive stuff here.
 export BKP_DIR=/media/BKP
 export POG_DIR=$BKP_DIR/POG
 export PYTHON_POG_DIR=$POG_DIR/Python
@@ -26,3 +17,13 @@ ANDROID_TOOLS=$ANDROID_SDK/tools
 ANDROID_PLATFORM_TOOLS=$ANDROID_SDK/platform-tools
 
 export PATH=$PATH:$BKP_DIR/local/bin:$ANDROID_TOOLS:$ANDROID_PLATFORM_TOOLS
+
+# Test for an interactive shell.  There is no need to set anything
+# past this point for scp and rcp, and it's important to refrain from
+# outputting anything in those cases.
+if [[ $- != *i* ]] ; then
+	# Shell is non-interactive.  Be done now!
+	return
+fi
+
+# Put your fun stuff here.
