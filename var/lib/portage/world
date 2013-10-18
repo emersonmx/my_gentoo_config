@@ -68,6 +68,8 @@ games-emulation/snes9x
 games-emulation/vbam
 games-emulation/zsnes
 games-util/qjoypad
+games-util/steam-launcher
+games-util/steam-meta
 gnome-base/gdm
 gnome-extra/libgda
 gnome-extra/zenity
@@ -92,8 +94,11 @@ media-libs/libsdl
 media-libs/sdl-image
 media-libs/sdl-mixer
 media-libs/sdl-ttf
+media-plugins/alsa-plugins
 media-plugins/gst-plugins-ffmpeg
 media-sound/audacity
+media-sound/pavucontrol
+media-sound/pulseaudio
 media-video/cinelerra
 media-video/gtk-recordmydesktop
 media-video/mplayer2
@@ -136,6 +141,7 @@ sys-apps/usbutils
 sys-apps/v86d
 sys-block/gparted
 sys-boot/grub
+sys-boot/os-prober
 sys-boot/unetbootin
 sys-cluster/openmpi
 sys-devel/gcc
@@ -211,6 +217,5 @@ xfce-extra/tumbler
 xfce-extra/xfce4-battery-plugin
 xfce-extra/xfce4-datetime-plugin
 xfce-extra/xfce4-kbdleds-plugin
-xfce-extra/xfce4-mixer
 xfce-extra/xfce4-power-manager
 xfce-extra/xfce4-screenshooter

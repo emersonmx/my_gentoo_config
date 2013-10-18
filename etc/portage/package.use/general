@@ -54,3 +54,7 @@ dev-games/mygui tools plugins
 dev-qt/qtgui gtkstyle
 app-editors/vim ruby
 app-editors/gvim ruby
+
+# Steam
+games-util/steam-launcher steamruntime
+games-util/steam-meta steamruntime

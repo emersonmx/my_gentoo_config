@@ -14,8 +14,8 @@
         <value type="int" value="3"/>
         <value type="int" value="15"/>
         <value type="int" value="9"/>
-        <value type="int" value="2"/>
         <value type="int" value="6"/>
+        <value type="int" value="2"/>
         <value type="int" value="4"/>
       </property>
       <property name="mode" type="uint" value="0"/>
@@ -69,6 +69,7 @@
         <value type="string" value="bluedevil-monolithic"/>
         <value type="string" value="gerenciador de tarefas"/>
         <value type="string" value="wicd-client.py"/>
+        <value type="string" value="steam"/>
         <value type="string" value="orage"/>
         <value type="string" value="pidgin"/>
         <value type="string" value="transmission-qt"/>
@@ -90,11 +91,12 @@
       <property name="miniature-view" type="bool" value="true"/>
     </property>
     <property name="plugin-4" type="string" value="datetime"/>
-    <property name="plugin-2" type="string" value="mixer">
-      <property name="sound-card" type="string" value="HDAIntelPCHAlsamixer"/>
-      <property name="track" type="string" value="Principal"/>
-      <property name="command" type="string" value="xfce4-mixer"/>
-      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+    <property name="plugin-2" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="13816943701.desktop"/>
+      </property>
+      <property name="disable-tooltips" type="bool" value="true"/>
+      <property name="show-label" type="bool" value="false"/>
     </property>
   </property>
 </channel>
