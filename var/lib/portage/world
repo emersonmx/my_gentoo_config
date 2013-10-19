@@ -35,7 +35,6 @@ dev-games/ogre
 dev-games/ois
 dev-java/ant
 dev-java/maven-bin
-dev-java/oracle-jdk-bin
 dev-lang/lua
 dev-lang/php
 dev-libs/boost

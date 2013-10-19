@@ -1,6 +1,6 @@
 background yes
-font Zekton:size=7
-xftfont Zekton:size=7
+font Zekton:size=8
+xftfont Zekton:size=8
 use_xft yes
 xftalpha 0.1
 update_interval 1.0
@@ -32,8 +32,8 @@ use_spacer no
 override_utf8_locale yes
 
 TEXT
-${font Zekton:style=Bold:pixelsize=20}${alignc}${time %H:%M:%S}${font Zekton:size=8}
-${font Zekton:style=Bold:pixelsize=10}${alignc}${time %A - %d/%m/%y}${font Zekton:size=8}
+${font Zekton:style=Bold:pixelsize=26}${alignc}${time %H:%M:%S}${font Zekton:size=10}
+${font Zekton:style=Bold:pixelsize=14}${alignc}${time %A - %d/%m/%y}${font Zekton:size=10}
 SYSTEM ${hr 1 }
 
 Hostname: $alignr$nodename

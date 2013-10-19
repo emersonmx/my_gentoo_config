@@ -44,7 +44,6 @@ media-libs/freetype fontforge
 dev-games/ogre tools doc
 sci-physics/bullet doc
 dev-games/cegui ogre lua zip
-dev-java/oracle-jdk-bin jce doc
 sys-libs/zlib minizip
 dev-python/PyQt4 webkit
 media-libs/sdl-mixer smpeg mod

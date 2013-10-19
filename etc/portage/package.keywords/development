@@ -1,6 +1,7 @@
 # Project Management
 app-office/openproj-bin ~x86
 www-apps/redmine ~x86
+
 # Libraries
 #dev-lang/vala ~x86
 #dev-libs/vala-common ~x86
@@ -52,7 +53,6 @@ dev-java/smack ~x86
 dev-java/saxon ~x86
 dev-java/maven-bin ~x86
 dev-java/jna ~x86
-dev-java/oracle-jdk-bin ~x86
 dev-java/java-sdk-docs ~x86
 # Miscellaneous
 app-text/gtranslator ~x86
