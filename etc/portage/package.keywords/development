@@ -57,6 +57,7 @@ dev-java/smack ~x86
 dev-java/saxon ~x86
 dev-java/maven-bin ~x86
 dev-java/jna ~x86
+dev-java/ant-owanttask ~x86
 # Miscellaneous
 app-text/gtranslator ~x86
 dev-libs/libpeas ~x86

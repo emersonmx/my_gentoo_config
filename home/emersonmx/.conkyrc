@@ -33,7 +33,7 @@ override_utf8_locale yes
 
 TEXT
 ${font Zekton:style=Bold:pixelsize=26}${alignc}${time %H:%M:%S}${font Zekton:size=10}
-${font Zekton:style=Bold:pixelsize=14}${alignc}${time %A - %d/%m/%y}${font Zekton:size=10}
+${font Zekton:style=Bold:pixelsize=14}${alignc}${time %A - %d/%m/%y}${font Zekton:size=8}
 SYSTEM ${hr 1 }
 
 Hostname: $alignr$nodename
