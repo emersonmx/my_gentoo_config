@@ -20,4 +20,34 @@
 	<startup-notify/>
 	<directories/>
 </action>
+<action>
+	<icon></icon>
+	<name>Abrir gitk aqui</name>
+	<unique-id>1383106256041133-30</unique-id>
+	<command>gitk</command>
+	<description></description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon></icon>
+	<name>Abrir git-citool aqui</name>
+	<unique-id>1383106118417129-23</unique-id>
+	<command>git citool</command>
+	<description></description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon></icon>
+	<name>Abrir gitview aqui</name>
+	<unique-id>1383106179529125-26</unique-id>
+	<command>gitview</command>
+	<description></description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
 </actions>

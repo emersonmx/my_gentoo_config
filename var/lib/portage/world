@@ -49,6 +49,7 @@ dev-python/pygame
 dev-python/pyopengl
 dev-python/sphinx
 dev-python/sqlalchemy
+dev-python/winpdb
 dev-ruby/libxml
 dev-tex/abntex
 dev-tex/luatex
@@ -91,6 +92,7 @@ media-libs/devil
 media-libs/glfw
 media-libs/libcdr
 media-libs/libsdl
+media-libs/libsdl2
 media-libs/sdl-image
 media-libs/sdl-mixer
 media-libs/sdl-ttf
