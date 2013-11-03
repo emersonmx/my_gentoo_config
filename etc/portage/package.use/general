@@ -29,6 +29,7 @@ net-dns/dnsmasq script
 net-print/hplip libusb0 scanner -kde
 
 # Development
+dev-lang/python doc
 dev-java/icedtea doc
 app-admin/eselect-php fpm apache2
 media-video/ffmpeg opus
