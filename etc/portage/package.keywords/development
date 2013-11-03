@@ -19,6 +19,8 @@ media-libs/glfw ~x86
 dev-python/psycopg ~x86
 dev-python/imaging ~x86
 dev-games/mygui ~x86
+media-libs/lcms ~x86
+media-libs/tiff ~x86
 #dev-libs/glib ~x86
 #dev-libs/gobject-introspection ~x86
 #dev-libs/gobject-introspection-common ~x86
