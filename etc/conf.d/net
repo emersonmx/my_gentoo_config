@@ -7,5 +7,3 @@ dns_domain_lo="anormalius"
 
 modules="wpa_supplicant"
 
-config_wlan0="dhcp"
-config_eth0="192.168.1.1/24 brd 192.168.1.255"

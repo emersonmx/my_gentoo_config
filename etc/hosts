@@ -8,8 +8,7 @@
 #
 
 # IPv4 and IPv6 localhost aliases
-127.0.0.1	calango.anormalius calango localhost
-::1		    calango.anormalius calango localhost
+127.0.0.1       cabore.anormalius cabore localhost
 
 #
 # Imaginary network.
