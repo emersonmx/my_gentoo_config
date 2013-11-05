@@ -168,6 +168,7 @@ www-client/chromium
 www-client/firefox
 www-client/links
 www-plugins/adobe-flash
+www-plugins/gecko-mediaplayer
 www-servers/apache
 x11-apps/mesa-progs
 x11-apps/xev

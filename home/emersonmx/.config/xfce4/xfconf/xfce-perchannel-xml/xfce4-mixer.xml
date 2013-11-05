@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <channel name="xfce4-mixer" version="1.0">
-  <property name="sound-card" type="string" value="HDAIntelAlsamixer"/>
+  <property name="sound-card" type="string" value="PlaybackudiointernoEstreoanalgicoPulseAudioMixer"/>
   <property name="sound-cards" type="empty">
     <property name="HDAIntelAlsamixer" type="array">
       <value type="string" value="Principal"/>
@@ -23,6 +23,9 @@
       <value type="string" value="PCM-2"/>
       <value type="string" value="Microfone"/>
       <value type="string" value="Volume"/>
+    </property>
+    <property name="PlaybackudiointernoEstreoanalgicoPulseAudioMixer" type="array">
+      <value type="string" value="Master"/>
     </property>
   </property>
   <property name="window-height" type="int" value="378"/>
