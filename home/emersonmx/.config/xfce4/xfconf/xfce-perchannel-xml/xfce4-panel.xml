@@ -15,6 +15,7 @@
         <value type="int" value="15"/>
         <value type="int" value="9"/>
         <value type="int" value="6"/>
+        <value type="int" value="2"/>
         <value type="int" value="8"/>
         <value type="int" value="7"/>
       </property>
@@ -85,17 +86,18 @@
       <property name="names-hidden" type="array">
       </property>
     </property>
-    <property name="plugin-2" type="string" value="mixer">
-      <property name="sound-card" type="string" value="HDAIntelAlsamixer"/>
-      <property name="track" type="string" value="Principal"/>
-      <property name="command" type="string" value="xfce4-mixer"/>
-      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-    </property>
     <property name="plugin-7" type="string" value="datetime"/>
     <property name="plugin-8" type="string" value="kbdleds"/>
     <property name="plugin-9" type="string" value="pager">
       <property name="rows" type="uint" value="2"/>
       <property name="miniature-view" type="bool" value="true"/>
+    </property>
+    <property name="plugin-2" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="13837441631.desktop"/>
+      </property>
+      <property name="show-label" type="bool" value="false"/>
+      <property name="disable-tooltips" type="bool" value="false"/>
     </property>
   </property>
 </channel>
