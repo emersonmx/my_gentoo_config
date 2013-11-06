@@ -16,8 +16,7 @@
         <value type="int" value="9"/>
         <value type="int" value="6"/>
         <value type="int" value="2"/>
-        <value type="int" value="8"/>
-        <value type="int" value="7"/>
+        <value type="int" value="4"/>
       </property>
       <property name="mode" type="uint" value="0"/>
       <property name="length-adjust" type="bool" value="true"/>
@@ -65,12 +64,13 @@
       <property name="names-visible" type="array">
         <value type="string" value="desura"/>
         <value type="string" value="thunar"/>
+        <value type="string" value="gtk-recordmydesktop"/>
         <value type="string" value="wpa_gui"/>
         <value type="string" value="bluedevil-monolithic"/>
         <value type="string" value="gerenciador de tarefas"/>
         <value type="string" value="wicd-client.py"/>
+        <value type="string" value="steam"/>
         <value type="string" value="orage"/>
-        <value type="string" value="qjoypad"/>
         <value type="string" value="pidgin"/>
         <value type="string" value="transmission-qt"/>
         <value type="string" value="kwalletmanager"/>
@@ -86,18 +86,17 @@
       <property name="names-hidden" type="array">
       </property>
     </property>
-    <property name="plugin-7" type="string" value="datetime"/>
-    <property name="plugin-8" type="string" value="kbdleds"/>
     <property name="plugin-9" type="string" value="pager">
       <property name="rows" type="uint" value="2"/>
       <property name="miniature-view" type="bool" value="true"/>
     </property>
+    <property name="plugin-4" type="string" value="datetime"/>
     <property name="plugin-2" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="13837441631.desktop"/>
+        <value type="string" value="13816943701.desktop"/>
       </property>
+      <property name="disable-tooltips" type="bool" value="true"/>
       <property name="show-label" type="bool" value="false"/>
-      <property name="disable-tooltips" type="bool" value="false"/>
     </property>
   </property>
 </channel>
