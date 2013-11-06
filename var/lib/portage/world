@@ -110,6 +110,7 @@ media-video/transcode
 net-analyzer/nmap
 net-dialup/ppp
 net-dialup/rp-pppoe
+net-dns/dnsmasq
 net-firewall/iptables
 net-im/pidgin
 net-irc/irssi
