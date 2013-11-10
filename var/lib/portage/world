@@ -65,6 +65,7 @@ dev-vcs/git
 dev-vcs/mercurial
 games-emulation/desmume
 games-emulation/dosbox
+games-emulation/mupen64plus
 games-emulation/snes9x
 games-emulation/vbam
 games-emulation/zsnes

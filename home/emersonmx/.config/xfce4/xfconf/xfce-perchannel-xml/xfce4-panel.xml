@@ -71,6 +71,7 @@
         <value type="string" value="wicd-client.py"/>
         <value type="string" value="steam"/>
         <value type="string" value="orage"/>
+        <value type="string" value="qjoypad"/>
         <value type="string" value="pidgin"/>
         <value type="string" value="transmission-qt"/>
         <value type="string" value="kwalletmanager"/>
