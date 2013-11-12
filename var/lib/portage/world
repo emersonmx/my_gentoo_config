@@ -64,6 +64,7 @@ dev-util/valgrind
 dev-vcs/git
 dev-vcs/mercurial
 games-emulation/desmume
+games-emulation/dolphin
 games-emulation/dosbox
 games-emulation/mupen64plus
 games-emulation/snes9x
