@@ -70,9 +70,11 @@ games-emulation/mupen64plus
 games-emulation/snes9x
 games-emulation/vbam
 games-emulation/zsnes
+games-util/joystick
 games-util/qjoypad
 games-util/steam-launcher
 games-util/steam-meta
+games-util/xboxdrv
 gnome-base/gdm
 gnome-extra/libgda
 gnome-extra/zenity
