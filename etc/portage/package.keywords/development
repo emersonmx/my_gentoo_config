@@ -50,6 +50,7 @@ sci-mathematics/fann ~x86
 media-libs/opencv ~x86
 sci-libs/libsvm ~x86
 # Tools
+sys-devel/crossdev ~x86
 
 # Java
 virtual/jdk ~x86
