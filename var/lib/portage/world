@@ -70,10 +70,10 @@ dev-vcs/mercurial
 games-emulation/desmume
 games-emulation/dolphin
 games-emulation/dosbox
+games-emulation/fceux
 games-emulation/mupen64plus
 games-emulation/snes9x
 games-emulation/vbam
-games-emulation/zsnes
 games-util/joystick
 games-util/qjoypad
 games-util/steam-launcher
