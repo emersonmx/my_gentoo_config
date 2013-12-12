@@ -20,13 +20,3 @@ media-video/smplayer2 ~x86
 app-admin/eselect-lib-bin-symlink ~x86
 #dev-libs/libcdio-paranoia ~x86
 #dev-libs/libcdio ~x86
-# Sound
-media-libs/suil ~x86
-media-sound/qtractor ~x86
-media-sound/musescore ~x86
-media-libs/lv2 ~x86
-media-libs/sratom ~x86
-# JACK
-media-sound/qjackctl ~x86
-# SoundFont
-media-sound/fluid-soundfont ~x86

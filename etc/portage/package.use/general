@@ -7,24 +7,19 @@ app-doc/doxygen dot
 
 # Games
 games-emulation/snes9x netplay
-games-emulation/epsxe gtk
 games-emulation/vbam link
 
 # Multimedia
-media-sound/amsynth jack
 x11-themes/gentoo-artwork kde
 
 # System
-app-laptop/laptop-mode-tools scsi
 sys-apps/portage python3
-app-emulation/qemu kqemu
 app-portage/layman git cvs mercurial
 x11-base/xorg-server udev
 =virtual/udev-171 hwdb
 app-emulation/wine oss
 www-servers/apache userdir
 gnome-base/gvfs gdu
-x11-misc/xscreensaver gdm new-login
 net-dns/dnsmasq script
 net-print/hplip libusb0 scanner -kde
 
@@ -34,14 +29,11 @@ dev-java/icedtea doc
 app-admin/eselect-php fpm apache2
 media-video/ffmpeg opus
 dev-java/antlr java
-www-apps/redmine passenger imagemagick
 dev-libs/boost doc
 dev-games/ois doc
 dev-games/mygui doc
-dev-java/swing-layout source
 gnome-base/librsvg -introspection
 dev-lang/php apache2 calendar cgi doc fpm gmp imap intl mhash pdo snmp sockets zip
-sci-libs/libsvm tools
 media-libs/freetype fontforge
 dev-games/ogre tools doc
 sci-physics/bullet doc

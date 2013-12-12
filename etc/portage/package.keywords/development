@@ -1,7 +1,3 @@
-# Project Management
-app-office/openproj-bin ~x86
-www-apps/redmine ~x86
-
 # Libraries
 #dev-lang/vala ~x86
 #dev-libs/vala-common ~x86
@@ -9,10 +5,6 @@ x11-libs/wxGTK ~x86
 media-libs/freeimage ~x86
 media-libs/libsfml ~x86
 app-admin/eselect-boost ~x86
-media-libs/lilv ~x86
-dev-libs/sord ~x86
-media-libs/lv2core ~x86
-dev-libs/serd ~x86
 virtual/ffmpeg ~x86
 media-video/ffmpeg ~x86
 media-libs/x264 ~x86
@@ -25,6 +17,7 @@ media-libs/tiff ~x86
 #dev-libs/glib ~x86
 #dev-libs/gobject-introspection ~x86
 #dev-libs/gobject-introspection-common ~x86
+#dev-python/pygobject ~x86
 media-libs/gegl ~x86
 media-libs/babl ~x86
 gnome-extra/libgda ~x86
@@ -45,10 +38,6 @@ dev-games/ogre ~x86
 dev-games/cegui ~x86
 dev-games/ois ~x86
 media-libs/glm ~x86
-### IA
-sci-mathematics/fann ~x86
-media-libs/opencv ~x86
-sci-libs/libsvm ~x86
 # Tools
 sys-devel/crossdev ~x86
 

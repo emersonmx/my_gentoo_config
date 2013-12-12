@@ -42,6 +42,7 @@ dev-java/icedtea
 dev-java/maven-bin
 dev-lang/lua
 dev-lang/php
+dev-lang/vala
 dev-libs/boost
 dev-libs/icu
 dev-libs/libxml2
@@ -50,6 +51,7 @@ dev-python/django
 dev-python/mechanize
 dev-python/pip
 dev-python/pygame
+dev-python/pygobject
 dev-python/pyopengl
 dev-python/sphinx
 dev-python/sqlalchemy
@@ -79,7 +81,6 @@ games-util/qjoypad
 games-util/steam-launcher
 games-util/steam-meta
 games-util/xboxdrv
-gnome-base/gdm
 gnome-extra/libgda
 gnome-extra/zenity
 kde-base/kdebase-runtime-meta
@@ -193,6 +194,7 @@ x11-drivers/xf86-input-joystick
 x11-drivers/xf86-input-keyboard
 x11-drivers/xf86-input-mouse
 x11-libs/gksu
+x11-misc/slim
 x11-misc/xclip
 x11-misc/xlockmore
 x11-misc/xscreensaver
