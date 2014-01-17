@@ -17,6 +17,6 @@
     <property name="critical-power-level" type="uint" value="5"/>
     <property name="dpms-on-ac-off" type="uint" value="0"/>
     <property name="brightness-on-ac" type="uint" value="9"/>
-    <property name="hibernate-button-action" type="uint" value="0"/>
+    <property name="hibernate-button-action" type="uint" value="3"/>
   </property>
 </channel>

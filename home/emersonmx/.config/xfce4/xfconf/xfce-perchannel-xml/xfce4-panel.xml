@@ -79,6 +79,8 @@
         <value type="string" value="kwalletmanager"/>
         <value type="string" value="dropbox"/>
         <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="qjackctl"/>
+        <value type="string" value="notifications"/>
         <value type="string" value="vuze"/>
         <value type="string" value="javaembeddedframe"/>
         <value type="string" value="transmission"/>

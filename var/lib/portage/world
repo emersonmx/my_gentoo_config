@@ -39,6 +39,7 @@ dev-games/ogre
 dev-games/ois
 dev-java/ant
 dev-java/icedtea
+dev-java/icedtea-web
 dev-java/maven-bin
 dev-lang/lua
 dev-lang/php
@@ -47,7 +48,6 @@ dev-libs/boost
 dev-libs/icu
 dev-libs/libxml2
 dev-python/PyQt4
-dev-python/django
 dev-python/mechanize
 dev-python/pip
 dev-python/pygame
@@ -56,6 +56,8 @@ dev-python/pyopengl
 dev-python/sphinx
 dev-python/sqlalchemy
 dev-python/winpdb
+dev-qt/qt-creator
+dev-qt/qt-meta
 dev-ruby/libxml
 dev-tex/abntex
 dev-tex/luatex
@@ -67,8 +69,10 @@ dev-util/glade:3
 dev-util/gob
 dev-util/nemiver
 dev-util/valgrind
+dev-util/valkyrie
 dev-vcs/git
 dev-vcs/mercurial
+dev-vcs/rapidsvn
 games-emulation/desmume
 games-emulation/dolphin
 games-emulation/dosbox
@@ -94,6 +98,7 @@ media-fonts/ja-ipafonts
 media-fonts/takao-fonts
 media-fonts/wqy-microhei
 media-fonts/wqy-zenhei
+media-gfx/feh
 media-gfx/gimp
 media-gfx/gqview
 media-gfx/inkscape
@@ -102,14 +107,22 @@ media-libs/glfw
 media-libs/libcdr
 media-libs/libsdl
 media-libs/libsdl2
+media-libs/opencv
 media-libs/sdl-image
 media-libs/sdl-mixer
 media-libs/sdl-ttf
 media-plugins/alsa-plugins
 media-plugins/gst-plugins-ffmpeg
 media-sound/audacity
+media-sound/fluid-soundfont
+media-sound/jack-audio-connection-kit
+media-sound/paprefs
+media-sound/patchage
 media-sound/pavucontrol
 media-sound/pulseaudio
+media-sound/qjackctl
+media-sound/qsynth
+media-sound/vmpk
 media-video/cinelerra
 media-video/gtk-recordmydesktop
 media-video/mplayer2
@@ -117,6 +130,7 @@ media-video/smplayer
 media-video/smplayer2
 media-video/transcode
 net-analyzer/nmap
+net-analyzer/wireshark
 net-dialup/ppp
 net-dialup/rp-pppoe
 net-dns/dnsmasq
@@ -139,10 +153,10 @@ sci-geosciences/mapnik
 sci-libs/gdal
 sci-libs/geos
 sci-libs/proj
+sci-mathematics/cgal
 sci-physics/bullet
 sci-visualization/gnuplot
 sys-apps/hwinfo
-sys-apps/lm_sensors
 sys-apps/lshw
 sys-apps/memtest86+
 sys-apps/mlocate
@@ -196,6 +210,7 @@ x11-drivers/xf86-input-mouse
 x11-libs/gksu
 x11-misc/slim
 x11-misc/xclip
+x11-misc/xdotool
 x11-misc/xlockmore
 x11-misc/xscreensaver
 x11-terms/xfce4-terminal
@@ -222,6 +237,7 @@ x11-themes/xcursor-themes
 x11-themes/xfwm4-themes
 x11-themes/yasis-icon-theme
 x11-themes/zukitwo
+x11-wm/awesome
 xfce-base/thunar
 xfce-base/xfce4-meta
 xfce-extra/thunar-archive-plugin

@@ -11,6 +11,7 @@ games-emulation/vbam link
 
 # Multimedia
 x11-themes/gentoo-artwork kde
+media-sound/pulseaudio gnome
 
 # System
 sys-apps/portage python3
@@ -22,8 +23,10 @@ www-servers/apache userdir
 gnome-base/gvfs gdu
 net-dns/dnsmasq script
 net-print/hplip libusb0 scanner -kde
+net-analyzer/wireshark -gtk2 -qt4 gtk3
 
 # Development
+sci-mathematics/cgal doc
 dev-lang/python doc
 dev-java/icedtea doc
 app-admin/eselect-php fpm apache2

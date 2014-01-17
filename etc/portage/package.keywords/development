@@ -1,6 +1,7 @@
 # Libraries
 #dev-lang/vala ~x86
 #dev-libs/vala-common ~x86
+sci-mathematics/cgal ~x86
 x11-libs/wxGTK ~x86
 media-libs/freeimage ~x86
 media-libs/libsfml ~x86
@@ -40,10 +41,10 @@ dev-games/ois ~x86
 media-libs/glm ~x86
 # Tools
 sys-devel/crossdev ~x86
+dev-util/valkyrie ~x86
 
 # Java
 virtual/jdk ~x86
-dev-java/icedtea-bin ~x86
 dev-java/icedtea ~x86
 dev-java/icedtea-web ~x86
 dev-java/smack ~x86

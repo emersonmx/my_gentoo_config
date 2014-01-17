@@ -1,8 +1,9 @@
-XTerm*saveLines: 1500
+XTerm*saveLines: 8192
 XTerm*rightScrollBar: true
 XTerm*scrollBar: true
 XTerm*scrollKey: true
 XTerm*scrollTtyOutput: false
+XTerm*ScrollTTYKeypress:true
 XTerm*loginShell: true
 XTerm*multiClickTime: 250
 
