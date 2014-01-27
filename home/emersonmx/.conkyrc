@@ -41,7 +41,7 @@ Kernel: $alignr$kernel
 Uptime: $alignr$uptime
 Processes: ${alignr}$processes ($running_processes running)
 Load: ${alignr}$loadavg
-CPU ${alignc} ${freq}MHz / ${execi 1 sensors | grep "id" | cut -c17-21 | sed 's/+//' | sed 's/\.0//'}C ${alignr}(${cpu cpu0}%)
+CPU ${alignc} ${freq}MHz / ${acpitemp}C ${alignr}(${cpu cpu0}%)
 ${cpubar cpu0 4}
 ${cpugraph}
 RAM ${alignr}$mem / $memmax ($memperc%)
@@ -73,6 +73,6 @@ HD I/O ${diskiograph}
 
 NETWORK ${hr 1}${color}
 
-Down ${downspeed wlan0} k/s ${alignr}Up ${upspeed wlan0} k/s
-${downspeedgraph wlan0 25,107} ${alignr}${upspeedgraph wlan0 25,107}
-Total ${totaldown wlan0} ${alignr}Total ${totalup wlan0}
+Down ${downspeed eth0} k/s ${alignr}Up ${upspeed eth0} k/s
+${downspeedgraph eth0 25,107} ${alignr}${upspeedgraph eth0 25,107}
+Total ${totaldown eth0} ${alignr}Total ${totalup eth0}

@@ -202,7 +202,6 @@ x11-apps/xkill
 x11-apps/xrandr
 x11-base/xorg-drivers
 x11-base/xorg-server
-x11-drivers/nvidia-drivers
 x11-drivers/xf86-input-evdev
 x11-drivers/xf86-input-joystick
 x11-drivers/xf86-input-keyboard
@@ -210,7 +209,6 @@ x11-drivers/xf86-input-mouse
 x11-libs/gksu
 x11-misc/slim
 x11-misc/xclip
-x11-misc/xdotool
 x11-misc/xlockmore
 x11-misc/xscreensaver
 x11-terms/xfce4-terminal
@@ -237,7 +235,6 @@ x11-themes/xcursor-themes
 x11-themes/xfwm4-themes
 x11-themes/yasis-icon-theme
 x11-themes/zukitwo
-x11-wm/awesome
 xfce-base/thunar
 xfce-base/xfce4-meta
 xfce-extra/thunar-archive-plugin

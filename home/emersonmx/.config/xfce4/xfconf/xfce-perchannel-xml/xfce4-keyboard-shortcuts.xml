@@ -25,10 +25,10 @@
       <property name="&lt;Super&gt;e" type="string" value="thunar"/>
       <property name="&lt;Super&gt;p" type="string" value="xfce4-display-settings"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;Escape" type="string" value="xfce4-taskmanager"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;t" type="string" value="xfce4-terminal --maximize"/>
       <property name="Print" type="string" value="xfce4-screenshooter"/>
       <property name="&lt;Alt&gt;F1" type="string" value="xfce4-popup-applicationsmenu"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;v" type="string" value="gvim -geometry 90x40"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;t" type="string" value="Terminal --maximize"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
