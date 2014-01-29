@@ -80,6 +80,7 @@
         <value type="string" value="javaembeddedframe"/>
         <value type="string" value="transmission"/>
         <value type="string" value="hp-systray"/>
+        <value type="string" value="gnome-mplayer"/>
       </property>
       <property name="show-frame" type="bool" value="false"/>
       <property name="size-max" type="uint" value="22"/>

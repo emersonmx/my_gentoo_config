@@ -22,10 +22,6 @@ app-text/evince
 app-text/fbreader
 app-text/gtranslator
 app-text/texlive
-cross-i686-pc-mingw32/binutils
-cross-i686-pc-mingw32/gcc
-cross-i686-pc-mingw32/mingw-runtime
-cross-i686-pc-mingw32/w32api
 dev-cpp/gtkmm
 dev-cpp/gtkmm:2.4
 dev-db/pgadmin3
@@ -74,7 +70,6 @@ dev-vcs/git
 dev-vcs/mercurial
 dev-vcs/rapidsvn
 games-emulation/desmume
-games-emulation/dolphin
 games-emulation/dosbox
 games-emulation/fceux
 games-emulation/mupen64plus
@@ -169,7 +164,6 @@ sys-boot/grub
 sys-boot/os-prober
 sys-boot/unetbootin
 sys-cluster/openmpi
-sys-devel/crossdev
 sys-devel/gcc
 sys-devel/gdb
 sys-fs/dosfstools
