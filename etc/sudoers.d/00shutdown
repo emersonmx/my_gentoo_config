@@ -1,0 +1,2 @@
+%users ALL=NOPASSWD:/sbin/shutdown, /sbin/halt, /sbin/reboot
+

@@ -207,7 +207,6 @@ x11-misc/xlockmore
 x11-misc/xscreensaver
 x11-terms/xfce4-terminal
 x11-themes/gentoo-artwork
-x11-themes/gentoo-xcursors
 x11-themes/gnome-colors-common
 x11-themes/gnome-colors-themes
 x11-themes/gnome-icon-theme
@@ -215,17 +214,13 @@ x11-themes/gnome-icon-theme-extras
 x11-themes/gnome-icon-theme-symbolic
 x11-themes/gnome-themes
 x11-themes/gnome-themes-extras
-x11-themes/gnome-themes-standard
 x11-themes/gtk-theme-switch
 x11-themes/metacity-themes
 x11-themes/nimbus
-x11-themes/silver-xcursors
 x11-themes/sound-theme-freedesktop
 x11-themes/tangerine-icon-theme
 x11-themes/tango-icon-theme
 x11-themes/tango-icon-theme-extras
-x11-themes/xcursor-neutral
-x11-themes/xcursor-themes
 x11-themes/xfwm4-themes
 x11-themes/yasis-icon-theme
 x11-themes/zukitwo
