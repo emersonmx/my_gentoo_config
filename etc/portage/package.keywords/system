@@ -3,6 +3,7 @@ lxde-base/lxappearance ~x86
 # DBMS
 # dev-db/pgadmin3 ~x86
 # MISC
+dev-util/systemtap ~x86
 xfce-base/exo ~x86
 xfce-base/thunar ~x86
 xfce-base/libxfce4util ~x86
