@@ -3,8 +3,8 @@
 <action>
 	<icon>Terminal</icon>
 	<name>Abrir terminal aqui</name>
-	<unique-id>1387944138953924-1</unique-id>
-	<command>Terminal --working-directory=%f --maximize</command>
+	<unique-id>1392753460264006-1</unique-id>
+	<command>xfce4-terminal --working-directory=%f --maximize</command>
 	<description>Exemplo de uma ação personalizada</description>
 	<patterns>*</patterns>
 	<startup-notify/>

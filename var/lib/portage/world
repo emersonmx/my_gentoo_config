@@ -22,6 +22,7 @@ app-text/evince
 app-text/fbreader
 app-text/gtranslator
 app-text/texlive
+app-vim/vim-spell-en
 dev-cpp/gtkmm
 dev-cpp/gtkmm:2.4
 dev-db/pgadmin3
@@ -147,6 +148,7 @@ net-wireless/wpa_supplicant
 sci-geosciences/mapnik
 sci-libs/gdal
 sci-libs/geos
+sci-libs/libspatialindex
 sci-libs/proj
 sci-mathematics/cgal
 sci-physics/bullet
