@@ -26,6 +26,7 @@ cross-i686-pc-mingw32/binutils
 cross-i686-pc-mingw32/gcc
 cross-i686-pc-mingw32/mingw-runtime
 cross-i686-pc-mingw32/w32api
+app-vim/vim-spell-en
 dev-cpp/gtkmm
 dev-cpp/gtkmm:2.4
 dev-db/pgadmin3
@@ -151,6 +152,7 @@ net-wireless/wpa_supplicant
 sci-geosciences/mapnik
 sci-libs/gdal
 sci-libs/geos
+sci-libs/libspatialindex
 sci-libs/proj
 sci-mathematics/cgal
 sci-physics/bullet
