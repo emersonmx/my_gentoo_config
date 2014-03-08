@@ -17,10 +17,10 @@ GRUB_HIDDEN_TIMEOUT_QUIET=true
 GRUB_TIMEOUT=1
 
 # Append parameters to the linux kernel command line
-# GRUB_CMDLINE_LINUX=""
+GRUB_CMDLINE_LINUX="root=/dev/sda5 rootfstype=ext4"
 
 # Append parameters to the linux kernel command line for non-recovery entries
-#GRUB_CMDLINE_LINUX_DEFAULT=""
+GRUB_CMDLINE_LINUX_DEFAULT="resume=/dev/sda2 video=uvesafb:1024x768-32,mtrr:3,ywrap vga=791 splash=silent,theme:natural_gentoo console=tty1 quiet"
 
 # Uncomment to disable graphical terminal (grub-pc only)
 #GRUB_TERMINAL=console

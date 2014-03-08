@@ -22,11 +22,11 @@ app-text/evince
 app-text/fbreader
 app-text/gtranslator
 app-text/texlive
+app-vim/vim-spell-en
 cross-i686-pc-mingw32/binutils
 cross-i686-pc-mingw32/gcc
 cross-i686-pc-mingw32/mingw-runtime
 cross-i686-pc-mingw32/w32api
-app-vim/vim-spell-en
 dev-cpp/gtkmm
 dev-cpp/gtkmm:2.4
 dev-db/pgadmin3
@@ -34,8 +34,6 @@ dev-db/postgis
 dev-db/postgresql-base
 dev-db/postgresql-server
 dev-db/spatialite
-dev-games/cegui
-dev-games/mygui
 dev-games/ogre
 dev-games/ois
 dev-java/ant
@@ -56,6 +54,7 @@ dev-python/pygobject
 dev-python/pyopengl
 dev-python/sphinx
 dev-python/sqlalchemy
+dev-python/virtualenv
 dev-python/winpdb
 dev-qt/qt-creator
 dev-qt/qt-meta
@@ -102,6 +101,8 @@ media-gfx/feh
 media-gfx/gimp
 media-gfx/gqview
 media-gfx/inkscape
+media-gfx/splash-themes-gentoo
+media-gfx/splashutils
 media-libs/devil
 media-libs/glfw
 media-libs/libcdr

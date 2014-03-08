@@ -10,8 +10,10 @@ games-emulation/snes9x netplay
 games-emulation/vbam link
 
 # Multimedia
-x11-themes/gentoo-artwork kde
 media-sound/pulseaudio gnome
+
+# Internet
+www-client/links fbcon
 
 # System
 sys-apps/portage python3
@@ -22,10 +24,12 @@ app-emulation/wine oss
 www-servers/apache userdir
 gnome-base/gvfs gdu
 net-dns/dnsmasq script
-net-print/hplip libusb0 scanner -kde
-net-analyzer/wireshark -gtk2 -qt4 gtk3
+net-print/hplip libusb0 scanner
+net-analyzer/wireshark -gtk2 gtk3
+media-gfx/splashutils fbcondecor
 
 # Development
+dev-libs/elfutils static-libs
 sci-mathematics/cgal doc
 dev-lang/python doc
 dev-java/icedtea doc
@@ -37,11 +41,11 @@ dev-games/ois doc
 dev-games/mygui doc
 gnome-base/librsvg -introspection
 dev-lang/php apache2 calendar cgi doc fpm gmp imap intl mhash pdo snmp sockets zip
-media-libs/freetype fontforge
+media-libs/freetype fontforge static-libs
 dev-games/ogre tools doc
 sci-physics/bullet doc
 dev-games/cegui ogre lua zip
-sys-libs/zlib minizip
+sys-libs/zlib minizip static-libs
 dev-python/PyQt4 webkit
 media-libs/sdl-mixer smpeg mod
 sci-geosciences/mapnik geos gdal
@@ -50,6 +54,13 @@ dev-games/mygui tools plugins
 dev-qt/qtgui gtkstyle
 app-editors/vim ruby vim-pager
 app-editors/gvim ruby
+sys-libs/gpm static-libs
+virtual/jpeg static-libs
+media-libs/libmng static-libs
+app-arch/bzip2 static-libs
+media-libs/libjpeg-turbo static-libs
+media-libs/libpng static-libs
+media-libs/lcms static-libs
 
 # Steam
 games-util/steam-launcher steamruntime
