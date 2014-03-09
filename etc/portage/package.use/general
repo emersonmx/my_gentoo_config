@@ -4,6 +4,7 @@ xfce-base/thunar libnotify
 # Documentation
 app-text/texlive doc
 app-doc/doxygen dot
+app-text/poppler -qt4
 
 # Games
 games-emulation/snes9x netplay
@@ -16,26 +17,28 @@ media-sound/pulseaudio gnome
 www-client/links fbcon
 
 # System
+xfce-base/xfwm4 xcomposite
 sys-apps/portage python3
 app-portage/layman git cvs mercurial
 x11-base/xorg-server udev
 =virtual/udev-171 hwdb
 app-emulation/wine oss
 www-servers/apache userdir
-gnome-base/gvfs gdu
+gnome-base/gvfs gdu -http
 net-dns/dnsmasq script
 net-print/hplip libusb0 scanner
-net-analyzer/wireshark -gtk2 gtk3
+net-analyzer/wireshark -gtk2 gtk3 -qt4
 media-gfx/splashutils fbcondecor
 
 # Development
+dev-util/cmake -qt4
 dev-libs/elfutils static-libs
 sci-mathematics/cgal doc
 dev-lang/python doc
 dev-java/icedtea doc
 app-admin/eselect-php fpm apache2
 media-video/ffmpeg opus
-dev-java/antlr java
+dev-java/antlr java script
 dev-libs/boost doc
 dev-games/ois doc
 dev-games/mygui doc

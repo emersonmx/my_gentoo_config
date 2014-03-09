@@ -33,7 +33,7 @@ override_utf8_locale yes
 
 TEXT
 ${font Sans:style=Bold:pixelsize=26}${alignc}${time %H:%M:%S}${font Sans:size=10}
-${font Sans:style=Bold:pixelsize=14}${alignc}${time %A - %d/%m/%y}${font Sans:size=8}
+${font Sans:style=Bold:pixelsize=14}${alignc}${time %A - %d/%m/%y}${font Sans:size=9}
 SYSTEM ${hr 1 }
 
 Hostname: $alignr$nodename

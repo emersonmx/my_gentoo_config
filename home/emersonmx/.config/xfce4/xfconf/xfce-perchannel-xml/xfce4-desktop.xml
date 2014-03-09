@@ -7,33 +7,19 @@
         <property name="image-path" type="string" value="/media/BKP/Imagens/wallpapers/nebulosa-19.jpg"/>
         <property name="last-image" type="string" value="/media/BKP/Imagens/wallpapers/nebulosa-19.jpg"/>
         <property name="last-single-image" type="string" value="/media/BKP/Imagens/wallpapers/nebulosa-19.jpg"/>
-        <property name="last-image-list" type="string" value="/media/BKP/Imagens/wallpapers/list"/>
-        <property name="image-style" type="int" value="0"/>
-        <property name="color1" type="array">
-          <value type="uint" value="0"/>
-          <value type="uint" value="0"/>
-          <value type="uint" value="0"/>
-          <value type="uint" value="65535"/>
-        </property>
-        <property name="image-show" type="bool" value="true"/>
-        <property name="backdrop-cycle-enable" type="bool" value="true"/>
-        <property name="backdrop-cycle-timer" type="uint" value="60"/>
       </property>
     </property>
   </property>
   <property name="desktop-icons" type="empty">
     <property name="icon-size" type="uint" value="32"/>
     <property name="use-custom-font-size" type="bool" value="false"/>
-    <property name="show-thumbnails" type="bool" value="true"/>
+    <property name="single-click" type="bool" value="false"/>
     <property name="style" type="int" value="2"/>
   </property>
   <property name="desktop-menu" type="empty">
     <property name="show" type="bool" value="false"/>
   </property>
   <property name="windowlist-menu" type="empty">
-    <property name="show" type="bool" value="true"/>
-    <property name="show-submenus" type="bool" value="true"/>
-    <property name="show-icons" type="bool" value="true"/>
     <property name="show-sticky-once" type="bool" value="false"/>
   </property>
 </channel>

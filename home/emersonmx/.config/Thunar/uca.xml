@@ -1,51 +1,11 @@
 <?xml encoding="UTF-8" version="1.0"?>
 <actions>
 <action>
-	<icon>Terminal</icon>
+	<icon>utilities-terminal</icon>
 	<name>Abrir terminal aqui</name>
-	<unique-id>1391616770448278-1</unique-id>
-	<command>xfce4-terminal --working-directory=%f --maximize</command>
+	<unique-id>1394395134829681-1</unique-id>
+	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
 	<description>Exemplo de uma ação personalizada</description>
-	<patterns>*</patterns>
-	<startup-notify/>
-	<directories/>
-</action>
-<action>
-	<icon>gvim</icon>
-	<name>Abrir gVim aqui</name>
-	<unique-id>1367926159081668-2</unique-id>
-	<command>/media/BKP/local/bin/gvim.sh %f</command>
-	<description></description>
-	<patterns>*</patterns>
-	<startup-notify/>
-	<directories/>
-</action>
-<action>
-	<icon></icon>
-	<name>Abrir gitk aqui</name>
-	<unique-id>1383106256041133-30</unique-id>
-	<command>gitk</command>
-	<description></description>
-	<patterns>*</patterns>
-	<startup-notify/>
-	<directories/>
-</action>
-<action>
-	<icon></icon>
-	<name>Abrir git-citool aqui</name>
-	<unique-id>1383106118417129-23</unique-id>
-	<command>git citool</command>
-	<description></description>
-	<patterns>*</patterns>
-	<startup-notify/>
-	<directories/>
-</action>
-<action>
-	<icon></icon>
-	<name>Abrir gitview aqui</name>
-	<unique-id>1383106179529125-26</unique-id>
-	<command>gitview</command>
-	<description></description>
 	<patterns>*</patterns>
 	<startup-notify/>
 	<directories/>

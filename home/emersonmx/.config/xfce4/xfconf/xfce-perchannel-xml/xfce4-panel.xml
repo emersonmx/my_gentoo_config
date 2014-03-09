@@ -5,7 +5,7 @@
   <property name="panels" type="array">
     <value type="int" value="1"/>
     <property name="panel-1" type="empty">
-      <property name="position" type="string" value="p=8;x=640;y=787"/>
+      <property name="position" type="string" value="p=8;x=683;y=754"/>
       <property name="length" type="uint" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="size" type="uint" value="24"/>
@@ -13,96 +13,59 @@
         <value type="int" value="1"/>
         <value type="int" value="3"/>
         <value type="int" value="15"/>
-        <value type="int" value="9"/>
-        <value type="int" value="6"/>
-        <value type="int" value="2"/>
+        <value type="int" value="7"/>
         <value type="int" value="4"/>
+        <value type="int" value="6"/>
+        <value type="int" value="18"/>
       </property>
-      <property name="mode" type="uint" value="0"/>
-      <property name="length-adjust" type="bool" value="true"/>
-      <property name="disable-struts" type="bool" value="false"/>
-      <property name="autohide" type="bool" value="false"/>
-      <property name="background-style" type="uint" value="0"/>
-      <property name="background-color" type="array">
-        <value type="uint" value="53199"/>
-        <value type="uint" value="53199"/>
-        <value type="uint" value="53199"/>
-        <value type="uint" value="65535"/>
-      </property>
-      <property name="nrows" type="uint" value="1"/>
-      <property name="background-alpha" type="uint" value="100"/>
-      <property name="enter-opacity" type="uint" value="100"/>
-      <property name="leave-opacity" type="uint" value="100"/>
     </property>
   </property>
   <property name="plugins" type="empty">
     <property name="plugin-1" type="string" value="applicationsmenu">
       <property name="show-button-title" type="bool" value="false"/>
-      <property name="button-title" type="string" value="Menu de aplicativos"/>
-      <property name="show-tooltips" type="bool" value="true"/>
-      <property name="show-generic-names" type="bool" value="false"/>
       <property name="button-icon" type="string" value="start-here"/>
-      <property name="show-menu-icons" type="bool" value="true"/>
     </property>
     <property name="plugin-3" type="string" value="tasklist">
-      <property name="sort-order" type="uint" value="0"/>
-      <property name="flat-buttons" type="bool" value="false"/>
       <property name="show-handle" type="bool" value="false"/>
       <property name="show-labels" type="bool" value="true"/>
-      <property name="include-all-workspaces" type="bool" value="false"/>
-      <property name="include-all-monitors" type="bool" value="true"/>
-      <property name="show-only-minimized" type="bool" value="false"/>
-      <property name="show-wireframes" type="bool" value="false"/>
-      <property name="switch-workspace-on-unminimize" type="bool" value="true"/>
       <property name="grouping" type="uint" value="0"/>
-      <property name="window-scrolling" type="bool" value="false"/>
+      <property name="show-wireframes" type="bool" value="false"/>
+      <property name="show-only-minimized" type="bool" value="false"/>
     </property>
     <property name="plugin-15" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
       <property name="style" type="uint" value="0"/>
     </property>
+    <property name="plugin-4" type="string" value="pager">
+      <property name="rows" type="uint" value="2"/>
+    </property>
     <property name="plugin-6" type="string" value="systray">
       <property name="names-visible" type="array">
-        <value type="string" value="desura"/>
-        <value type="string" value="thunar"/>
-        <value type="string" value="gtk-recordmydesktop"/>
-        <value type="string" value="wpa_gui"/>
-        <value type="string" value="bluedevil-monolithic"/>
-        <value type="string" value="gerenciador de tarefas"/>
-        <value type="string" value="wicd-client.py"/>
-        <value type="string" value="steam"/>
-        <value type="string" value="orage"/>
-        <value type="string" value="qjoypad"/>
-        <value type="string" value="miniaplicativo gerenciador de redes"/>
-        <value type="string" value="pidgin"/>
-        <value type="string" value="transmission-qt"/>
-        <value type="string" value="kwalletmanager"/>
+        <value type="string" value="notas"/>
         <value type="string" value="dropbox"/>
-        <value type="string" value="xfce4-power-manager"/>
-        <value type="string" value="qjackctl"/>
-        <value type="string" value="notifications"/>
-        <value type="string" value="vuze"/>
-        <value type="string" value="javaembeddedframe"/>
-        <value type="string" value="transmission"/>
-        <value type="string" value="hp-systray"/>
+        <value type="string" value="gerenciador de tarefas"/>
+      </property>
+      <property name="names-hidden" type="array">
+        <value type="string" value="orage"/>
       </property>
       <property name="show-frame" type="bool" value="false"/>
-      <property name="size-max" type="uint" value="22"/>
-      <property name="names-hidden" type="array">
-      </property>
     </property>
-    <property name="plugin-9" type="string" value="pager">
-      <property name="rows" type="uint" value="2"/>
-      <property name="miniature-view" type="bool" value="true"/>
-      <property name="workspace-scrolling" type="bool" value="false"/>
+    <property name="plugin-7" type="string" value="mixer">
+      <property name="sound-card" type="string" value="HDAIntelPCHAlsamixer"/>
+      <property name="track" type="string" value="Principal"/>
+      <property name="command" type="string" value="xfce4-mixer"/>
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
     </property>
-    <property name="plugin-4" type="string" value="datetime"/>
-    <property name="plugin-2" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="13816943701.desktop"/>
+    <property name="plugin-18" type="string" value="xfce4-orageclock-plugin"/>
+    <property name="notes" type="empty">
+      <property name="global" type="empty">
+        <property name="skip-taskbar-hint" type="bool" value="true"/>
+        <property name="tabs-position" type="int" value="0"/>
       </property>
-      <property name="disable-tooltips" type="bool" value="true"/>
-      <property name="show-label" type="bool" value="false"/>
+      <property name="new-window" type="empty">
+        <property name="always-on-top" type="bool" value="false"/>
+        <property name="sticky" type="bool" value="false"/>
+      </property>
     </property>
   </property>
 </channel>
