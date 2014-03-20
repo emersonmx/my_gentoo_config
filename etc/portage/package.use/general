@@ -2,7 +2,7 @@
 xfce-base/thunar libnotify
 
 # Documentation
-app-text/texlive doc
+app-text/texlive doc dvi2tty dvipdfm graphics png pstricks science truetype humanities
 app-doc/doxygen dot
 app-text/poppler -qt4
 
@@ -31,7 +31,6 @@ net-analyzer/wireshark -gtk2 gtk3 -qt4
 media-gfx/splashutils fbcondecor
 
 # Development
-dev-util/cmake -qt4
 dev-libs/elfutils static-libs
 sci-mathematics/cgal doc
 dev-lang/python doc

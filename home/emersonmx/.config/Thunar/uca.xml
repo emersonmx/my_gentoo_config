@@ -3,11 +3,20 @@
 <action>
 	<icon>utilities-terminal</icon>
 	<name>Abrir terminal aqui</name>
-	<unique-id>1394395134829681-1</unique-id>
-	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
+	<unique-id>1394496829479386-2</unique-id>
+	<command>xfce4-terminal --maximize</command>
 	<description>Exemplo de uma ação personalizada</description>
 	<patterns>*</patterns>
 	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>gvim</icon>
+	<name>Abrir gvim aqui</name>
+	<unique-id>1394421305335786-1</unique-id>
+	<command>/media/BKP/scripts/gvim.sh %f</command>
+	<description></description>
+	<patterns>*</patterns>
 	<directories/>
 </action>
 </actions>

@@ -9,7 +9,6 @@ app-doc/doxygen
 app-editors/gvim
 app-editors/vim
 app-editors/vim-core
-app-emacs/color-theme
 app-emulation/virtualbox-bin
 app-emulation/virtualbox-modules
 app-emulation/wine
@@ -38,6 +37,7 @@ dev-db/postgis
 dev-db/postgresql-base
 dev-db/postgresql-server
 dev-db/spatialite
+dev-games/ois
 dev-java/ant
 dev-java/icedtea
 dev-java/icedtea-web
@@ -64,6 +64,7 @@ dev-ruby/libxml
 dev-tex/abntex
 dev-tex/luatex
 dev-tex/minted
+dev-util/cmake
 dev-util/ddd
 dev-util/devhelp
 dev-util/glade
@@ -99,10 +100,10 @@ media-fonts/wqy-zenhei
 media-gfx/gimp
 media-gfx/inkscape
 media-gfx/ristretto
-media-gfx/splash-themes-gentoo
-media-gfx/splashutils
 media-libs/devil
+media-libs/freeimage
 media-libs/glfw
+media-libs/glm
 media-libs/libcdr
 media-libs/libsdl
 media-libs/libsdl2
@@ -138,6 +139,7 @@ net-misc/dhcpcd
 net-misc/dropbox
 net-misc/netkit-telnetd
 net-misc/ntp
+net-misc/youtube-dl
 net-nds/portmap
 net-p2p/transmission
 net-print/cups
@@ -217,13 +219,10 @@ x11-themes/gnome-icon-theme-symbolic
 x11-themes/gnome-themes
 x11-themes/gnome-themes-extras
 x11-themes/greybird
-x11-themes/gtk-engines-qtcurve
 x11-themes/gtk-engines-xfce
 x11-themes/gtk-theme-switch
 x11-themes/metacity-themes
 x11-themes/nimbus
-x11-themes/oxygen-gtk
-x11-themes/oxygen-molecule
 x11-themes/slim-themes
 x11-themes/sound-theme-freedesktop
 x11-themes/tangerine-icon-theme
