@@ -18,7 +18,6 @@
       <property name="XF86Mail" type="empty"/>
     </property>
     <property name="custom" type="empty">
-      <property name="&lt;Control&gt;Escape" type="string" value="xfdesktop --menu"/>
       <property name="&lt;Alt&gt;F2" type="string" value="xfce4-appfinder --collapsed"/>
       <property name="&lt;Alt&gt;F3" type="string" value="xfce4-appfinder"/>
       <property name="&lt;Alt&gt;F1" type="string" value="xfce4-popup-applicationsmenu"/>
@@ -31,6 +30,11 @@
       <property name="&lt;Primary&gt;&lt;Alt&gt;v" type="string" value="gvim -geometry 90x40"/>
       <property name="&lt;Super&gt;e" type="string" value="thunar"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;l" type="string" value="xflock4"/>
+      <property name="XF86AudioRaiseVolume" type="string" value="amixer set Master 5%+"/>
+      <property name="XF86AudioLowerVolume" type="string" value="amixer set Master 5%-"/>
+      <property name="XF86AudioMute" type="string" value="amixer set Master toggle"/>
+      <property name="&lt;Primary&gt;&lt;Shift&gt;Escape" type="string" value="xfce4-taskmanager"/>
+      <property name="Print" type="string" value="xfce4-screenshooter"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

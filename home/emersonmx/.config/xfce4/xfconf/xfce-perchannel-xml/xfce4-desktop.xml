@@ -4,22 +4,10 @@
   <property name="backdrop" type="empty">
     <property name="screen0" type="empty">
       <property name="monitor0" type="empty">
-        <property name="image-path" type="string" value="/media/BKP/Imagens/wallpapers/nebulosa-19.jpg"/>
-        <property name="last-image" type="string" value="/media/BKP/Imagens/wallpapers/nebulosa-19.jpg"/>
-        <property name="last-single-image" type="string" value="/media/BKP/Imagens/wallpapers/nebulosa-19.jpg"/>
+        <property name="image-path" type="string" value="/usr/share/backgrounds/xfce/xfce-blue.jpg"/>
+        <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-blue.jpg"/>
+        <property name="last-single-image" type="string" value="/usr/share/backgrounds/xfce/xfce-blue.jpg"/>
       </property>
     </property>
-  </property>
-  <property name="desktop-icons" type="empty">
-    <property name="icon-size" type="uint" value="32"/>
-    <property name="use-custom-font-size" type="bool" value="false"/>
-    <property name="single-click" type="bool" value="false"/>
-    <property name="style" type="int" value="2"/>
-  </property>
-  <property name="desktop-menu" type="empty">
-    <property name="show" type="bool" value="false"/>
-  </property>
-  <property name="windowlist-menu" type="empty">
-    <property name="show-sticky-once" type="bool" value="false"/>
   </property>
 </channel>

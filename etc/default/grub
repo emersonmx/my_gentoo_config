@@ -20,7 +20,7 @@ GRUB_TIMEOUT=1
 GRUB_CMDLINE_LINUX="root=/dev/sda5 rootfstype=ext4"
 
 # Append parameters to the linux kernel command line for non-recovery entries
-GRUB_CMDLINE_LINUX_DEFAULT="resume=/dev/sda2 video=uvesafb:1024x768-32,mtrr:3,ywrap"
+GRUB_CMDLINE_LINUX_DEFAULT="resume=/dev/sda2"
 
 # Uncomment to disable graphical terminal (grub-pc only)
 #GRUB_TERMINAL=console
@@ -28,7 +28,7 @@ GRUB_CMDLINE_LINUX_DEFAULT="resume=/dev/sda2 video=uvesafb:1024x768-32,mtrr:3,yw
 # The resolution used on graphical terminal.
 # Note that you can use only modes which your graphic card supports via VBE.
 # You can see them in real GRUB with the command `vbeinfo'.
-GRUB_GFXMODE=1024x768
+GRUB_GFXMODE=1368x768
 
 # Path to theme spec txt file.
 # The starfield is by default provided with use truetype.

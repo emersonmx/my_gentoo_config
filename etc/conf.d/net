@@ -1,16 +1,5 @@
-# This blank configuration will automatically use DHCP for any net.*
-# scripts in /etc/init.d.  To create a more complete configuration,
-# please review /usr/share/doc/openrc*/net.example* and save your configuration
-# in /etc/conf.d/net (this file :]!).
-
 dns_domain_lo="anormalius"
 
 modules="wpa_supplicant"
-
-config_wlan0="dhcp"
-config_eth0="192.168.1.1/24 brd 192.168.1.255"
-
-# The network scripts are now part of net-misc/netifrc
-# In order to avoid sys-apps/openrc-0.12.4 from removing this file, this comment was
-# added; you can safely remove this comment.  Please see
-# /usr/share/doc/netifrc*/README* for more information.
+wpa_supplicant_wlp6s0="-Dnl80211"
+config_wlp6s0="dhcp"

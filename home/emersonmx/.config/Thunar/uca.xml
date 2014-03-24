@@ -13,8 +13,8 @@
 <action>
 	<icon>gvim</icon>
 	<name>Abrir gvim aqui</name>
-	<unique-id>1394421305335786-1</unique-id>
-	<command>/media/BKP/scripts/gvim.sh %f</command>
+	<unique-id>1395660274073503-1</unique-id>
+	<command>/home/emersonmx/git/scripts/gvim.sh %f</command>
 	<description></description>
 	<patterns>*</patterns>
 	<directories/>
