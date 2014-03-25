@@ -12,6 +12,10 @@ app-portage/eix
 app-portage/gentoolkit
 app-text/evince
 app-text/texlive
+dev-java/ant
+dev-java/icedtea
+dev-python/pip
+dev-python/virtualenv
 dev-vcs/git
 games-emulation/snes9x
 media-fonts/arphicfonts
@@ -31,6 +35,8 @@ net-im/pidgin
 net-misc/dhcpcd
 net-misc/dropbox
 net-misc/htpdate
+net-misc/youtube-dl
+net-p2p/transmission
 net-wireless/iw
 net-wireless/wpa_supplicant
 sys-apps/mlocate
@@ -43,11 +49,9 @@ sys-kernel/genkernel
 sys-kernel/gentoo-sources
 sys-process/cronie
 www-client/chromium
-www-client/firefox-bin
 www-client/links
 www-plugins/adobe-flash
 x11-apps/mesa-progs
-x11-base/xorg-drivers
 x11-base/xorg-server
 x11-misc/alacarte
 x11-misc/slim

@@ -1,0 +1,19 @@
+[Desktop Entry]
+Version=1.0
+Name=Inkscape
+GenericName=Vector Graphics Editor
+X-GNOME-FullName=Inkscape Vector Graphics Editor
+X-GNOME-FullName[pt]=Inkscape Editor de Imagem Vectorial
+X-GNOME-FullName[pt_BR]=Editor de Imagens Vetoriais Inkscape
+Comment=Create and edit Scalable Vector Graphics images
+Comment[pt]=Crie e edite imagens Gráficas Vectoriais Escalaveis
+Comment[pt_BR]=Crie e edite desenhos vetoriais escaláveis (SVG)
+Type=Application
+Categories=Graphics;2DGraphics;VectorGraphics;GTK;
+MimeType=image/svg+xml;image/svg+xml-compressed;application/vnd.corel-draw;application/pdf;application/postscript;image/x-eps;application/illustrator;
+Exec=inkscape %F
+TryExec=inkscape
+Terminal=false
+StartupNotify=true
+Icon=inkscape
+X-XFCE-Source=file:///usr/share/applications/inkscape.desktop

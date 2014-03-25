@@ -1,17 +1,2 @@
-java-virtuals/interceptor-api ~x86
-dev-java/glassfish-interceptor-api ~x86
-dev-java/jsoup ~x86
-virtual/jre ~x86
-dev-java/javax-inject ~x86
-virtual/jdk ~x86
 dev-java/icedtea ~x86
 dev-java/icedtea-web ~x86
-dev-java/smack ~x86
-dev-java/saxon ~x86
-dev-java/maven-bin ~x86
-dev-java/jna ~x86
-dev-java/ant-owanttask ~x86
-app-admin/eselect-java ~x86
-sys-apps/baselayout-java ~x86
-dev-java/java-config ~x86
-dev-java/java-config-wrapper ~x86

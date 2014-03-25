@@ -4,6 +4,7 @@
   <property name="configver" type="int" value="2"/>
   <property name="panels" type="array">
     <value type="int" value="1"/>
+    <value type="int" value="2"/>
     <property name="panel-1" type="empty">
       <property name="position" type="string" value="p=8;x=683;y=754"/>
       <property name="length" type="uint" value="100"/>
@@ -18,12 +19,39 @@
         <value type="int" value="6"/>
         <value type="int" value="18"/>
       </property>
+      <property name="disable-struts" type="bool" value="false"/>
+      <property name="background-style" type="uint" value="0"/>
+      <property name="background-alpha" type="uint" value="100"/>
+      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="leave-opacity" type="uint" value="100"/>
+      <property name="autohide" type="bool" value="false"/>
+    </property>
+    <property name="panel-2" type="empty">
+      <property name="position" type="string" value="p=7;x=31;y=381"/>
+      <property name="disable-struts" type="bool" value="true"/>
+      <property name="autohide" type="bool" value="true"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="60"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="30"/>
+        <value type="int" value="31"/>
+        <value type="int" value="32"/>
+        <value type="int" value="33"/>
+        <value type="int" value="34"/>
+        <value type="int" value="36"/>
+        <value type="int" value="37"/>
+        <value type="int" value="38"/>
+      </property>
+      <property name="background-alpha" type="uint" value="0"/>
+      <property name="mode" type="uint" value="1"/>
     </property>
   </property>
   <property name="plugins" type="empty">
     <property name="plugin-1" type="string" value="applicationsmenu">
       <property name="show-button-title" type="bool" value="false"/>
       <property name="button-icon" type="string" value="start-here"/>
+      <property name="show-tooltips" type="bool" value="false"/>
+      <property name="show-generic-names" type="bool" value="false"/>
     </property>
     <property name="plugin-3" type="string" value="tasklist">
       <property name="show-handle" type="bool" value="false"/>
@@ -31,6 +59,9 @@
       <property name="grouping" type="uint" value="0"/>
       <property name="show-wireframes" type="bool" value="false"/>
       <property name="show-only-minimized" type="bool" value="false"/>
+      <property name="switch-workspace-on-unminimize" type="bool" value="false"/>
+      <property name="include-all-workspaces" type="bool" value="false"/>
+      <property name="include-all-monitors" type="bool" value="false"/>
     </property>
     <property name="plugin-15" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
@@ -42,16 +73,12 @@
     </property>
     <property name="plugin-6" type="string" value="systray">
       <property name="names-visible" type="array">
-        <value type="string" value="thunar"/>
-        <value type="string" value="wpa_gui"/>
-        <value type="string" value="gerenciador de tarefas"/>
-        <value type="string" value="steam"/>
-        <value type="string" value="pidgin"/>
-        <value type="string" value="notas"/>
         <value type="string" value="dropbox"/>
         <value type="string" value="xfce4-power-manager"/>
         <value type="string" value="clipman"/>
-        <value type="string" value="transmission"/>
+        <value type="string" value="gerenciador de tarefas"/>
+        <value type="string" value="pidgin"/>
+        <value type="string" value="thunar"/>
       </property>
       <property name="names-hidden" type="array">
         <value type="string" value="orage"/>
@@ -78,7 +105,57 @@
     <property name="clipman" type="empty">
       <property name="tweaks" type="empty">
         <property name="inhibit" type="bool" value="false"/>
+        <property name="never-confirm-history-clear" type="bool" value="false"/>
       </property>
+    </property>
+    <property name="plugin-30" type="string" value="launcher">
+      <property name="show-label" type="bool" value="false"/>
+      <property name="disable-tooltips" type="bool" value="true"/>
+      <property name="items" type="array">
+        <value type="string" value="139578003812.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-31" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="139578009914.desktop"/>
+      </property>
+      <property name="disable-tooltips" type="bool" value="true"/>
+    </property>
+    <property name="plugin-32" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="139578011315.desktop"/>
+      </property>
+      <property name="disable-tooltips" type="bool" value="true"/>
+    </property>
+    <property name="plugin-33" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="139578012116.desktop"/>
+      </property>
+      <property name="disable-tooltips" type="bool" value="true"/>
+    </property>
+    <property name="plugin-34" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="139578013317.desktop"/>
+      </property>
+      <property name="disable-tooltips" type="bool" value="true"/>
+    </property>
+    <property name="plugin-36" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="139578015919.desktop"/>
+      </property>
+      <property name="disable-tooltips" type="bool" value="true"/>
+    </property>
+    <property name="plugin-37" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="139578017320.desktop"/>
+      </property>
+      <property name="disable-tooltips" type="bool" value="true"/>
+    </property>
+    <property name="plugin-38" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="139578019721.desktop"/>
+      </property>
+      <property name="disable-tooltips" type="bool" value="true"/>
     </property>
   </property>
 </channel>

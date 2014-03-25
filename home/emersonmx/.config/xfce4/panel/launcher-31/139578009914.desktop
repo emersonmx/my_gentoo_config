@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=gVim
+Comment=A highly configurable text editor
+Exec=gvim -geometry 90x40 -f %F
+Icon=gvim
+Terminal=false
+Type=Application
+MimeType=text/plain;
+Categories=Development;
+X-XFCE-Source=file:///usr/share/applications/gvim.desktop
+Path=
+StartupNotify=false
