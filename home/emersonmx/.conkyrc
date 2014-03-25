@@ -73,6 +73,6 @@ HD I/O ${diskiograph}
 
 NETWORK ${hr 1}${color}
 
-Down ${downspeed wlan0} k/s ${alignr}Up ${upspeed wlan0} k/s
-${downspeedgraph wlan0 25,107} ${alignr}${upspeedgraph wlan0 25,107}
-Total ${totaldown wlan0} ${alignr}Total ${totalup wlan0}
+Down ${downspeed wlp6s0} k/s ${alignr}Up ${upspeed wlp6s0} k/s
+${downspeedgraph wlp6s0 25,107} ${alignr}${upspeedgraph wlp6s0 25,107}
+Total ${totaldown wlp6s0} ${alignr}Total ${totalup wlp6s0}

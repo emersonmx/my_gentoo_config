@@ -6,6 +6,7 @@ app-arch/file-roller
 app-cdr/xfburn
 app-editors/gvim
 app-editors/vim
+app-emulation/wine
 app-office/orage
 app-portage/eix
 app-portage/gentoolkit
@@ -13,8 +14,17 @@ app-text/evince
 app-text/texlive
 dev-vcs/git
 games-emulation/snes9x
+media-fonts/arphicfonts
+media-fonts/bitstream-cyberbit
+media-fonts/droid
+media-fonts/ipamonafont
+media-fonts/ja-ipafonts
+media-fonts/takao-fonts
+media-fonts/wqy-microhei
+media-fonts/wqy-zenhei
 media-gfx/gimp
 media-gfx/inkscape
+media-gfx/ristretto
 media-video/mplayer2
 net-dialup/ppp
 net-im/pidgin
@@ -32,8 +42,10 @@ sys-fs/ntfs3g
 sys-kernel/genkernel
 sys-kernel/gentoo-sources
 sys-process/cronie
+www-client/chromium
 www-client/firefox-bin
 www-client/links
+www-plugins/adobe-flash
 x11-apps/mesa-progs
 x11-base/xorg-drivers
 x11-base/xorg-server

@@ -14,9 +14,8 @@
         <value type="int" value="3"/>
         <value type="int" value="15"/>
         <value type="int" value="4"/>
-        <value type="int" value="8"/>
-        <value type="int" value="6"/>
         <value type="int" value="7"/>
+        <value type="int" value="6"/>
         <value type="int" value="18"/>
       </property>
     </property>
@@ -51,6 +50,7 @@
         <value type="string" value="notas"/>
         <value type="string" value="dropbox"/>
         <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="clipman"/>
         <value type="string" value="transmission"/>
       </property>
       <property name="names-hidden" type="array">
@@ -75,7 +75,6 @@
         <property name="sticky" type="bool" value="false"/>
       </property>
     </property>
-    <property name="plugin-8" type="string" value="xfce4-clipman-plugin"/>
     <property name="clipman" type="empty">
       <property name="tweaks" type="empty">
         <property name="inhibit" type="bool" value="false"/>
