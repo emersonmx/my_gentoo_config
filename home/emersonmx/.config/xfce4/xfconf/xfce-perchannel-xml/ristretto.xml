@@ -3,7 +3,7 @@
 <channel name="ristretto" version="1.0">
   <property name="window" type="empty">
     <property name="navigationbar" type="empty">
-      <property name="position" type="string" value="left"/>
+      <property name="position" type="string" value="right"/>
     </property>
   </property>
 </channel>
