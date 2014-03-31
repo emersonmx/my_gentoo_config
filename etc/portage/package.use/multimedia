@@ -1,0 +1,5 @@
+# mplayer 2
+media-video/mplayer2 symlink
+media-libs/lcms python
+virtual/ffmpeg threads
+media-video/ffmpeg threads

@@ -14,6 +14,7 @@ app-text/evince
 app-text/texlive
 dev-java/ant
 dev-java/icedtea
+dev-lang/lua
 dev-python/pip
 dev-python/virtualenv
 dev-vcs/git
@@ -29,6 +30,10 @@ media-fonts/wqy-zenhei
 media-gfx/gimp
 media-gfx/inkscape
 media-gfx/ristretto
+media-libs/libsdl2
+media-libs/sdl2-image
+media-libs/sdl2-mixer
+media-libs/sdl2-ttf
 media-video/mplayer2
 net-dialup/ppp
 net-im/pidgin

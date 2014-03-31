@@ -1,0 +1,27 @@
+# LaTeX
+app-text/texlive doc extra humanities science tex4ht xetex
+app-text/texlive-core doc xetex
+dev-texlive/texlive-basic doc
+dev-texlive/texlive-bibtexextra doc
+dev-texlive/texlive-documentation-base doc
+dev-texlive/texlive-fontsextra doc
+dev-texlive/texlive-fontsrecommended doc
+dev-texlive/texlive-fontutils doc
+dev-texlive/texlive-formatsextra doc
+dev-texlive/texlive-genericextra doc
+dev-texlive/texlive-genericrecommended doc
+dev-texlive/texlive-htmlxml doc
+dev-texlive/texlive-humanities doc
+dev-texlive/texlive-langenglish doc
+dev-texlive/texlive-langportuguese doc
+dev-texlive/texlive-latex doc
+dev-texlive/texlive-latexextra doc
+dev-texlive/texlive-latexrecommended doc
+dev-texlive/texlive-mathextra doc
+dev-texlive/texlive-pictures doc
+dev-texlive/texlive-plainextra doc
+dev-texlive/texlive-pstricks doc
+dev-texlive/texlive-science doc
+dev-texlive/texlive-texinfo doc
+
+app-text/evince dvi djvu

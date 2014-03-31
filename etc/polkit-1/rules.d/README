@@ -1,8 +1,0 @@
-Quando for copiar o arquivo pra pasta rules.d, dê um ls -l e veja se as
-permissões estão corretas.
-
-Senão execute os comandos:
-# chown root:root 10-drives.rules
-# chmod 644 10-drives.rules
-
-AVISO: Copie apenas o arquivo, não copie a pasta!

@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=p7zip FM
-Type=Application
-Comment=Port of 7-Zip archiver for Unix
-Exec=7zFM
-TryExec=7zFM
-Icon=p7zip
-Categories=GTK;Utility;Archiving;Compression;
-NoDisplay=true

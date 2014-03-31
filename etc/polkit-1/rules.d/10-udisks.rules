@@ -1,6 +1,0 @@
-polkit.addRule(function(action, subject) {
-    if (action.id == "org.freedesktop.udisks.filesystem-mount-system-internal" &&
-        subject.user == "users") {
-        return "yes";
-    }
-});

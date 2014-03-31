@@ -1,0 +1,5 @@
+# SDL
+media-libs/libsdl2 ~x86
+media-libs/sdl2-ttf ~x86
+media-libs/sdl2-mixer ~x86
+media-libs/sdl2-image ~x86
