@@ -44,6 +44,10 @@
       </property>
       <property name="background-alpha" type="uint" value="0"/>
       <property name="mode" type="uint" value="1"/>
+      <property name="length" type="uint" value="1"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="leave-opacity" type="uint" value="100"/>
     </property>
   </property>
   <property name="plugins" type="empty">

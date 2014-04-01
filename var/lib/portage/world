@@ -35,6 +35,7 @@ media-libs/sdl2-image
 media-libs/sdl2-mixer
 media-libs/sdl2-ttf
 media-video/mplayer2
+net-analyzer/nmap
 net-dialup/ppp
 net-im/pidgin
 net-misc/dhcpcd
