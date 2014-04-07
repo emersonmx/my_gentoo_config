@@ -3,6 +3,7 @@ app-admin/logrotate
 app-admin/sudo
 app-admin/syslog-ng
 app-arch/file-roller
+app-arch/p7zip
 app-cdr/xfburn
 app-editors/gvim
 app-editors/vim
@@ -19,6 +20,7 @@ dev-python/pip
 dev-python/virtualenv
 dev-vcs/git
 games-emulation/snes9x
+games-util/joystick
 media-fonts/arphicfonts
 media-fonts/bitstream-cyberbit
 media-fonts/droid
