@@ -1,7 +1,7 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-Name=Diablo II - Windowed
+Name=Diablo II
 Comment=Diablo II - Windowed
 Icon=/home/emersonmx/Jogos/PC/Diablo2/D2X.png
 Exec=wine start /Unix "/home/emersonmx/Jogos/PC/Diablo2/Diablo II.exe -w"
