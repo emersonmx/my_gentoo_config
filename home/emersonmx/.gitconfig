@@ -2,6 +2,6 @@
 	name = Emerson MX
 	email = emersonmx@gmail.com
 [core]
-	editor = vim
+	editor = gvim -f
 [push]
 	default = simple

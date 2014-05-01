@@ -3,3 +3,18 @@ media-libs/libsdl2 ~x86
 media-libs/sdl2-ttf ~x86
 media-libs/sdl2-mixer ~x86
 media-libs/sdl2-image ~x86
+
+# GLFW
+media-libs/glfw ~x86
+
+# OGRE
+media-libs/freeimage ~x86
+dev-games/ois ~x86
+dev-games/cegui ~x86
+sci-physics/bullet ~x86
+dev-games/ogre ~x86
+
+# Miscellaneous
+dev-libs/jsoncpp ~x86
+media-libs/glm ~x86
+media-libs/openal ~x86
