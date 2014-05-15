@@ -14,5 +14,5 @@ if [[ $- != *i* ]] ; then
 	return
 fi
 
-
 # Put your fun stuff here.
+export PATH=$PATH:/home/emersonmx/usr/bin

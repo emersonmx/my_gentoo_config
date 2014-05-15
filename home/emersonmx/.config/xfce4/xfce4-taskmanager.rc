@@ -2,7 +2,11 @@
 ShowAllProcesses=FALSE
 MorePrecision=FALSE
 FullCommandLine=FALSE
-ShowStatusIcon=TRUE
+ShowStatusIcon=FALSE
+MonitorPaintBox=TRUE
+ShowApplicationIcons=TRUE
+ToolbarStyle=DEFAULT
+PromptTerminateTask=TRUE
 RefreshRate=1000
 ColumnUID=TRUE
 ColumnPID=TRUE

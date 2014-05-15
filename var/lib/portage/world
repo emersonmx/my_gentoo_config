@@ -14,9 +14,11 @@ app-emulation/wine
 app-office/libreoffice
 app-office/orage
 app-portage/eix
+app-portage/genlop
 app-portage/gentoolkit
 app-portage/layman
 app-text/evince
+app-text/fbreader
 app-text/texlive
 dev-games/cegui
 dev-games/ogre
@@ -71,6 +73,7 @@ sys-apps/pciutils
 sys-apps/usbutils
 sys-boot/grub
 sys-boot/os-prober
+sys-devel/gdb
 sys-fs/ntfs3g
 sys-kernel/genkernel
 sys-kernel/gentoo-sources
