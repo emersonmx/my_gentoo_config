@@ -6,6 +6,6 @@ width_set=false
 height_set=false
 data0=%H:%M
 font0=
-tooltip=%d de %B de %Y
+tooltip=%A, %d de %B de %Y
 hib_timing=false
 

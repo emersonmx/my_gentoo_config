@@ -1,2 +1,3 @@
-dev-java/icedtea ~x86
-dev-java/icedtea-web ~x86
+virtual/jdk ~x86
+virtual/jre ~x86
+dev-java/java-sdk-docs ~x86
