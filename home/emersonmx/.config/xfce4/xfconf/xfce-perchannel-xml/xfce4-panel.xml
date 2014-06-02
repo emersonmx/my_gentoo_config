@@ -14,9 +14,9 @@
         <value type="int" value="3"/>
         <value type="int" value="15"/>
         <value type="int" value="4"/>
-        <value type="int" value="7"/>
+        <value type="int" value="2"/>
         <value type="int" value="6"/>
-        <value type="int" value="18"/>
+        <value type="int" value="9"/>
       </property>
       <property name="disable-struts" type="bool" value="false"/>
       <property name="background-style" type="uint" value="0"/>
@@ -48,7 +48,7 @@
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-4" type="string" value="pager">
-      <property name="rows" type="uint" value="2"/>
+      <property name="rows" type="uint" value="3"/>
       <property name="workspace-scrolling" type="bool" value="false"/>
     </property>
     <property name="plugin-6" type="string" value="systray">
@@ -70,13 +70,6 @@
       </property>
       <property name="show-frame" type="bool" value="false"/>
     </property>
-    <property name="plugin-7" type="string" value="mixer">
-      <property name="sound-card" type="string" value="HDAIntelPCHAlsamixer"/>
-      <property name="track" type="string" value="Principal"/>
-      <property name="command" type="string" value="xfce4-mixer"/>
-      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-    </property>
-    <property name="plugin-18" type="string" value="xfce4-orageclock-plugin"/>
     <property name="notes" type="empty">
       <property name="global" type="empty">
         <property name="skip-taskbar-hint" type="bool" value="true"/>
@@ -93,5 +86,12 @@
         <property name="never-confirm-history-clear" type="bool" value="false"/>
       </property>
     </property>
+    <property name="plugin-2" type="string" value="mixer">
+      <property name="sound-card" type="string" value="HDAIntelPCHAlsamixer"/>
+      <property name="track" type="string" value="Principal"/>
+      <property name="command" type="string" value="xfce4-mixer"/>
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+    </property>
+    <property name="plugin-9" type="string" value="xfce4-orageclock-plugin"/>
   </property>
 </channel>

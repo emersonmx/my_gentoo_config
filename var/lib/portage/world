@@ -90,8 +90,8 @@ x11-misc/slim
 x11-misc/xclip
 x11-terms/xfce4-terminal
 x11-themes/gnome-themes
+x11-themes/greybird
 x11-themes/slim-themes
-x11-themes/zukitwo
 xfce-base/xfce4-meta
 xfce-extra/thunar-archive-plugin
 xfce-extra/thunar-media-tags-plugin
