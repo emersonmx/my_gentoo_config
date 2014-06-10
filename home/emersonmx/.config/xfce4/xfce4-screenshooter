@@ -1,7 +1,7 @@
 delay=1
 region=1
 action=1
-show_mouse=1
+show_mouse=0
 screenshot_dir=file:/home/emersonmx
 app=ristretto
 last_user=

@@ -7,7 +7,6 @@ app-arch/p7zip
 app-arch/unrar
 app-cdr/xfburn
 app-doc/doxygen
-app-editors/gvim
 app-editors/vim
 app-emulation/virtualbox-bin
 app-emulation/wine
@@ -64,6 +63,8 @@ media-video/mplayer2
 net-analyzer/nmap
 net-dialup/ppp
 net-im/pidgin
+net-irc/irssi
+net-irc/irssi-xmpp
 net-misc/dhcpcd
 net-misc/dropbox
 net-misc/htpdate
