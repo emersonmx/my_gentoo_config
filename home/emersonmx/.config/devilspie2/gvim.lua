@@ -1,3 +1,3 @@
 if get_window_name() == "Vim" then
-    maximize()
+    set_window_fullscreen(true)
 end

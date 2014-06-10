@@ -1,3 +1,3 @@
-if get_window_name() == "Blender" then
-    maximize()
+if get_application_name() == "Blender" then
+    set_window_fullscreen(true)
 end

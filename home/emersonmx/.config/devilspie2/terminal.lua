@@ -1,3 +1,3 @@
 if get_window_name() == "Terminal" then
-    maximize()
+    set_window_fullscreen(true)
 end

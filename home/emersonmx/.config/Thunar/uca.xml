@@ -2,8 +2,8 @@
 <actions>
 <action>
 	<icon>utilities-terminal</icon>
-	<name>Abrir terminal aqui</name>
-	<unique-id>1401200066598492-2</unique-id>
+	<name>Abrir _terminal aqui</name>
+	<unique-id>1402407377679917-1</unique-id>
 	<command>xfce4-terminal</command>
 	<description>Exemplo de uma ação personalizada</description>
 	<patterns>*</patterns>
@@ -12,8 +12,8 @@
 </action>
 <action>
 	<icon>gvim</icon>
-	<name>Abrir gvim aqui</name>
-	<unique-id>1401200057162561-1</unique-id>
+	<name>Abrir g_vim aqui</name>
+	<unique-id>1402407384719520-2</unique-id>
 	<command>gvim</command>
 	<description></description>
 	<patterns>*</patterns>
