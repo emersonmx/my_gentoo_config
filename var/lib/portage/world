@@ -11,6 +11,7 @@ app-editors/gvim
 app-editors/vim
 app-emulation/virtualbox-bin
 app-emulation/wine
+app-misc/screen
 app-office/libreoffice
 app-office/orage
 app-portage/eix
