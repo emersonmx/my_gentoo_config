@@ -1,0 +1,16 @@
+dev-games/cegui freeimage lua ogre doc
+dev-games/ogre ois tools doc
+dev-libs/jsoncpp doc
+media-libs/freeimage doc
+sci-physics/bullet doc
+app-doc/doxygen dot
+media-libs/gd fontconfig
+
+# Qt
+dev-qt/qtwebkit icu
+
+# Vim
+app-editors/vim python
+app-editors/gvim python
+
+dev-libs/boost doc
