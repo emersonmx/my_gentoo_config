@@ -1,8 +1,0 @@
-#! /bin/bash
-
-ln -s $BKP_DIR
-ln -s $POG_DIR
-ln -s $PYTHON_POG_DIR
-ln -s $C_CPP_POG_DIR
-ln -s $DOCUMENTOS_DIR
-ln -s $DOWNLOADS_DIR

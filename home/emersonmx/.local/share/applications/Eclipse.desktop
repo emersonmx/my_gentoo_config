@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Eclipse
+Comment=
+Icon=/opt/eclipse/icon.xpm
+Exec=/opt/bin/eclipse
+Path=
+Terminal=false
+StartupNotify=false
+Categories=Development

@@ -7,10 +7,10 @@ app-arch/p7zip
 app-arch/unrar
 app-cdr/xfburn
 app-doc/doxygen
+app-editors/gvim
 app-editors/vim
 app-emulation/virtualbox-bin
 app-emulation/wine
-app-misc/screen
 app-office/libreoffice
 app-office/orage
 app-portage/eix

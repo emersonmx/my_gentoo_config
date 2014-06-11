@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Blender
+Comment=
+Icon=/opt/blender/icons/scalable/apps/blender.svg
+Exec=/opt/blender/blender
+Path=/opt/blender
+Terminal=false
+StartupNotify=false
+Categories=Graphics;3DGraphics;

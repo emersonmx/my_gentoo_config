@@ -1,5 +1,0 @@
-altscreen on
-defscrollback 4096
-
-hardstatus alwayslastline
-hardstatus string '%{= kG}%{g}[%= %{= kw}%?%-Lw%?%{+b m}(%{W}%n*%f%t%?(%u)%?%{m})%{-b w}%?%+Lw%?%?%= %{g}][ %{y}%c%{g} ]'
