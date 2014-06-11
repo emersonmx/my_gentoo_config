@@ -2,13 +2,13 @@ servers = (
   { address = "eu.irc6.net"; chatnet = "IRCnet"; port = "6667"; },
   { address = "open.ircnet.net"; chatnet = "IRCnet"; port = "6667"; },
   { address = "irc.efnet.org"; chatnet = "EFNet"; port = "6667"; },
-  { 
+  {
     address = "irc.undernet.org";
     chatnet = "Undernet";
     port = "6667";
   },
   { address = "irc.dal.net"; chatnet = "DALnet"; port = "6667"; },
-  { 
+  {
     address = "irc.quakenet.org";
     chatnet = "QuakeNet";
     port = "6667";
@@ -23,8 +23,18 @@ servers = (
   { address = "irc.rizon.net"; chatnet = "Rizon"; port = "6667"; },
   { address = "irc.link-net.org"; chatnet = "LinkNet"; port = "6667"; },
   { address = "silc.silcnet.org"; chatnet = "SILC"; port = "706"; },
-  { address = "talk.google.com"; chatnet = "gtalk"; port = "0"; },
-  { address = "chat.facebook.com"; chatnet = "facebook"; port = "0"; },
+  {
+    address = "talk.google.com";
+    chatnet = "gtalk";
+    port = "0";
+    autoconnect = "yes";
+  },
+  {
+    address = "chat.facebook.com";
+    chatnet = "facebook";
+    port = "0";
+    autoconnect = "yes";
+  },
   { address = "chat.freenode.net"; chatnet = "freenode"; port = "0"; }
 );
 
@@ -36,7 +46,7 @@ chatnets = {
     max_whois = "4";
     max_query_chans = "5";
   };
-  EFNet = { 
+  EFNet = {
     type = "IRC";
     max_kicks = "4";
     max_msgs = "3";
@@ -60,7 +70,7 @@ chatnets = {
     max_msgs = "3";
     max_whois = "30";
   };
-  OFTC = { 
+  OFTC = {
     type = "IRC";
     max_kicks = "1";
     max_msgs = "3";
@@ -78,7 +88,7 @@ chatnets = {
     max_msgs = "3";
     max_whois = "30";
   };
-  Rizon = { 
+  Rizon = {
     type = "IRC";
     max_kicks = "1";
     max_msgs = "3";
@@ -211,13 +221,13 @@ statusbar = {
       # list of items in statusbar in the display order
       items = {
         barstart = { priority = "100"; };
-        time = { };
         user = { };
         window = { };
         window_empty = { };
         lag = { priority = "-1"; };
         act = { priority = "10"; };
         more = { priority = "-1"; alignment = "right"; };
+        xmpp_composing = { alignment = "right"; };
         barend = { priority = "100"; alignment = "right"; };
       };
     };
@@ -240,11 +250,11 @@ statusbar = {
     # we treat input line as yet another statusbar :) It's possible to
     # add other items before or after the input line item.
     prompt = {
-      type = "root";
+      type = "window";
       placement = "bottom";
       # we want to be at the bottom always
       position = "100";
-      visible = "always";
+      visible = "active";
       items = {
         prompt = { priority = "-1"; };
         prompt_empty = { priority = "-1"; };
@@ -270,10 +280,27 @@ statusbar = {
 };
 settings = {
   core = {
-    real_name = "Unknown";
+    real_name = "Emerson Max";
     user_name = "emersonmx";
     nick = "emersonmx";
   };
-  "fe-text" = { actlist_sort = "refnum"; };
-  "fe-common/core" = { bell_beeps = "no"; };
+  "fe-text" = {
+    actlist_sort = "refnum";
+    term_force_colors = "yes";
+    autostick_split_windows = "no";
+  };
+  "fe-common/core" = {
+    beep_when_window_active = "yes";
+    beep_when_away = "yes";
+    beep_msg_level = "MSGS NOTICES DCC DCCMSGS HILIGHT";
+    bell_beeps = "yes";
+    term_charset = "utf-8";
+  };
+  "fe-common/xmpp" = {
+    xmpp_roster_show_offline = "no";
+    xmpp_roster_show_unsubscribed = "no";
+  };
+  "xmpp/core" = { xmpp_history_maxstanzas = "1024"; };
 };
+hilights = ( { text = "nick"; nick = "yes"; word = "yes"; } );
+logs = { };

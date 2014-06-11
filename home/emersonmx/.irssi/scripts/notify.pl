@@ -45,7 +45,7 @@ sub notify {
 	" '" . $message . "'";
 
     $server->command("EXEC - aplay -q ~/.irssi/sound/beep.wav");
-    $server->command($cmd);
+    # $server->command($cmd);
 }
 
 sub print_text_notify {
