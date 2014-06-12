@@ -1,3 +1,3 @@
-if get_window_name() == "xterm" then
+if get_window_class() == "XTerm" then
     set_window_fullscreen(true)
 end
