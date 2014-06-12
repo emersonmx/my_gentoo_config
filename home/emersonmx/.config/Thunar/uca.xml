@@ -3,7 +3,7 @@
 <action>
 	<icon>utilities-terminal</icon>
 	<name>Abrir _terminal aqui</name>
-	<unique-id>1402407377679917-1</unique-id>
+	<unique-id>1402612582128576-2</unique-id>
 	<command>xfce4-terminal</command>
 	<description>Exemplo de uma ação personalizada</description>
 	<patterns>*</patterns>
@@ -11,10 +11,10 @@
 	<directories/>
 </action>
 <action>
-	<icon>gvim</icon>
-	<name>Abrir g_vim aqui</name>
-	<unique-id>1402407384719520-2</unique-id>
-	<command>gvim</command>
+	<icon>accessories-text-editor</icon>
+	<name>Abrir _vim aqui</name>
+	<unique-id>1402612605875331-3</unique-id>
+	<command>xfce4-terminal -x vim</command>
 	<description></description>
 	<patterns>*</patterns>
 	<directories/>
