@@ -15,9 +15,4 @@ if [[ $- != *i* ]] ; then
 fi
 
 # Put your fun stuff here.
-
-alias ll="ls -l"
-alias lla="ls -la"
-alias scrault="screen -R default"
-
 export PATH=$PATH:/home/emersonmx/usr/bin
