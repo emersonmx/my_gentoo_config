@@ -1,1 +1,0 @@
-/home/emersonmx/.bash_profile
