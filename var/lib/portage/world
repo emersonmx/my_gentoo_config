@@ -64,6 +64,7 @@ media-video/mplayer2
 net-analyzer/nmap
 net-dialup/ppp
 net-im/pidgin
+net-im/skype
 net-misc/dhcpcd
 net-misc/dropbox
 net-misc/htpdate
