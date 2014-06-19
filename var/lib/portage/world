@@ -26,6 +26,7 @@ dev-games/ogre
 dev-games/ois
 dev-java/ant
 dev-lang/lua
+dev-lang/ruby
 dev-libs/jsoncpp
 dev-python/pip
 dev-python/virtualenv
