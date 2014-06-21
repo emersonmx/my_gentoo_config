@@ -75,6 +75,7 @@ net-wireless/wpa_supplicant
 sci-physics/bullet
 sys-apps/mlocate
 sys-apps/pciutils
+sys-apps/the_silver_searcher
 sys-apps/usbutils
 sys-boot/grub
 sys-boot/os-prober

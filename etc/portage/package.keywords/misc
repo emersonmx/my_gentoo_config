@@ -2,8 +2,8 @@
 app-emulation/wine ~x86
 app-emulation/winetricks ~x86
 
-
-www-plugins/google-talkplugin ~x86
-
 # Themes
 x11-themes/greybird ~x86
+
+
+www-plugins/google-talkplugin ~x86
