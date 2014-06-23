@@ -12,7 +12,6 @@ app-emulation/virtualbox-bin
 app-emulation/wine
 app-misc/tmux
 app-office/libreoffice
-app-office/orage
 app-portage/eix
 app-portage/genlop
 app-portage/gentoolkit
@@ -54,7 +53,6 @@ media-libs/freeimage
 media-libs/glfw
 media-libs/glm
 media-libs/libsdl2
-media-libs/libtxc_dxtn
 media-libs/openal
 media-libs/sdl2-image
 media-libs/sdl2-mixer
@@ -63,7 +61,6 @@ media-sound/audacity
 media-video/gtk-recordmydesktop
 media-video/mplayer2
 net-analyzer/nmap
-net-dialup/ppp
 net-im/pidgin
 net-im/skype
 net-misc/dhcpcd
@@ -90,15 +87,15 @@ www-client/links
 x11-apps/mesa-progs
 x11-apps/xfontsel
 x11-base/xorg-server
-x11-misc/alacarte
 x11-misc/devilspie2
-x11-misc/slim
+x11-misc/lightdm
+x11-misc/menulibre
+x11-misc/wmctrl
 x11-misc/xclip
 x11-plugins/pidgin-libnotify
 x11-terms/xfce4-terminal
 x11-themes/gnome-themes
 x11-themes/greybird
-x11-themes/slim-themes
 xfce-base/xfce4-meta
 xfce-extra/thunar-archive-plugin
 xfce-extra/thunar-media-tags-plugin
@@ -111,3 +108,4 @@ xfce-extra/xfce4-power-manager
 xfce-extra/xfce4-screenshooter
 xfce-extra/xfce4-taskmanager
 xfce-extra/xfce4-volumed-pulse
+xfce-extra/xfce4-whiskermenu-plugin

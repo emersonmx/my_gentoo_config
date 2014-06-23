@@ -5,5 +5,5 @@ app-emulation/winetricks ~x86
 # Themes
 x11-themes/greybird ~x86
 
-
+x11-misc/menulibre ~x86
 www-plugins/google-talkplugin ~x86

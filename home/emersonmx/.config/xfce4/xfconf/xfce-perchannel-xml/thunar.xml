@@ -19,4 +19,6 @@
   <property name="misc-folders-first" type="bool" value="true"/>
   <property name="shortcuts-icon-emblems" type="bool" value="true"/>
   <property name="tree-icon-emblems" type="bool" value="true"/>
+  <property name="last-window-width" type="int" value="640"/>
+  <property name="last-window-height" type="int" value="480"/>
 </channel>
