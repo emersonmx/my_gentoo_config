@@ -1,5 +1,5 @@
 favorites=exo-terminal-emulator.desktop,exo-file-manager.desktop,exo-mail-reader.desktop,exo-web-browser.desktop
-recent=google-chrome.desktop
+recent=zzz-gimp.desktop,skype.desktop,pidgin.desktop,xfce4-power-manager-settings.desktop,xfce4-settings-editor.desktop,Eclipse.desktop,google-chrome.desktop,Counter-Strike.desktop,firefox.desktop
 button-title=Menu de aplicativos
 button-icon=start-here
 show-button-title=false

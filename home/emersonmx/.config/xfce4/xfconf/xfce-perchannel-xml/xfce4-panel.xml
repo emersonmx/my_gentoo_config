@@ -14,6 +14,7 @@
         <value type="int" value="3"/>
         <value type="int" value="15"/>
         <value type="int" value="2"/>
+        <value type="int" value="1"/>
         <value type="int" value="6"/>
         <value type="int" value="4"/>
       </property>
@@ -29,7 +30,7 @@
   </property>
   <property name="plugins" type="empty">
     <property name="plugin-3" type="string" value="tasklist">
-      <property name="show-handle" type="bool" value="true"/>
+      <property name="show-handle" type="bool" value="false"/>
       <property name="show-labels" type="bool" value="false"/>
       <property name="grouping" type="uint" value="0"/>
       <property name="show-wireframes" type="bool" value="false"/>
@@ -38,6 +39,8 @@
       <property name="include-all-workspaces" type="bool" value="true"/>
       <property name="include-all-monitors" type="bool" value="false"/>
       <property name="flat-buttons" type="bool" value="true"/>
+      <property name="window-scrolling" type="bool" value="false"/>
+      <property name="sort-order" type="uint" value="4"/>
     </property>
     <property name="plugin-15" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
@@ -45,15 +48,11 @@
     </property>
     <property name="plugin-6" type="string" value="systray">
       <property name="names-visible" type="array">
-        <value type="string" value="dropbox"/>
-        <value type="string" value="xfce4-power-manager"/>
         <value type="string" value="skype"/>
-        <value type="string" value="thunar"/>
-        <value type="string" value="gerenciador de tarefas"/>
+        <value type="string" value="dropbox"/>
         <value type="string" value="pidgin"/>
       </property>
       <property name="names-hidden" type="array">
-        <value type="string" value="orage"/>
       </property>
       <property name="show-frame" type="bool" value="false"/>
       <property name="size-max" type="uint" value="24"/>
@@ -84,7 +83,9 @@
       <property name="tooltip-format" type="string" value="%A, %d %B %Y"/>
       <property name="show-frame" type="bool" value="false"/>
       <property name="mode" type="uint" value="2"/>
+      <property name="digital-format" type="string" value="%R"/>
     </property>
     <property name="plugin-5" type="string" value="whiskermenu"/>
+    <property name="plugin-1" type="string" value="xfce4-battery-plugin"/>
   </property>
 </channel>

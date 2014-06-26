@@ -1,11 +1,14 @@
 # Java
 virtual/jdk ~x86
 virtual/jre ~x86
-dev-java/java-sdk-docs ~x86 
+dev-java/java-sdk-docs ~x86
 
 # SDL
 media-libs/libsdl ~x86
 media-libs/libsdl2 ~x86
+media-libs/sdl-ttf ~x86
+media-libs/sdl-image ~x86
+media-libs/sdl-mixer ~x86
 media-libs/sdl2-ttf ~x86
 media-libs/sdl2-mixer ~x86
 media-libs/sdl2-image ~x86
