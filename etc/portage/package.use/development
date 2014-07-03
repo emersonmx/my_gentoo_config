@@ -8,6 +8,7 @@ media-libs/gd fontconfig
 
 # Qt
 dev-qt/qtwebkit icu
+dev-libs/botan threads
 
 # Vim
 app-editors/vim python

@@ -29,6 +29,7 @@ dev-lang/ruby
 dev-libs/jsoncpp
 dev-python/pip
 dev-python/virtualenv
+dev-qt/qt-creator
 dev-qt/qt-meta
 dev-vcs/git
 dev-vcs/mercurial
@@ -66,6 +67,7 @@ media-video/mplayer2
 net-analyzer/nmap
 net-im/pidgin
 net-im/skype
+net-libs/nodejs
 net-misc/dhcpcd
 net-misc/dropbox
 net-misc/htpdate

@@ -16,7 +16,6 @@ MiscTabCloseButtons=TRUE
 MiscTabCloseMiddleClick=TRUE
 MiscTabPosition=GTK_POS_TOP
 MiscHighlightUrls=TRUE
-ScrollingLines=10000
 ScrollingOnOutput=FALSE
 ScrollingBar=TERMINAL_SCROLLBAR_NONE
 ColorForeground=#839496

@@ -1,3 +1,3 @@
-if get_window_class() == "Xfce4-terminal" then
+if get_window_name() == "Xfce4-terminal" then
     maximize()
 end
