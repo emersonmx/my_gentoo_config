@@ -6,6 +6,9 @@ Comment=
 Icon=/opt/blender/icons/scalable/apps/blender.svg
 Exec=/opt/blender/blender
 Path=/opt/blender
-Terminal=false
-StartupNotify=false
-Categories=Graphics;3DGraphics;
+Terminal=true
+StartupNotify=true
+Categories=3DGraphics;Graphics
+
+Name[pt_BR]=Blender
+Comment[pt_BR]=

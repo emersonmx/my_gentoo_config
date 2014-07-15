@@ -1,5 +1,5 @@
 favorites=exo-terminal-emulator.desktop,exo-file-manager.desktop,exo-mail-reader.desktop,exo-web-browser.desktop
-recent=pidgin.desktop,Blender.desktop,Eclipse.desktop,gvbam.desktop,skype.desktop,Counter-Strike.desktop,firefox.desktop,google-chrome.desktop,Diablo_II_w.desktop,xfce-wm-settings.desktop
+recent=dia-integrated.desktop,evince-previewer.desktop,Blender.desktop,zzz-gimp.desktop,qdbusviewer-qdbusviewer-4.desktop,assistant-assistant-4.desktop,doxywizard-doxygen.desktop,Counter-Strike.desktop,skype.desktop,pidgin.desktop
 button-title=Menu de aplicativos
 button-icon=start-here
 show-button-title=false

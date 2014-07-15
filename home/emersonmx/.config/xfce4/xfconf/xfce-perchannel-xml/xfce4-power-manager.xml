@@ -13,5 +13,6 @@
     <property name="power-save-on-battery" type="bool" value="true"/>
     <property name="dpms-enabled" type="bool" value="true"/>
     <property name="general-notification" type="bool" value="true"/>
+    <property name="power-button-action" type="uint" value="3"/>
   </property>
 </channel>

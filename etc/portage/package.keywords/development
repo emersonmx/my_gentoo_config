@@ -28,3 +28,4 @@ dev-libs/jsoncpp ~x86
 media-libs/glm ~x86
 media-libs/openal ~x86
 media-libs/freetype ~x86
+media-libs/libsfml ~x86
