@@ -32,6 +32,7 @@ dev-python/pip
 dev-python/virtualenv
 dev-qt/qt-creator
 dev-qt/qt-meta
+dev-util/devhelp
 dev-vcs/git
 dev-vcs/mercurial
 dev-vcs/subversion

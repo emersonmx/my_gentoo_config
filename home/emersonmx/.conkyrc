@@ -28,7 +28,7 @@ no_buffers yes
 cpu_avg_samples 2
 override_utf8_locale no
 uppercase no # set to yes if you want all text to be in uppercase
-use_spacer no
+use_spacer none
 override_utf8_locale yes
 
 TEXT

@@ -26,6 +26,12 @@
       <property name="autohide" type="bool" value="true"/>
       <property name="length-adjust" type="bool" value="false"/>
       <property name="mode" type="uint" value="0"/>
+      <property name="background-color" type="array">
+        <value type="uint" value="24654"/>
+        <value type="uint" value="7057"/>
+        <value type="uint" value="7057"/>
+        <value type="uint" value="65535"/>
+      </property>
     </property>
   </property>
   <property name="plugins" type="empty">
@@ -54,6 +60,7 @@
         <value type="string" value="gerenciador de tarefas"/>
         <value type="string" value="skype"/>
         <value type="string" value="pidgin"/>
+        <value type="string" value="notas"/>
         <value type="string" value="dropbox"/>
         <value type="string" value="xfce4-power-manager"/>
       </property>
@@ -65,11 +72,13 @@
     <property name="notes" type="empty">
       <property name="global" type="empty">
         <property name="skip-taskbar-hint" type="bool" value="true"/>
-        <property name="tabs-position" type="int" value="0"/>
+        <property name="tabs-position" type="int" value="1"/>
       </property>
       <property name="new-window" type="empty">
         <property name="always-on-top" type="bool" value="false"/>
         <property name="sticky" type="bool" value="false"/>
+        <property name="width" type="int" value="240"/>
+        <property name="height" type="int" value="300"/>
       </property>
     </property>
     <property name="clipman" type="empty">
