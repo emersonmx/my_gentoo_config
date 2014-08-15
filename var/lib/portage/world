@@ -18,6 +18,7 @@ app-portage/genlop
 app-portage/gentoolkit
 app-portage/layman
 app-shells/zsh
+app-shells/zsh-completion
 app-text/evince
 app-text/fbreader
 app-text/texlive
@@ -25,6 +26,7 @@ dev-games/cegui
 dev-games/ogre
 dev-games/ois
 dev-java/ant
+dev-java/maven-bin
 dev-lang/lua
 dev-lang/ruby
 dev-libs/jsoncpp
@@ -32,7 +34,6 @@ dev-python/pip
 dev-python/virtualenv
 dev-qt/qt-creator
 dev-qt/qt-meta
-dev-util/devhelp
 dev-vcs/git
 dev-vcs/mercurial
 dev-vcs/subversion
@@ -101,6 +102,7 @@ x11-misc/wmctrl
 x11-misc/xclip
 x11-plugins/pidgin-libnotify
 x11-terms/xfce4-terminal
+x11-themes/faenza-icon-theme
 x11-themes/gnome-themes
 x11-themes/greybird
 xfce-base/xfce4-meta

@@ -1,5 +1,5 @@
-favorites=exo-terminal-emulator.desktop,exo-file-manager.desktop,exo-mail-reader.desktop,exo-web-browser.desktop
-recent=Eclipse.desktop,firefox.desktop,libreoffice-writer.desktop,assistant-assistant-4.desktop,qtconfig-qtgui-4.desktop,designer-designer-4.desktop,dia-integrated.desktop,google-chrome.desktop,inkscape.desktop,fontforge.desktop
+favorites=exo-terminal-emulator.desktop,exo-file-manager.desktop,exo-mail-reader.desktop,exo-web-browser.desktop,zzz-gimp.desktop
+recent=transmission-gtk.desktop,firefox.desktop,virtualbox-bin.desktop,zzz-gimp.desktop,Counter-Strike.desktop,wine-Programs-Hero Editor-Hero Editor V0.96.desktop,Eclipse.desktop,google-chrome.desktop,skype.desktop,pidgin.desktop
 button-title=Menu de aplicativos
 button-icon=start-here
 show-button-title=false

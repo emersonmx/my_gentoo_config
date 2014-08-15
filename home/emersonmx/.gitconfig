@@ -5,3 +5,6 @@
 	editor = vim
 [push]
 	default = simple
+[gui]
+[gui]
+	recentrepo = /home/emersonmx/Dropbox/POG/java/asteroids

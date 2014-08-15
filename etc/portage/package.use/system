@@ -1,3 +1,5 @@
 gnome-base/gvfs archive fuse gphoto2 mtp
 
+app-admin/conky imlib lua lua-cairo lua-imlib
+
 x11-misc/xscreensaver new-login

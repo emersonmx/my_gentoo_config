@@ -51,7 +51,7 @@ ZSH_TMUX_FIXTERM="false"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git python jump tmux)
+plugins=(git python jump sudo tmux)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -75,6 +75,8 @@ export PATH="$PATH:/home/emersonmx/usr/bin:/home/emersonmx/.gem/ruby/2.0.0/bin"
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
+
+export SOLARIZED=true
 
 if [[ $TERM != "linux" ]]; then
     export TERM=xterm-256color
