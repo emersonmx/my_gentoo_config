@@ -49,20 +49,6 @@ ${membar 4}
 SWAP ${alignr}$swap / $swapmax ($swapperc%)
 ${swapbar 4}
 
-Highest CPU $alignr CPU% MEM%
-${top name 1}$alignr${top cpu 1}${top mem 1}
-${top name 2}$alignr${top cpu 2}${top mem 2}
-${top name 3}$alignr${top cpu 3}${top mem 3}
-${top name 4}$alignr${top cpu 4}${top mem 4}
-${top name 5}$alignr${top cpu 5}${top mem 5}
-
-Highest MEM $alignr CPU% MEM%
-${top_mem name 1}$alignr${top_mem cpu 1}${top_mem mem 1}
-${top_mem name 2}$alignr${top_mem cpu 2}${top_mem mem 2}
-${top_mem name 3}$alignr${top_mem cpu 3}${top_mem mem 3}
-${top_mem name 4}$alignr${top_mem cpu 4}${top_mem mem 4}
-${top_mem name 5}$alignr${top_mem cpu 5}${top_mem mem 5}
-
 FILESYSTEM ${hr 1}${color}
 
 ROOT: $alignr ${fs_used /} / ${fs_size /} ($alignr${fs_free_perc /}%)

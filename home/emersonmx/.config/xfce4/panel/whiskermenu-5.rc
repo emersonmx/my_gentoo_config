@@ -1,5 +1,5 @@
 favorites=exo-terminal-emulator.desktop,exo-file-manager.desktop,exo-mail-reader.desktop,exo-web-browser.desktop,zzz-gimp.desktop
-recent=Counter-Strike.desktop,zenmap-root.desktop,zzz-gimp.desktop,org.gnome.FileRoller.desktop,firefox.desktop,Diablo_II_w.desktop,pidgin.desktop,google-chrome.desktop,inkscape.desktop,skype.desktop
+recent=Eclipse.desktop,firefox.desktop,snes9x.desktop,google-chrome.desktop,zzz-gimp.desktop,xfce4-settings-editor.desktop,pidgin.desktop,dia-integrated.desktop,wine-winecfg.desktop,Counter-Strike.desktop
 button-title=Menu de aplicativos
 button-icon=start-here
 show-button-title=false
