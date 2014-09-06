@@ -1,9 +1,9 @@
 # Wine
-app-emulation/wine ~x86
-app-emulation/winetricks ~x86
+app-emulation/wine ~amd64
+app-emulation/winetricks ~amd64
 
 # Themes
-x11-themes/greybird ~x86
+x11-themes/greybird ~amd64
 
-x11-misc/menulibre ~x86
-www-plugins/google-talkplugin ~x86
+x11-misc/menulibre ~amd64
+www-plugins/google-talkplugin ~amd64

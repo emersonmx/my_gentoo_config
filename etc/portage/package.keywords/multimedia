@@ -1,6 +1,6 @@
 # mplayer2
-media-video/mplayer2 ~x86
-virtual/ffmpeg ~x86
-media-libs/libmad ~x86
+media-video/mplayer2 ~amd64
+virtual/ffmpeg ~amd64
+media-libs/libmad ~amd64
 
 # Miscellaneous

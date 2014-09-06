@@ -1,6 +1,6 @@
 # Chrome
-www-client/google-chrome ~x86
+www-client/google-chrome ~amd64
 
-net-im/skype ~x86
+net-im/skype ~amd64
 
-net-misc/teamviewer ~x86
+net-misc/teamviewer ~amd64

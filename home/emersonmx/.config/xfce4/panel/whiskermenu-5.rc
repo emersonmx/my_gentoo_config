@@ -1,5 +1,5 @@
 favorites=exo-terminal-emulator.desktop,exo-file-manager.desktop,exo-mail-reader.desktop,exo-web-browser.desktop,zzz-gimp.desktop
-recent=Eclipse.desktop,firefox.desktop,snes9x.desktop,google-chrome.desktop,zzz-gimp.desktop,xfce4-settings-editor.desktop,pidgin.desktop,dia-integrated.desktop,wine-winecfg.desktop,Counter-Strike.desktop
+recent=google-chrome.desktop,xfce-session-settings.desktop,exo-file-manager.desktop,xfburn.desktop,Counter-Strike.desktop,pidgin.desktop,firefox.desktop,Eclipse.desktop,snes9x.desktop,zzz-gimp.desktop
 button-title=Menu de aplicativos
 button-icon=start-here
 show-button-title=false

@@ -1,31 +1,31 @@
 # Java
-virtual/jdk ~x86
-virtual/jre ~x86
-dev-java/java-sdk-docs ~x86
+virtual/jdk ~amd64
+virtual/jre ~amd64
+dev-java/java-sdk-docs ~amd64
 
 # SDL
-media-libs/libsdl ~x86
-media-libs/libsdl2 ~x86
-media-libs/sdl-ttf ~x86
-media-libs/sdl-image ~x86
-media-libs/sdl-mixer ~x86
-media-libs/sdl2-ttf ~x86
-media-libs/sdl2-mixer ~x86
-media-libs/sdl2-image ~x86
+media-libs/libsdl ~amd64
+media-libs/libsdl2 ~amd64
+media-libs/sdl-ttf ~amd64
+media-libs/sdl-image ~amd64
+media-libs/sdl-mixer ~amd64
+media-libs/sdl2-ttf ~amd64
+media-libs/sdl2-mixer ~amd64
+media-libs/sdl2-image ~amd64
 
 # GLFW
-media-libs/glfw ~x86
+media-libs/glfw ~amd64
 
 # OGRE
-media-libs/freeimage ~x86
-dev-games/ois ~x86
-dev-games/cegui ~x86
-sci-physics/bullet ~x86
-dev-games/ogre ~x86
+media-libs/freeimage ~amd64
+dev-games/ois ~amd64
+dev-games/cegui ~amd64
+sci-physics/bullet ~amd64
+dev-games/ogre ~amd64
 
 # Miscellaneous
-dev-libs/jsoncpp ~x86
-media-libs/glm ~x86
-media-libs/openal ~x86
-media-libs/freetype ~x86
-media-libs/libsfml ~x86
+dev-libs/jsoncpp ~amd64
+media-libs/glm ~amd64
+media-libs/openal ~amd64
+media-libs/freetype ~amd64
+media-libs/libsfml ~amd64
