@@ -74,6 +74,7 @@ net-libs/nodejs
 net-misc/dhcpcd
 net-misc/dropbox
 net-misc/htpdate
+net-misc/netifrc
 net-p2p/transmission
 net-wireless/iw
 net-wireless/wpa_supplicant
