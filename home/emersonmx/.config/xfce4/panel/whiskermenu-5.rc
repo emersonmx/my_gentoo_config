@@ -1,5 +1,5 @@
-favorites=exo-terminal-emulator.desktop,exo-file-manager.desktop,exo-mail-reader.desktop,exo-web-browser.desktop,zzz-gimp.desktop
-recent=google-chrome.desktop,xfce-session-settings.desktop,exo-file-manager.desktop,xfburn.desktop,Counter-Strike.desktop,pidgin.desktop,firefox.desktop,Eclipse.desktop,snes9x.desktop,zzz-gimp.desktop
+favorites=exo-terminal-emulator.desktop,exo-file-manager.desktop,exo-mail-reader.desktop,exo-web-browser.desktop
+recent=libreoffice-calc.desktop,xscreensaver-properties.desktop,xfce-mouse-settings.desktop,Counter-Strike.desktop,skype.desktop,pidgin.desktop,menulibre.desktop,xfce-session-settings.desktop,Thunar-bulk-rename.desktop,wine-browsedrive.desktop
 button-title=Menu de aplicativos
 button-icon=start-here
 show-button-title=false

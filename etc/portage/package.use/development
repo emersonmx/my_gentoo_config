@@ -1,3 +1,4 @@
+media-libs/freetype kpathsea
 dev-games/cegui freeimage lua ogre doc
 dev-games/ogre ois tools doc
 dev-libs/jsoncpp doc
@@ -12,6 +13,6 @@ dev-libs/botan threads
 
 # Vim
 app-editors/vim python
-app-editors/gvim python
+app-editors/gvim python netbeans
 
 dev-libs/boost doc

@@ -12,6 +12,7 @@ media-libs/sdl-mixer ~amd64
 media-libs/sdl2-ttf ~amd64
 media-libs/sdl2-mixer ~amd64
 media-libs/sdl2-image ~amd64
+media-libs/sdl2-gfx ~amd64
 
 # GLFW
 media-libs/glfw ~amd64
@@ -29,3 +30,5 @@ media-libs/glm ~amd64
 media-libs/openal ~amd64
 media-libs/freetype ~amd64
 media-libs/libsfml ~amd64
+
+# Python

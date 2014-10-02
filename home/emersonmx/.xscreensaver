@@ -1,5 +1,5 @@
 # XScreenSaver Preferences File
-# Written by xscreensaver-demo 5.26 for emersonmx on Mon Jun 23 01:36:34 2014.
+# Written by xscreensaver-demo 5.29 for emersonmx on Thu Oct  2 09:41:51 2014.
 # http://www.jwz.org/xscreensaver/
 
 timeout:	0:10:00
@@ -32,7 +32,7 @@ dpmsOff:	4:00:00
 grabDesktopImages:  False
 grabVideoFrames:    False
 chooseRandomImages: False
-imageDirectory:	
+imageDirectory:
 
 mode:		one
 selected:	24
@@ -249,6 +249,8 @@ programs:								      \
   GL: 				kaleidocycle -root			    \n\
   GL: 				quasicrystal -root			    \n\
   GL: 				unknownpleasures -root			    \n\
+  GL: 				projectiveplane -root			    \n\
+				tessellimage -root			    \n\
 
 
 pointerPollTime:    0:00:05

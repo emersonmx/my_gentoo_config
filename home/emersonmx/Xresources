@@ -12,6 +12,7 @@ xterm*cursorBlink: true
 
 xterm*scrollTtyOutput: false
 xterm*scrollKey: true
+xterm*scrollBar: false
 
 !! drop in Solarized colorscheme for Xresources/Xdefaults
 

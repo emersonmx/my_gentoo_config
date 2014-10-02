@@ -1,2 +1,2 @@
 dev-lang/python doc sqlite tk
-dev-java/oracle-jdk-bin derby doc jce nsplugin source
+dev-java/oracle-jdk-bin derby jce nsplugin source

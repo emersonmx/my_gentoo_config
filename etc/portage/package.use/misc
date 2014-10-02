@@ -1,1 +1,2 @@
 app-arch/p7zip -wxwidgets
+x11-terms/rxvt-unicode -vanilla 256-color blink secondary-wheel xft

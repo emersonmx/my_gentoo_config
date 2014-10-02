@@ -1,5 +1,7 @@
 # Chrome
 www-client/google-chrome ~amd64
+www-client/chromium ~amd64
+www-plugins/chrome-binary-plugins ~amd64
 
 net-im/skype ~amd64
 
