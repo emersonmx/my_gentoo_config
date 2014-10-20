@@ -28,6 +28,7 @@ dev-games/cegui
 dev-games/ogre
 dev-games/ois
 dev-java/ant
+dev-java/jython
 dev-java/maven-bin
 dev-lang/lua
 dev-lang/ruby
@@ -36,6 +37,7 @@ dev-python/pip
 dev-python/virtualenv
 dev-qt/qt-creator
 dev-qt/qt-meta
+dev-util/glade
 dev-vcs/git
 dev-vcs/mercurial
 dev-vcs/subversion
@@ -44,6 +46,7 @@ games-emulation/snes9x
 games-emulation/vbam
 games-util/joystick
 games-util/steam-meta
+mail-client/thunderbird
 media-fonts/arphicfonts
 media-fonts/bitstream-cyberbit
 media-fonts/droid
@@ -96,6 +99,7 @@ www-client/links
 www-plugins/chrome-binary-plugins
 x11-apps/mesa-progs
 x11-apps/xfontsel
+x11-apps/xrandr
 x11-base/xorg-server
 x11-misc/devilspie2
 x11-misc/lightdm
@@ -105,7 +109,6 @@ x11-misc/xclip
 x11-plugins/pidgin-libnotify
 x11-terms/xfce4-terminal
 x11-themes/faenza-icon-theme
-x11-themes/gnome-themes
 x11-themes/greybird
 xfce-base/xfce4-meta
 xfce-extra/thunar-archive-plugin

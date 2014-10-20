@@ -2,6 +2,11 @@
 virtual/jdk ~amd64
 virtual/jre ~amd64
 dev-java/java-sdk-docs ~amd64
+dev-java/icu4j ~amd64
+dev-java/asm ~amd64
+dev-java/guava ~amd64
+dev-java/jnr-posix ~amd64
+dev-java/jnr-ffi ~amd64
 
 # SDL
 media-libs/libsdl ~amd64
@@ -32,3 +37,7 @@ media-libs/freetype ~amd64
 media-libs/libsfml ~amd64
 
 # Python
+dev-python/pypy ~amd64
+dev-java/jython ~amd64
+dev-python/pylint ~amd64
+dev-python/astroid ~amd64

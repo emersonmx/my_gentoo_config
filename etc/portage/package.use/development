@@ -1,11 +1,10 @@
-media-libs/freetype kpathsea
-dev-games/cegui freeimage lua ogre doc
-dev-games/ogre ois tools doc
-dev-libs/jsoncpp doc
-media-libs/freeimage doc
-sci-physics/bullet doc
-app-doc/doxygen dot
-media-libs/gd fontconfig
+# Java
+dev-java/oracle-jdk-bin derby jce nsplugin source
+
+# Python
+dev-java/jython
+dev-python/pypy sqlite tk
+dev-lang/python doc sqlite tk
 
 # Qt
 dev-qt/qtwebkit icu
@@ -15,4 +14,13 @@ dev-libs/botan threads
 app-editors/vim python
 app-editors/gvim python netbeans
 
+# Misc
+media-libs/freetype kpathsea
+dev-games/cegui freeimage lua ogre doc
+dev-games/ogre ois tools doc
+dev-libs/jsoncpp doc
+media-libs/freeimage doc
+sci-physics/bullet doc
+app-doc/doxygen dot
+media-libs/gd fontconfig
 dev-libs/boost doc

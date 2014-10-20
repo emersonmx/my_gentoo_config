@@ -5,5 +5,10 @@
     <property name="navigationbar" type="empty">
       <property name="position" type="string" value="right"/>
     </property>
+    <property name="bgcolor-override" type="bool" value="false"/>
+    <property name="show-clock" type="bool" value="false"/>
+  </property>
+  <property name="image" type="empty">
+    <property name="limit-quality" type="bool" value="false"/>
   </property>
 </channel>
