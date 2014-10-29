@@ -2,6 +2,9 @@
 app-emulation/wine ~amd64
 app-emulation/winetricks ~amd64
 
+# Xfce
+xfce-extra/xfce4-whiskermenu-plugin ~amd64
+
 # Themes
 x11-themes/greybird ~amd64
 
