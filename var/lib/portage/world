@@ -19,8 +19,8 @@ app-portage/eix
 app-portage/genlop
 app-portage/gentoolkit
 app-portage/layman
+app-shells/gentoo-zsh-completions
 app-shells/zsh
-app-shells/zsh-completion
 app-text/evince
 app-text/fbreader
 app-text/texlive
@@ -28,7 +28,6 @@ dev-games/cegui
 dev-games/ogre
 dev-games/ois
 dev-java/ant
-dev-java/jython
 dev-java/maven-bin
 dev-lang/lua
 dev-lang/ruby
@@ -68,6 +67,7 @@ media-libs/sdl2-image
 media-libs/sdl2-mixer
 media-libs/sdl2-ttf
 media-sound/audacity
+media-video/cinelerra
 media-video/gtk-recordmydesktop
 media-video/mpv
 net-analyzer/nmap

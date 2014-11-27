@@ -7,3 +7,5 @@ media-libs/lcms ~amd64
 #media-libs/libmad ~amd64
 
 # Miscellaneous
+media-video/cinelerra ~amd64
+#media-sound/pulseaudio ~amd64

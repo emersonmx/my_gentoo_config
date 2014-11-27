@@ -57,7 +57,10 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 export PATH="$PATH:/home/emersonmx/usr/bin:/home/emersonmx/.gem/ruby/2.0.0/bin"
+export PYTHONSTARTUP=$HOME/.pythonrc.py
+
 bindkey -M viins 'jk' vi-cmd-mode
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment

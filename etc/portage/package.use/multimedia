@@ -1,4 +1,5 @@
 media-libs/lcms python
+media-sound/pulseaudio abi_x86_32
 
 # mplayer 2
 #media-video/mplayer2 symlink v4l
@@ -8,4 +9,4 @@ media-libs/lcms python
 # MPV
 media-video/mpv v4l
 virtual/ffmpeg threads theora
-media-video/ffmpeg threads
+media-video/ffmpeg threads theora

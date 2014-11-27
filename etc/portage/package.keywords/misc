@@ -10,3 +10,5 @@ x11-themes/greybird ~amd64
 
 x11-misc/menulibre ~amd64
 www-plugins/google-talkplugin ~amd64
+
+net-misc/teamviewer ~amd64

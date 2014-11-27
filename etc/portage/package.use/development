@@ -2,6 +2,7 @@
 dev-java/oracle-jdk-bin derby jce nsplugin source
 
 # Python
+dev-python/ipython -qt4 -wxwidgets
 dev-java/jython
 dev-python/pypy sqlite tk
 dev-lang/python doc sqlite tk
@@ -11,7 +12,7 @@ dev-qt/qtwebkit icu
 dev-libs/botan threads
 
 # Vim
-app-editors/vim python
+app-editors/vim -X python
 app-editors/gvim python netbeans
 
 # Misc
