@@ -6,6 +6,10 @@ media-video/ffmpeg ~amd64
 media-libs/lcms ~amd64
 #media-libs/libmad ~amd64
 
+# zathura
+app-text/zathura ~amd64
+=dev-libs/girara-0.2.3 ~amd64
+
 # Miscellaneous
 media-video/cinelerra ~amd64
 #media-sound/pulseaudio ~amd64

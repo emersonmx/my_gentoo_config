@@ -11,21 +11,6 @@ except ImportError:
     except ImportError:
         print("No tab completion is enabled.")
 
-import sys
-import pprint
-
-def pp_displayhook(value):
-    if value is not None:
-        try:
-            import __builtin__
-            __builtin__._ = value
-        except ImportError:
-            __builtins__._value
-
-        pprint.pprint(value)
-
-sys.displayhook = pp_displayhook
-
 import os
 import sys
 

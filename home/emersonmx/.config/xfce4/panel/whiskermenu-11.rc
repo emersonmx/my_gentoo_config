@@ -1,5 +1,5 @@
 favorites=exo-terminal-emulator.desktop,exo-file-manager.desktop,exo-mail-reader.desktop,exo-web-browser.desktop
-recent=gvim.desktop,virtualbox-bin.desktop,xfce-mouse-settings.desktop,snes9x.desktop,libreoffice-writer.desktop,gvbam.desktop,glade.desktop,xterm.desktop,dia-integrated.desktop,zzz-gimp.desktop
+recent=libreoffice-writer.desktop,steam.desktop,transmission-gtk.desktop,virtualbox-bin.desktop,pidgin.desktop,xfce-wmtweaks-settings.desktop,gvim.desktop,xfce-mouse-settings.desktop,snes9x.desktop,gvbam.desktop
 button-title=Menu de aplicativos
 button-icon=start-here
 button-single-row=false

@@ -25,3 +25,4 @@ dev-texlive/texlive-science doc
 dev-texlive/texlive-texinfo doc
 
 app-text/evince dvi djvu
+app-text/zathura-meta cb pdf djvu postscript
