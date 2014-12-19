@@ -4,7 +4,6 @@
   <property name="configver" type="int" value="2"/>
   <property name="panels" type="array">
     <value type="int" value="1"/>
-    <value type="int" value="2"/>
     <property name="panel-1" type="empty">
       <property name="position" type="string" value="p=10;x=680;y=752"/>
       <property name="length" type="uint" value="100"/>
@@ -34,26 +33,6 @@
         <value type="uint" value="7057"/>
         <value type="uint" value="65535"/>
       </property>
-    </property>
-    <property name="panel-2" type="empty">
-      <property name="position" type="string" value="p=7;x=28;y=379"/>
-      <property name="mode" type="uint" value="2"/>
-      <property name="autohide" type="bool" value="true"/>
-      <property name="background-alpha" type="uint" value="0"/>
-      <property name="position-locked" type="bool" value="true"/>
-      <property name="disable-struts" type="bool" value="false"/>
-      <property name="plugin-ids" type="array">
-        <value type="int" value="24"/>
-        <value type="int" value="9"/>
-        <value type="int" value="8"/>
-        <value type="int" value="25"/>
-        <value type="int" value="28"/>
-        <value type="int" value="29"/>
-        <value type="int" value="26"/>
-        <value type="int" value="27"/>
-      </property>
-      <property name="size" type="uint" value="48"/>
-      <property name="length" type="uint" value="24"/>
     </property>
   </property>
   <property name="plugins" type="empty">
@@ -132,46 +111,6 @@
       <property name="rows" type="uint" value="2"/>
       <property name="workspace-scrolling" type="bool" value="false"/>
       <property name="miniature-view" type="bool" value="true"/>
-    </property>
-    <property name="plugin-24" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="14145491961.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-25" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="14145492384.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-26" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="14145492657.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-27" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="14145492748.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-28" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="14145492515.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-29" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="14145492586.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-8" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="14145492173.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-9" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="14145492042.desktop"/>
-      </property>
     </property>
     <property name="plugin-11" type="string" value="whiskermenu"/>
   </property>

@@ -12,8 +12,11 @@ dev-qt/qtwebkit icu
 dev-libs/botan threads
 
 # Vim
-app-editors/vim -X python
+app-editors/vim python
 app-editors/gvim python netbeans
+# PHP
+dev-lang/php apache2 gd mysql pdo sqlite
+app-admin/eselect-php apache2
 
 # Misc
 media-libs/freetype kpathsea

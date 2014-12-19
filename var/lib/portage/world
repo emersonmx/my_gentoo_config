@@ -24,6 +24,10 @@ app-shells/zsh
 app-text/fbreader
 app-text/texlive
 app-text/zathura-meta
+dev-db/mysql
+dev-db/phpmyadmin
+dev-java/maven-bin
+dev-lang/php
 dev-python/pip
 dev-python/virtualenv
 dev-util/glade
@@ -81,6 +85,7 @@ www-client/chromium
 www-client/firefox
 www-client/links
 www-plugins/chrome-binary-plugins
+www-servers/apache
 x11-apps/mesa-progs
 x11-apps/xfontsel
 x11-apps/xrandr
