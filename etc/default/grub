@@ -32,7 +32,7 @@ GRUB_CMDLINE_LINUX="root=/dev/sda5 rootfstype=ext4"
 # GRUB_CMDLINE_LINUX="init=/usr/lib/systemd/systemd"
 
 # Append parameters to the linux kernel command line for non-recovery entries
-GRUB_CMDLINE_LINUX_DEFAULT="resume=/dev/sda2"
+GRUB_CMDLINE_LINUX_DEFAULT="resume=/dev/sda2 quiet"
 
 # Uncomment to disable graphical terminal (grub-pc only)
 #GRUB_TERMINAL=console

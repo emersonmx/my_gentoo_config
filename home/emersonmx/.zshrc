@@ -80,6 +80,8 @@ bindkey -M viins 'jk' vi-cmd-mode
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 export SOLARIZED=true
+export HISTSIZE=1000
+export SAVEHIST=$HISTSIZE
 
 if [[ $TERM != "linux" ]]; then
     export TERM=xterm-256color
