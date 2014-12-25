@@ -1,6 +1,6 @@
 #!/bin/bash
 MS=`cat /sys/class/backlight/intel_backlight/max_brightness`
 LEVEL=0.6
-VALUE=`echo "($MS*$LEVEL) / 1" | bc`
+VALUE=`echo "scale=0;($MS*$LEVEL) / 1" | bc`
 
 echo $VALUE > /sys/class/backlight/intel_backlight/brightness
