@@ -21,9 +21,9 @@ app-portage/gentoolkit
 app-portage/layman
 app-shells/gentoo-zsh-completions
 app-shells/zsh
+app-text/evince
 app-text/fbreader
 app-text/texlive
-app-text/zathura-meta
 dev-db/mysql
 dev-db/phpmyadmin
 dev-java/maven-bin
@@ -56,7 +56,6 @@ media-libs/sdl2-image
 media-libs/sdl2-mixer
 media-libs/sdl2-ttf
 media-sound/audacity
-media-video/cinelerra
 media-video/gtk-recordmydesktop
 media-video/mpv
 net-im/pidgin

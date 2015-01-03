@@ -1,5 +1,5 @@
 favorites=exo-terminal-emulator.desktop,exo-file-manager.desktop,exo-mail-reader.desktop,exo-web-browser.desktop
-recent=chromium-browser-chromium.desktop,virtualbox-bin.desktop,libreoffice-writer.desktop,cinelerra-cv.desktop,gtk-recordmydesktop.desktop,gvim.desktop,pidgin.desktop,thunderbird.desktop,firefox.desktop,xfce-keyboard-settings.desktop
+recent=chromium-browser-chromium.desktop,Eclipse.desktop,glade.desktop,xfburn.desktop,pidgin.desktop,xfce4-power-manager-settings.desktop,xscreensaver-properties.desktop,transmission-gtk.desktop,xfce-session-settings.desktop,zzz-gimp.desktop
 button-title=Menu de aplicativos
 button-icon=start-here
 button-single-row=false

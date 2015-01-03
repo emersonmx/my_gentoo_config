@@ -6,3 +6,6 @@ www-plugins/chrome-binary-plugins ~amd64
 net-im/skype ~amd64
 
 net-misc/teamviewer ~amd64
+
+# Pidgin
+net-libs/libnice ~amd64

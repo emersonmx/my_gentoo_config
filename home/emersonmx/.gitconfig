@@ -9,3 +9,7 @@
 [gui]
 	recentrepo = /home/emersonmx/Dropbox/POG/java/asteroids
 	recentrepo = /home/emersonmx/sga
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false

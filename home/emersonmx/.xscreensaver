@@ -1,5 +1,5 @@
 # XScreenSaver Preferences File
-# Written by xscreensaver-demo 5.29 for emersonmx on Thu Oct  2 09:41:51 2014.
+# Written by xscreensaver-demo 5.30 for emersonmx on Mon Dec 29 20:34:57 2014.
 # http://www.jwz.org/xscreensaver/
 
 timeout:	0:10:00
@@ -34,7 +34,7 @@ grabVideoFrames:    False
 chooseRandomImages: False
 imageDirectory:
 
-mode:		one
+mode:		off
 selected:	24
 
 textMode:	file
@@ -251,6 +251,7 @@ programs:								      \
   GL: 				unknownpleasures -root			    \n\
   GL: 				projectiveplane -root			    \n\
 				tessellimage -root			    \n\
+  GL: 				winduprobot -root			    \n\
 
 
 pointerPollTime:    0:00:05
@@ -261,4 +262,5 @@ GetViewPortIsFullOfLies:False
 procInterrupts:	True
 xinputExtensionDev: False
 overlayStderr:	True
+authWarningSlack:   20
 
