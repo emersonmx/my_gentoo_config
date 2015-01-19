@@ -30,11 +30,11 @@
       <property name="XF86AudioMute" type="string" value="amixer set Master toggle"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;Escape" type="string" value="xfce4-taskmanager"/>
       <property name="Print" type="string" value="xfce4-screenshooter"/>
-      <property name="XF86TouchpadToggle" type="string" value="/home/emersonmx/git/scripts/toggle_touchpad.sh"/>
       <property name="&lt;Alt&gt;F1" type="string" value="xfce4-popup-whiskermenu"/>
       <property name="&lt;Alt&gt;F3" type="string" value="xfce4-appfinder"/>
       <property name="&lt;Alt&gt;F2" type="string" value="xfce4-appfinder -c"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;t" type="string" value="xfce4-terminal"/>
+      <property name="XF86TouchpadToggle" type="string" value="/home/emersonmx/pog/scripts/toggle_touchpad.sh"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
