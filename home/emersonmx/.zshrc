@@ -10,8 +10,6 @@ ZSH_THEME="gentoo"
 # Example aliases
 alias vimconfig="vim ~/.vimrc"
 alias zshconfig="vim ~/.zshrc"
-alias ohmyzsh="vim ~/.oh-my-zsh"
-
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -51,34 +49,14 @@ ZSH_TMUX_FIXTERM="false"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(extract colorize git git-flow python pip tmux vi-mode virtualenvwrapper)
+plugins=(extract colorize git git-flow python pip tmux vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-#export KEYTIMEOUT=1
-export PATH="/home/emersonmx/usr/bin:/home/emersonmx/.gem/ruby/2.0.0/bin:$PATH"
-
 bindkey -M viins 'jk' vi-cmd-mode
 
-# export MANPATH="/usr/local/man:$MANPATH"
-
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
-
-# Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
-
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
-
-# ssh
-# export SSH_KEY_PATH="~/.ssh/dsa_id"
-
+export PATH="$PATH:$HOME/usr/bin:$HOME/.gem/ruby/2.0.0/bin"
 export SOLARIZED=true
 export HISTSIZE=1000
 export SAVEHIST=$HISTSIZE
@@ -86,3 +64,5 @@ export SAVEHIST=$HISTSIZE
 if [[ $TERM != "linux" ]]; then
     export TERM=xterm-256color
 fi
+
+source virtualenvwrapper_lazy.sh
