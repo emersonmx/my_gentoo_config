@@ -51,13 +51,13 @@ ZSH_TMUX_FIXTERM="false"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(extract colorize git git-flow python jump tmux vi-mode)
+plugins=(extract colorize git git-flow python pip tmux vi-mode virtualenvwrapper)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 #export KEYTIMEOUT=1
-export PATH="$PATH:/home/emersonmx/usr/bin:/home/emersonmx/.gem/ruby/2.0.0/bin"
+export PATH="/home/emersonmx/usr/bin:/home/emersonmx/.gem/ruby/2.0.0/bin:$PATH"
 
 bindkey -M viins 'jk' vi-cmd-mode
 
