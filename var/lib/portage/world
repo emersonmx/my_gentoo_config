@@ -30,6 +30,7 @@ dev-java/maven-bin
 dev-lang/php
 dev-python/pip
 dev-python/virtualenv
+dev-python/virtualenvwrapper
 dev-util/glade
 dev-vcs/git
 dev-vcs/mercurial
