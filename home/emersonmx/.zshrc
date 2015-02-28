@@ -8,8 +8,8 @@ export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="gentoo"
 
 # Example aliases
-alias vimconfig="vim ~/.vimrc"
-alias zshconfig="vim ~/.zshrc"
+alias vimconfig="gvim ~/.vimrc"
+alias zshconfig="gvim ~/.zshrc"
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
