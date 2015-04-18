@@ -2,12 +2,12 @@
 	name = Emerson MX
 	email = emersonmx@gmail.com
 [core]
-	editor = vim
+	editor = gvim -f
 [push]
 	default = simple
 [gui]
 [gui]
 [diff]
-	tool = vimdiff
+	tool = gvimdiff -f
 [difftool]
 	prompt = false

@@ -13,4 +13,8 @@ app-text/zathura ~amd64
 
 # Miscellaneous
 media-video/cinelerra ~amd64
+media-gfx/inkscape ~amd64
 #media-sound/pulseaudio ~amd64
+
+# Spotify
+media-sound/spotify ~amd64

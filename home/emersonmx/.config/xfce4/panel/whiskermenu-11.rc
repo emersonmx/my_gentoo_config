@@ -1,5 +1,5 @@
 favorites=exo-terminal-emulator.desktop,exo-file-manager.desktop,exo-mail-reader.desktop,exo-web-browser.desktop
-recent=gvim.desktop,xfce-keyboard-settings.desktop,chromium-browser-chromium.desktop,xfce-session-settings.desktop,steam.desktop,gvbam.desktop,transmission-gtk.desktop,snes9x.desktop,fceux-fceux.desktop,firefox.desktop
+recent=xfce-mouse-settings.desktop,xfce-wmtweaks-settings.desktop,xfce-wm-settings.desktop,chromium-browser-chromium.desktop,xfce-session-settings.desktop,wine-Programs-Steam-Steam.desktop,pidgin.desktop,gvim.desktop,xfce-keyboard-settings.desktop,zzz-gimp.desktop
 button-title=Menu de aplicativos
 button-icon=start-here
 button-single-row=false
@@ -11,6 +11,7 @@ item-icon-size=2
 hover-switch-category=false
 category-icon-size=1
 load-hierarchy=false
+recent-items-max=10
 favorites-in-recent=true
 display-recent-default=true
 position-search-alternate=true
@@ -18,6 +19,7 @@ position-commands-alternate=true
 position-categories-alternate=false
 menu-width=424
 menu-height=464
+menu-opacity=100
 command-settings=xfce4-settings-manager
 show-command-settings=true
 command-lockscreen=xflock4
@@ -28,6 +30,8 @@ command-logout=xfce4-session-logout
 show-command-logout=true
 command-menueditor=menulibre
 show-command-menueditor=true
+command-profile=mugshot
+show-command-profile=true
 search-actions=4
 
 [action0]

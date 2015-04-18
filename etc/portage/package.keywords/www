@@ -9,3 +9,18 @@ net-misc/teamviewer ~amd64
 
 # Pidgin
 net-libs/libnice ~amd64
+media-libs/giflib ~amd64
+dev-qt/qtcore ~amd64
+dev-qt/qtdbus ~amd64
+dev-qt/qtchooser ~amd64
+dev-libs/libgcrypt ~amd64
+sys-devel/automake ~amd64
+dev-qt/qtgui ~amd64
+dev-qt/qtwebkit ~amd64
+dev-qt/qtxmlpatterns ~amd64
+dev-qt/qttranslations ~amd64
+dev-qt/qt3support ~amd64
+dev-qt/qtsql ~amd64
+dev-libs/libgcrypt ~amd64
+dev-qt/qtscript ~amd64
+virtual/acl ~amd64

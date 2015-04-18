@@ -40,7 +40,6 @@ games-emulation/gfceux
 games-emulation/snes9x
 games-emulation/vbam
 games-util/joystick
-games-util/steam-meta
 mail-client/thunderbird
 media-fonts/arphicfonts
 media-fonts/bitstream-cyberbit
@@ -72,6 +71,7 @@ net-p2p/transmission
 net-wireless/iw
 net-wireless/wpa_supplicant
 sys-apps/lm_sensors
+sys-apps/lshw
 sys-apps/mlocate
 sys-apps/pciutils
 sys-apps/the_silver_searcher
@@ -92,6 +92,7 @@ www-plugins/chrome-binary-plugins
 www-servers/apache
 x11-apps/mesa-progs
 x11-apps/xfontsel
+x11-apps/xkill
 x11-apps/xrandr
 x11-base/xorg-server
 x11-misc/devilspie2

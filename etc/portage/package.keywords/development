@@ -45,8 +45,15 @@ dev-python/stevedore ~amd64
 dev-python/ipython ~amd64
 dev-python/pypy ~amd64
 dev-java/jython ~amd64
+dev-python/six ~amd64
 
 # Vim
-app-editors/gvim ~amd64
-app-editors/vim ~amd64
-app-editors/vim-core ~amd64
+#app-editors/gvim ~amd64
+#app-editors/vim ~amd64
+#app-editors/vim-core ~amd64
+
+sys-devel/automake-wrapper ~amd64
+dev-qt/qtsvg ~amd64
+
+# versão 1.1.6 tava dando pau
+media-libs/libmtp ~amd64

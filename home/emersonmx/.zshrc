@@ -5,10 +5,10 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="gentoo"
+#ZSH_THEME="random"
 
 # Example aliases
-alias vimconfig="gvim ~/.vimrc"
+alias vimconfig="gvim ~/.vim/vimrc"
 alias zshconfig="gvim ~/.zshrc"
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -57,7 +57,7 @@ source $ZSH/oh-my-zsh.sh
 bindkey -M viins 'jk' vi-cmd-mode
 
 export PATH="$PATH:$HOME/usr/bin:$HOME/.gem/ruby/2.0.0/bin"
-export SOLARIZED=true
+#export SOLARIZED=true
 export HISTSIZE=1000
 export SAVEHIST=$HISTSIZE
 
@@ -65,4 +65,12 @@ if [[ $TERM != "linux" ]]; then
     export TERM=xterm-256color
 fi
 
-source virtualenvwrapper_lazy.sh
+function prompt_char {
+    if [ $UID -eq 0 ]; then echo "#"; else echo $; fi
+}
+
+PROMPT='%(!.%{$fg_bold[red]%}.%{$fg_bold[green]%}%n@)%m %{$fg_bold[blue]%}%(!.%1~.%~) $(git_prompt_info)
+$(prompt_char)%{$reset_color%} '
+
+ZSH_THEME_GIT_PROMPT_PREFIX="("
+ZSH_THEME_GIT_PROMPT_SUFFIX=") "
