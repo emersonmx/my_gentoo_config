@@ -8,6 +8,7 @@ media-sound/pulseaudio abi_x86_32
 
 # MPV
 media-video/mpv bluray v4l
-media-video/libav threads
+#media-video/libav threads
 #virtual/ffmpeg threads theora
-#media-video/ffmpeg threads theora
+
+media-video/ffmpeg threads theora
