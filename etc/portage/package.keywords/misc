@@ -16,3 +16,6 @@ net-misc/teamviewer ~amd64
 # Virtualbox
 app-emulation/virtualbox-bin ~amd64
 app-emulation/virtualbox-modules ~amd64
+
+# urxvt misc
+x11-misc/urxvt-tabbedex ~amd64

@@ -40,7 +40,6 @@ games-emulation/gfceux
 games-emulation/snes9x
 games-emulation/vbam
 games-util/joystick
-mail-client/thunderbird
 media-fonts/arphicfonts
 media-fonts/bitstream-cyberbit
 media-fonts/droid
@@ -52,6 +51,8 @@ media-fonts/wqy-zenhei
 media-gfx/gimp
 media-gfx/inkscape
 media-gfx/ristretto
+media-libs/freeimage
+media-libs/glfw
 media-libs/libsdl2
 media-libs/sdl2-image
 media-libs/sdl2-mixer
