@@ -10,6 +10,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Example aliases
 alias vimconfig="vim ~/.vim/vimrc"
 alias zshconfig="vim ~/.zshrc"
+alias wpasupplicantconfig="sudo vim /etc/wpa_supplicant/wpa_supplicant.conf"
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -55,7 +56,7 @@ source $ZSH/oh-my-zsh.sh
 bindkey -M viins 'jk' vi-cmd-mode
 
 export PATH="$PATH:$HOME/usr/bin:$HOME/.gem/ruby/2.0.0/bin"
-#export SOLARIZED=true
+export SOLARIZED=true
 export HISTSIZE=1000
 export SAVEHIST=$HISTSIZE
 

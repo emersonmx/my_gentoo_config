@@ -1,5 +1,7 @@
 # mplayer2
 media-video/mpv ~amd64
+media-libs/libass ~amd64
+media-video/ffmpeg ~amd64
 #media-video/mplayer2 ~amd64
 #virtual/ffmpeg ~amd64
 #media-video/ffmpeg ~amd64

@@ -14,7 +14,7 @@ app-emulation/virtualbox-bin
 app-emulation/wine
 app-misc/tmux
 app-office/dia
-app-office/libreoffice
+app-office/libreoffice-bin
 app-portage/eix
 app-portage/genlop
 app-portage/gentoolkit
@@ -24,13 +24,13 @@ app-shells/zsh
 app-text/evince
 app-text/fbreader
 app-text/texlive
-dev-db/mysql
-dev-db/phpmyadmin
 dev-java/maven-bin
 dev-lang/php
+dev-python/ipython
 dev-python/pip
 dev-python/virtualenv
 dev-python/virtualenvwrapper
+dev-qt/qt-creator
 dev-util/glade
 dev-vcs/git
 dev-vcs/mercurial
@@ -53,6 +53,7 @@ media-gfx/inkscape
 media-gfx/ristretto
 media-libs/freeimage
 media-libs/glfw
+media-libs/glm
 media-libs/libsdl2
 media-libs/sdl2-image
 media-libs/sdl2-mixer
@@ -87,10 +88,9 @@ sys-kernel/gentoo-sources
 sys-process/cronie
 virtual/jdk
 www-client/chromium
-www-client/firefox
+www-client/firefox-bin
 www-client/links
 www-plugins/chrome-binary-plugins
-www-servers/apache
 x11-apps/mesa-progs
 x11-apps/xfontsel
 x11-apps/xkill

@@ -55,5 +55,22 @@ dev-python/six ~amd64
 sys-devel/automake-wrapper ~amd64
 dev-qt/qtsvg ~amd64
 
+# Qt-Creator
+dev-qt/qt-creator ~amd64
+dev-qt/qttest ~amd64
+dev-qt/qthelp ~amd64
+dev-qt/qtquick1 ~amd64
+dev-qt/qtconcurrent ~amd64
+dev-qt/qtquickcontrols ~amd64
+dev-qt/qtwidgets ~amd64
+dev-qt/qtdeclarative ~amd64
+dev-qt/qtxml ~amd64
+dev-qt/designer ~amd64
+dev-qt/qtprintsupport ~amd64
+dev-qt/qtx11extras ~amd64
+dev-qt/qtopengl ~amd64
+dev-qt/qtnetwork ~amd64
+dev-qt/linguist-tools ~amd64
+
 # versão 1.1.6 tava dando pau
 media-libs/libmtp ~amd64
