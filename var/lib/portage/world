@@ -24,8 +24,10 @@ app-shells/zsh
 app-text/evince
 app-text/fbreader
 app-text/texlive
+dev-db/pgadmin3
 dev-java/maven-bin
 dev-lang/php
+dev-php/xdebug
 dev-python/ipython
 dev-python/pip
 dev-python/virtualenv
@@ -40,6 +42,7 @@ games-emulation/gfceux
 games-emulation/snes9x
 games-emulation/vbam
 games-util/joystick
+games-util/steam-launcher
 media-fonts/arphicfonts
 media-fonts/bitstream-cyberbit
 media-fonts/droid
@@ -59,6 +62,7 @@ media-libs/sdl2-image
 media-libs/sdl2-mixer
 media-libs/sdl2-ttf
 media-sound/audacity
+media-sound/spotify
 media-video/gtk-recordmydesktop
 media-video/mpv
 net-im/pidgin
@@ -68,6 +72,7 @@ net-misc/dhcpcd
 net-misc/dropbox
 net-misc/netifrc
 net-misc/ntp
+net-misc/socat
 net-misc/youtube-dl
 net-p2p/transmission
 net-wireless/iw

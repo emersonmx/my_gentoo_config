@@ -74,3 +74,7 @@ dev-qt/linguist-tools ~amd64
 
 # versão 1.1.6 tava dando pau
 media-libs/libmtp ~amd64
+
+# PHP
+dev-php/xdebug ~amd64
+dev-php/xdebug-client ~amd64

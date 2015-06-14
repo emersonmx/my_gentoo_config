@@ -1,1 +1,2 @@
-dev-vcs/git tk
+dev-vcs/git tk subversion
+dev-vcs/subversion -dso perl

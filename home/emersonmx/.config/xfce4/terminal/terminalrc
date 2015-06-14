@@ -23,8 +23,11 @@ ShortcutsNoMnemonics=TRUE
 DropdownHeight=30
 DropdownStatusIcon=FALSE
 BackgroundImageStyle=TERMINAL_BACKGROUND_STYLE_CENTERED
-ColorBackground=#121212
-ColorForeground=#d7d7d7
-ColorCursor=#d7d7d7
-ColorPalette=#393939;#ca674a;#96a967;#d3a94a;#5778c1;#9c35ac;#6eb5f3;#a9a9a9;#535551;#ea2828;#87dd32;#f7e44d;#6f9bca;#a97ca4;#32dddd;#e9e9e7
+ColorBackground=#002b36
+ColorForeground=#839496
+ColorCursor=#93a1a1
+ColorPalette=#073642;#dc322f;#859900;#b58900;#268bd2;#d33682;#2aa198;#eee8d5;#002b36;#cb4b16;#586e75;#657b83;#839496;#6c71c4;#93a1a1;#fdf6e3
+ColorBold=#93a1a1
+ColorBoldUseDefault=FALSE
+TabActivityColor=#dc322f
 
