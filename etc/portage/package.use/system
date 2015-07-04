@@ -6,4 +6,6 @@ x11-misc/xscreensaver new-login
 
 media-libs/mesa gbm
 
+app-misc/mc sftp
+
 */* abi_x86_32

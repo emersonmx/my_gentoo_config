@@ -78,3 +78,5 @@ media-libs/libmtp ~amd64
 # PHP
 dev-php/xdebug ~amd64
 dev-php/xdebug-client ~amd64
+
+# MySQL

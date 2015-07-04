@@ -11,7 +11,7 @@
       </property>
       <property name="Synaptics_Two-Finger_Scrolling" type="array">
         <value type="int" value="1"/>
-        <value type="int" value="0"/>
+        <value type="int" value="1"/>
       </property>
       <property name="Synaptics_Tap_Action" type="array">
         <value type="int" value="0"/>

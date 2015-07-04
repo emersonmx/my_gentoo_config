@@ -24,7 +24,9 @@ app-shells/zsh
 app-text/evince
 app-text/fbreader
 app-text/texlive
-dev-db/pgadmin3
+dev-db/mysql
+dev-db/phpmyadmin
+dev-db/phppgadmin
 dev-java/maven-bin
 dev-lang/php
 dev-php/xdebug
@@ -32,7 +34,6 @@ dev-python/ipython
 dev-python/pip
 dev-python/virtualenv
 dev-python/virtualenvwrapper
-dev-qt/qt-creator
 dev-util/glade
 dev-vcs/git
 dev-vcs/mercurial
@@ -115,7 +116,6 @@ xfce-extra/thunar-archive-plugin
 xfce-extra/thunar-media-tags-plugin
 xfce-extra/thunar-shares-plugin
 xfce-extra/thunar-volman
-xfce-extra/tumbler
 xfce-extra/xfce4-mixer
 xfce-extra/xfce4-notifyd
 xfce-extra/xfce4-power-manager

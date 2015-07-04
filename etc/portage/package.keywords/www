@@ -24,3 +24,6 @@ dev-qt/qtsql ~amd64
 dev-libs/libgcrypt ~amd64
 dev-qt/qtscript ~amd64
 virtual/acl ~amd64
+
+# Midori
+www-client/midori ~amd64

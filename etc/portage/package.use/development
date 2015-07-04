@@ -17,7 +17,7 @@ dev-libs/libpcre pcre16
 app-editors/vim python
 app-editors/gvim python netbeans
 # PHP
-dev-lang/php apache2 curl fpm gd postgres pdo sqlite
+dev-lang/php apache2 curl fpm gd mysql mysqli postgres pdo sqlite
 app-eselect/eselect-php apache2 fpm
 
 # Misc

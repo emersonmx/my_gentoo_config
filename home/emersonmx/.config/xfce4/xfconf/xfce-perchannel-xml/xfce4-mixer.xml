@@ -25,6 +25,6 @@
       <value type="string" value="Master"/>
     </property>
   </property>
-  <property name="window-height" type="int" value="717"/>
-  <property name="window-width" type="int" value="1364"/>
+  <property name="window-height" type="int" value="744"/>
+  <property name="window-width" type="int" value="1366"/>
 </channel>
