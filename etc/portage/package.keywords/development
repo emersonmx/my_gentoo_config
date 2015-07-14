@@ -80,3 +80,8 @@ dev-php/xdebug ~amd64
 dev-php/xdebug-client ~amd64
 
 # MySQL
+
+
+# NodeJS
+net-libs/nodejs ~amd64
+dev-libs/libuv ~amd64

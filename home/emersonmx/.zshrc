@@ -9,10 +9,10 @@ export ZSH=$HOME/.oh-my-zsh
 
 # Example aliases
 alias vim="gvim"
-alias vimconfig="vim ~/.vim/vimrc"
-alias zshconfig="vim ~/.zshrc"
-alias wpaconfig="sudo vim /etc/wpa_supplicant/wpa_supplicant.conf && sudo /etc/init.d/net.wlp6s0 restart"
-alias vimupdate="vim +NeoBundleUpdate"
+alias vimconfig="gvim ~/.vim/vimrc"
+alias zshconfig="gvim ~/.zshrc"
+alias wpaconfig="sudo gvim -f /etc/wpa_supplicant/wpa_supplicant.conf && sudo /etc/init.d/net.wlp6s0 restart"
+alias vimupdate="gvim +NeoBundleUpdate"
 alias pingcheck="ping 8.8.8.8"
 alias checkwifisignal="sudo iw wlp6s0 scan | grep 'BSS\|signal\|SSID\|associated'"
 
@@ -64,6 +64,7 @@ export PATH="$HOME/usr/bin:$HOME/.gem/ruby/2.0.0/bin:$PATH"
 #export SOLARIZED=true
 export HISTSIZE=1000
 export SAVEHIST=$HISTSIZE
+export EDITOR="gvim"
 
 if [[ $TERM != "linux" ]]; then
     export TERM=xterm-256color
