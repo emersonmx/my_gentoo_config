@@ -14,6 +14,8 @@ alias zshconfig="gvim ~/.zshrc"
 alias vimupdate="gvim +NeoBundleUpdate"
 alias pingcheck="ping 8.8.8.8"
 alias checkwifisignal="sudo iw wlp6s0 scan | grep 'BSS\|signal\|SSID\|associated'"
+alias v="gvim"
+alias o="xdg-open"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
