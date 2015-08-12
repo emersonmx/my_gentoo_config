@@ -13,4 +13,7 @@
   <property name="image" type="empty">
     <property name="limit-quality" type="bool" value="false"/>
   </property>
+  <property name="errors" type="empty">
+    <property name="missing-thumbnailer" type="bool" value="false"/>
+  </property>
 </channel>

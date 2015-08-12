@@ -8,10 +8,9 @@ export ZSH=$HOME/.oh-my-zsh
 #ZSH_THEME="random"
 
 # Example aliases
-alias vim="gvim"
 alias vimconfig="gvim ~/.vim/vimrc"
 alias zshconfig="gvim ~/.zshrc"
-alias wpaconfig="sudo gvim -f /etc/wpa_supplicant/wpa_supplicant.conf && sudo /etc/init.d/net.wlp6s0 restart"
+#alias wpaconfig="sudo gvim -f /etc/wpa_supplicant/wpa_supplicant.conf && sudo /etc/init.d/net.wlp6s0 restart"
 alias vimupdate="gvim +NeoBundleUpdate"
 alias pingcheck="ping 8.8.8.8"
 alias checkwifisignal="sudo iw wlp6s0 scan | grep 'BSS\|signal\|SSID\|associated'"

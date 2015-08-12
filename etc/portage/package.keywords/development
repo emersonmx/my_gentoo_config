@@ -51,6 +51,12 @@ dev-python/six ~amd64
 #app-editors/gvim ~amd64
 #app-editors/vim ~amd64
 #app-editors/vim-core ~amd64
+app-editors/neovim ~amd64
+dev-libs/libtermkey ~amd64
+dev-lua/messagepack ~amd64
+dev-libs/libvterm-neovim ~amd64
+dev-libs/msgpack ~amd64
+dev-libs/unibilium ~amd64
 
 sys-devel/automake-wrapper ~amd64
 dev-qt/qtsvg ~amd64

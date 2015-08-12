@@ -1,5 +1,5 @@
 # XScreenSaver Preferences File
-# Written by xscreensaver-demo 5.32 for emersonmx on Thu Jul  2 23:24:59 2015.
+# Written by xscreensaver-demo 5.32 for emersonmx on Fri Aug  7 23:18:32 2015.
 # http://www.jwz.org/xscreensaver/
 
 timeout:	0:10:00
@@ -35,7 +35,7 @@ chooseRandomImages: False
 imageDirectory:
 
 mode:		off
-selected:	24
+selected:	107
 
 textMode:	file
 textLiteral:	XScreenSaver

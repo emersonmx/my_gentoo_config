@@ -1,5 +1,5 @@
 dns_domain_lo="anormalius"
 
-modules="wpa_supplicant"
-wpa_supplicant_wlp6s0="-Dnl80211"
-config_wlp6s0="dhcp"
+#modules="wpa_supplicant"
+#wpa_supplicant_wlp6s0="-Dnl80211"
+#config_wlp6s0="dhcp"
