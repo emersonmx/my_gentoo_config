@@ -19,6 +19,6 @@
 /dev/sda2       none                swap        sw                                          0 0
 /dev/sda6       /home               ext4        noatime                                     0 2
 
-/dev/sda3       /mnt/windows        ntfs-3g     uid=emersonmx,gid=emersonmx,umask=0077      0 0
+#/dev/sda3       /mnt/windows        ntfs-3g     uid=emersonmx,gid=emersonmx,umask=0077      0 0
 
 /dev/cdrom      /mnt/cdrom          auto        noauto,ro                                   0 0
