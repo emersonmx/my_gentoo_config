@@ -67,9 +67,12 @@ export HISTSIZE=1000
 export SAVEHIST=$HISTSIZE
 export EDITOR="vim"
 
-if [[ $TERM != "linux" ]]; then
-    export TERM=xterm-256color
-fi
+case "$TERM" in
+    xterm*) TERM=xterm-256color
+        ;;
+    screen) TERM=xterm-256color
+        ;;
+esac
 
 function prompt_char {
     if [ $UID -eq 0 ]; then echo "#"; else echo $; fi
