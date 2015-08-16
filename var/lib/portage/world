@@ -26,8 +26,10 @@ app-text/fbreader
 dev-db/mysql
 dev-db/phpmyadmin
 dev-db/phppgadmin
+dev-games/ois
 dev-java/maven-bin
 dev-lang/php
+dev-libs/tinyxml
 dev-php/xdebug
 dev-python/ipython
 dev-python/pip
@@ -43,6 +45,7 @@ games-emulation/snes9x
 games-emulation/vbam
 games-util/joystick
 games-util/steam-launcher
+games-util/xboxdrv
 media-fonts/arphicfonts
 media-fonts/bitstream-cyberbit
 media-fonts/droid
