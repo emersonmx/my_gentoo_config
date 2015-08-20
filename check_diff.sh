@@ -14,9 +14,9 @@ fi
 IFS="
 "
 
-for e in `diff -q -r $1 $2 | grep -v Somente`
+for e in `diff -q -r $1 $2 | grep -v Only`
 do
-    file_a=`echo $e | awk '{print $3}'`
-    file_b=`echo $e | awk '{print $5}'`
+    file_a=`echo $e | awk '{print $2}'`
+    file_b=`echo $e | awk '{print $4}'`
     $use_editor $file_a $file_b
 done

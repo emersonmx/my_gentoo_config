@@ -4,15 +4,16 @@
   <property name="sound-card" type="string" value="HDAIntelPCHAlsamixer"/>
   <property name="sound-cards" type="empty">
     <property name="HDAIntelPCHAlsamixer" type="array">
-      <value type="string" value="Principal"/>
+      <value type="string" value="Master"/>
       <value type="string" value="Headphone"/>
       <value type="string" value="Speaker"/>
       <value type="string" value="PCM"/>
-      <value type="string" value="Microfone"/>
+      <value type="string" value="Microphone"/>
       <value type="string" value="Mic Boost"/>
       <value type="string" value="IEC958"/>
-      <value type="string" value="Captura"/>
+      <value type="string" value="Capture"/>
       <value type="string" value="Auto-Mute Mode"/>
+      <value type="string" value="Digital"/>
       <value type="string" value="Internal Mic Boost"/>
     </property>
     <property name="PlaybackBuiltinAudioAnalogStereoPulseAudioMixer" type="array">
