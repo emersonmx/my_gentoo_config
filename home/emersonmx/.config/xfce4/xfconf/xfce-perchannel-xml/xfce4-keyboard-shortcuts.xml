@@ -36,8 +36,8 @@
       <property name="&lt;Alt&gt;F3" type="string" value="xfce4-appfinder"/>
       <property name="&lt;Alt&gt;F2" type="string" value="xfce4-appfinder -c"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;t" type="string" value="xfce4-terminal"/>
-      <property name="XF86TouchpadToggle" type="string" value="/home/emersonmx/pog/scripts/toggle_touchpad.sh"/>
       <property name="&lt;Super&gt;f" type="string" value="thunar"/>
+      <property name="XF86TouchpadToggle" type="string" value="/home/emersonmx/code/scripts/toggle_touchpad.sh"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

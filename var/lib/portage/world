@@ -36,6 +36,7 @@ dev-python/pip
 dev-python/virtualenv
 dev-python/virtualenvwrapper
 dev-util/glade
+dev-util/valgrind
 dev-vcs/git
 dev-vcs/mercurial
 dev-vcs/subversion
