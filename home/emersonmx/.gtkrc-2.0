@@ -17,6 +17,6 @@ style "xfce-panel-window-style" {
 class "XfcePanelWindow" style "xfce-panel-window-style"
 
 style "vimfix" {
-    bg[NORMAL] = "#181818"
+    bg[NORMAL] = "#002B36"
 }
 widget "vim-main-window.*GtkForm" style "vimfix"

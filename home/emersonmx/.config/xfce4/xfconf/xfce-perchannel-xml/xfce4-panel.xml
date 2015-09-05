@@ -59,6 +59,7 @@
         <value type="string" value="vlc"/>
         <value type="string" value="gtk-recordmydesktop"/>
         <value type="string" value="wpa_gui"/>
+        <value type="string" value="task manager"/>
         <value type="string" value="gerenciador de tarefas"/>
         <value type="string" value="rednotebook"/>
         <value type="string" value="skype"/>

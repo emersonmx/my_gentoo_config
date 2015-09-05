@@ -63,6 +63,7 @@ media-libs/freeimage
 media-libs/glfw
 media-libs/glm
 media-libs/libsdl2
+media-libs/libsfml
 media-libs/sdl2-image
 media-libs/sdl2-mixer
 media-libs/sdl2-ttf
@@ -75,10 +76,8 @@ net-im/skype
 net-libs/nodejs
 net-misc/dhcpcd
 net-misc/dropbox
-net-misc/netifrc
 net-misc/ntp
 net-misc/socat
-net-misc/wicd
 net-misc/youtube-dl
 net-p2p/transmission
 net-wireless/iw

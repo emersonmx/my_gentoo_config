@@ -9,3 +9,5 @@ media-libs/mesa gbm
 app-misc/mc sftp
 
 */* abi_x86_32
+
+sys-apps/openrc -netifrc
