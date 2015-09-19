@@ -31,12 +31,10 @@ dev-java/maven-bin
 dev-lang/php
 dev-libs/tinyxml
 dev-php/xdebug
-dev-python/ipython
 dev-python/pip
 dev-python/virtualenv
 dev-python/virtualenvwrapper
 dev-util/glade
-dev-util/valgrind
 dev-vcs/git
 dev-vcs/mercurial
 dev-vcs/subversion
@@ -74,7 +72,6 @@ media-video/mpv
 net-im/pidgin
 net-im/skype
 net-libs/nodejs
-net-misc/dhcpcd
 net-misc/dropbox
 net-misc/ntp
 net-misc/socat
