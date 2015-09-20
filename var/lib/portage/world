@@ -34,6 +34,7 @@ dev-php/xdebug
 dev-python/pip
 dev-python/virtualenv
 dev-python/virtualenvwrapper
+dev-util/devhelp
 dev-util/glade
 dev-vcs/git
 dev-vcs/mercurial
