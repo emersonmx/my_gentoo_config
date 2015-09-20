@@ -14,8 +14,8 @@ dev-qt/qt-creator cmake autotools git valgrind python
 dev-libs/libpcre pcre16
 
 # Vim
-app-editors/vim python -python_targets_python3_4
-app-editors/gvim python netbeans -python_targets_python3_4
+app-editors/vim python 
+app-editors/gvim python netbeans 
 # PHP
 dev-lang/php apache2 curl fpm gd mysql mysqli postgres pdo sqlite
 app-eselect/eselect-php apache2 fpm
