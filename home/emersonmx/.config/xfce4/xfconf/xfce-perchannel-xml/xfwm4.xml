@@ -31,7 +31,7 @@
     <property name="placement_mode" type="string" value="center"/>
     <property name="popup_opacity" type="int" value="100"/>
     <property name="mousewheel_rollup" type="bool" value="false"/>
-    <property name="prevent_focus_stealing" type="bool" value="false"/>
+    <property name="prevent_focus_stealing" type="bool" value="true"/>
     <property name="raise_delay" type="int" value="264"/>
     <property name="raise_on_click" type="bool" value="true"/>
     <property name="raise_on_focus" type="bool" value="true"/>
@@ -46,9 +46,9 @@
     <property name="shadow_delta_y" type="int" value="-3"/>
     <property name="shadow_opacity" type="int" value="50"/>
     <property name="show_app_icon" type="bool" value="false"/>
-    <property name="show_dock_shadow" type="bool" value="false"/>
-    <property name="show_frame_shadow" type="bool" value="false"/>
-    <property name="show_popup_shadow" type="bool" value="false"/>
+    <property name="show_dock_shadow" type="bool" value="true"/>
+    <property name="show_frame_shadow" type="bool" value="true"/>
+    <property name="show_popup_shadow" type="bool" value="true"/>
     <property name="snap_resist" type="bool" value="false"/>
     <property name="snap_to_border" type="bool" value="true"/>
     <property name="snap_to_windows" type="bool" value="true"/>
@@ -83,7 +83,7 @@
     <property name="cycle_preview" type="bool" value="false"/>
     <property name="cycle_tabwin_mode" type="int" value="0"/>
     <property name="horiz_scroll_opacity" type="bool" value="false"/>
-    <property name="sync_to_vblank" type="bool" value="true"/>
+    <property name="sync_to_vblank" type="bool" value="false"/>
     <property name="titleless_maximize" type="bool" value="false"/>
     <property name="zoom_desktop" type="bool" value="true"/>
   </property>

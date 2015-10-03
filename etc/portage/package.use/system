@@ -10,4 +10,5 @@ app-misc/mc sftp
 
 */* abi_x86_32
 
-#sys-apps/openrc -netifrc
+sys-apps/openrc -netifrc
+sys-block/gparted fat ntfs

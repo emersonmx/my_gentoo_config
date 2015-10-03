@@ -27,3 +27,6 @@ virtual/acl ~amd64
 
 # Midori
 www-client/midori ~amd64
+
+# Libraries
+net-libs/http-parser ~amd64
